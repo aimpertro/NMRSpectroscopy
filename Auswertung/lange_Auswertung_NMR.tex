@@ -1,7 +1,11 @@
-\documentclass[a4paper]{scrartcl}
+\documentclass[a4paper, DIV12]{scrartcl} %DIV und ne Zahl dahinter passt den Satzspiegel an
 \usepackage[T1]{fontenc} % fontenc mit T1 sorgt für richtige Kodierung europäischer Zeichen
 \usepackage[utf8]{inputenc} % Eingabezeichensatz: direkte Eingabe von Umlauten usw.
 \usepackage[ngerman]{babel} % Anpassung des Dokumants deutsche Richtlinien
+
+\usepackage[babel, german=guillemets]{csquotes}
+\usepackage{biblatex}
+\bibliography{lit_afm}
 
 \usepackage{url} %Einbinden von Hyperlinks
 \usepackage{mdwlist} % Für Listen ohne Abstand zwischen den Aufzählungspunkten.
@@ -9,20 +13,45 @@
 
 \usepackage{setspace} % Anpassung des Zeilenabstandes, Befehl muss vor der Berechnung des Satzspiegels gesetzt werden.
 
-\usepackage{varioref} %Querverweise mit Seitenreferenz
-\usepackage{fancyref} %Querverweise mit Angabe des Typs
+\usepackage{amsmath} % Ganz praktisch für Mathesachen
 
-\usepackage[table,gray]{xcolor} %Zum Deaktivieren von Schattierung -- nur bei Verwendung des Packets "listings"
+\usepackage{graphicx} %ganz nützlich für die Einbettung von Grafiken
+%\usepackage{subfig}
+\usepackage[format = plain, textfont = normalfont, labelfont = bf, font = small, ]{caption}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+%\begin{wrapfigure}[lineheight]{position}[overhang]{width}
+
+\usepackage{varioref} %Querverweise mit Seitenreferenz
+\usepackage{cleveref} %Querverweise mit Angabe des Typs
+
+\usepackage[table,gray]{xcolor} %Zum Deaktivieren von Schattierung -- nur bei Verwendung des Pakets "listings"
 \usepackage{booktabs} %Zur eleganten Formatierung von Tabellen
+\usepackage{tabularx}
+
 \usepackage{listings} %Zur EInbindung von Quellcode verschiednester Art
 \usepackage[locale=DE]{siunitx} % Korrekte Angabe von Einheiten
-\usepackage{graphicx}
-\usepackage[font=scriptsize, labelfont={scriptsize, color=blue}]{caption}
-\setlength{\parindent}{0pt}
+\usepackage{multirow} %Wenn man mehrere Zellen horizontal verbinden möchte
+
+\usepackage{float}
+
+%##############################################################################
+%Hab hier ein paar neue Befehle zur Formatierung von Einheiten benutzt. Bitte drauf achten! Im Textmodus bitte den Befehl \SI{Wert}{Einheit} benutzen, also z.B. \SI{10}{\micro\meter}
+%###############################################################################
+
+
+\newcommand{\err}[2]{( #1 \, \pm \, #2 )} % Formatierungen für den Mathemodus. Helfen, Messergebnisse und Einheiten zu formatieren. Außerhalb des Mathemodus bitte \SI verwenden!
+\newcommand{\um}{\: \mathrm{\mu m}}
+\newcommand{\mm}{\, \mathrm{mm}}
+\newcommand{\nm}{\, \mathrm{nm}}
+\newcommand{\cm}{\, \mathrm{cm}}
+\newcommand{\nn}{\, \mathrm{nN}}
+\newcommand{\npm}{\, \mathrm{N/m}}
 
 \begin{document}
-\author{T. Gierlich und A. Impertro}
+\author{Alexander Impertro \and Timo Gierlich}
 \title{F61: Nuclear Magnetic Resonance}
+\subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Betreuer: Jeremy Wilkinson -- testiert am:}}
 \maketitle
 \tableofcontents
 
