@@ -7,11 +7,11 @@
 \contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung und Auswertung}{5}
 \contentsline {subsection}{\numberline {2.1}Teil I: Relaxationszeiten}{5}
 \contentsline {subsubsection}{\numberline {2.1.1}Theorie}{5}
-\contentsline {subsubsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{6}
-\contentsline {subsection}{\numberline {2.2}Teil II: Chemische Verschiebung}{7}
-\contentsline {subsubsection}{\numberline {2.2.1}Theorie}{7}
-\contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{8}
-\contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{9}
-\contentsline {subsubsection}{\numberline {2.3.1}Theorie}{9}
-\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{10}
-\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{11}
+\contentsline {subsubsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{7}
+\contentsline {subsection}{\numberline {2.2}Teil II: Chemische Verschiebung}{8}
+\contentsline {subsubsection}{\numberline {2.2.1}Theorie}{8}
+\contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{9}
+\contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{10}
+\contentsline {subsubsection}{\numberline {2.3.1}Theorie}{10}
+\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{11}
+\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{12}

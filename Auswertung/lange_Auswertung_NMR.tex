@@ -46,6 +46,7 @@
 \newcommand{\nm}{\, \mathrm{nm}}
 \newcommand{\cm}{\, \mathrm{cm}}
 \newcommand{\nn}{\, \mathrm{nN}}
+\newcommand{\us}{\, \mathrm{\mu s}}
 \newcommand{\npm}{\, \mathrm{N/m}}
 
 \begin{document}
@@ -113,31 +114,33 @@ Ist die Zeitdauer so gewählt, dass $\alpha = 90^\circ$, wird $\vec{M}$ in eine 
 
 An der Spule, auf die der HF-Puls gegeben wird, kann ebenfalls eine durch die präzedierende Magnetisierung hervorgerufene Induktionsspannung gemessen werden. Da dieses Signal mit der Larmorfrequenz $\omega_L$ moduliert ist, liefert eine Fouriertransformation Aufschluss über die Frequenzverteilung der Probe.
 \newline\newline
-Zunächst müssen die im Gerät als \texttt{PULS I} und \texttt{PULS II} ausgezeichneten Signalformen über die Pulsdauer als $90^\circ$- bzw $180^\circ$-Puls definiert werden.
+Zunächst müssen die im Gerät als \texttt{PULS I} und \texttt{PULS II} ausgezeichneten Signalformen über die Pulsdauer als $90^\circ$- bzw $180^\circ$-Puls definiert werden. In Abbildung \ref{fig:pulse_signal} ist die Form eines solchen Pulses direkt nach dem Signalgenerator zu erkennen. Über die Potentiometer S6 und S7 ist die zeitliche Länge variierbar.
 
-In Abbildung 4 ist die Form eines solchen Pulses direkt nach dem Signalgenerator zu erkennen. Über die Potentiometer S6 und S7 ist die zeitliche Länge variierbar.
-
-Um nun die Pulse zu kalibrieren, wird das in der Spule induzierte Signal auf dem Oszilloskop beobachtet (s. Abb. 5). \texttt{PULS I} entspricht genau dann einer Drehung um $90^\circ$, wenn die Anstiegsflanke des Pulses maximal steil ist, \texttt{PULS II} einer Drehung um $180^\circ$, wenn die Flanke möglichst flach ist.
+Um nun die Pulse zu kalibrieren, wird das in der Spule induzierte Signal auf dem Oszilloskop beobachtet (s. Abb. \ref{fig:pulse_induced}). \texttt{PULS I} entspricht genau dann einer Drehung um $90^\circ$, wenn die Anstiegsflanke des Pulses maximal steil ist, \texttt{PULS II} einer Drehung um $180^\circ$, wenn die Flanke möglichst flach ist.
 \newline
 \begin{figure}[!htb]
 	\centering
 	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
 	\parbox{60mm}{
 		\centering
-		\includegraphics[width=48mm]{./Resources/pulse_train.jpg}
+		\includegraphics[width=55mm]{./Resources/pulse_train.jpg}
 		\caption{Pulsform direkt nach dem Signalgenerator.}
+		\label{fig:pulse_signal}
 	}
 	\hfill  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
 	\parbox{60mm}{
 		\centering
-		\includegraphics[width=48mm]{./Resources/single_pulse_event.jpg}
+		\includegraphics[width=55mm]{./Resources/single_pulse_event.jpg}
 		\caption{Induziertes Signal in der Spule zur Pulskalibration.}
+		\label{fig:pulse_induced}
 	}
 \end{figure}
 
-Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\omega_{HF} = (19.9 \pm 0.2) MHz$ moduliert.
-
-Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1kHz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$).
+Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\omega_{HF} = (19.9 \pm 0.2) MHz$ moduliert. Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1kHz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$). Über die FWHM des Pulses bestimmen wir die Pulsbreite zu:
+\begin{itemize}
+	\item[] \texttt{PULS I}: $t_1=\err{1,41}{0,10}\us$
+	\item[] \texttt{PULS II}: $t_2=\err{2,48}{0,20}\us$
+\end{itemize}
 
 \section{Durchführung und Auswertung}
 
@@ -168,18 +171,20 @@ Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode 
 	\centering
 	\includegraphics[width=80mm]{./Resources/spin_ech_schematic.png}
 	\caption{Prinzip der Spin-Echo Methode}
+	\label{fig:spinecho_bloch}
 \end{figure}
 
-Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung dann, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. 7).
+Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung dann, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}).
 \newline
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=80mm]{./Resources/spinecho_osci.jpg}
 	\caption{Spin-Echo Messung mit $\tau=10ms$}
+	\label{fig:spinecho_osci}
 \end{figure}
 
 Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also Punkte des Zerfallsgesetztes in Gl. (6) aufgenommen werden. 
-Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T2$.
+Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T_2$.
 \newline\newline
 Diese Limitation kann durch Verwendung einer sogenannten Carr-Purcell Sequenz minimiert werden. Hierbei wird wie gehabt mit einem $90^\circ$-Puls gestartet, und nach allen ungeraden Vielfachen einer kurzen Zeit $\tau$ wird ein $180^\circ$-Puls angelegt. Zu allen geraden Vielfachen von $\tau$ ist das System phasenkohärent, und wir können die Relaxation der Magnetisierung mit einer höheren Genauigkeit messen.
 \newline\newline
