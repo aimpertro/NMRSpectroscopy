@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  11 JAN 2017 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  17 JAN 2017 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -390,11 +390,6 @@ Package csquotes Info: Redefining alias 'german' -> 'german/guillemets'.
 )
 (c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2015/10/21 v3.1 programmable bibliographies (PK/JW/AB)
-
-
-Package biblatex Warning: No "backend" specified, using Biber backend.
-(biblatex)                To use BibTeX, load biblatex with 
-(biblatex)                the "backend=bibtex" option.
 
 (c:/texlive/2015/texmf-dist/tex/latex/biblatex/biblatex2.sty
 Package: biblatex2 2015/10/21 v3.1 programmable bibliographies (biber) (PK/JW/A
@@ -1168,18 +1163,18 @@ File: german.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
 (./lange_Auswertung_NMR.aux)
 \openout1 = `lange_Auswertung_NMR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1188,8 +1183,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'lange_Auswertung_NMR.bbl' found.
  (./lange_Auswertung_NMR.bbl)
-Package biblatex Info: Reference section=0 on input line 52.
-Package biblatex Info: Reference segment=0 on input line 52.
+Package biblatex Info: Reference section=0 on input line 55.
+Package biblatex Info: Reference segment=0 on input line 55.
 
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1325,26 +1320,26 @@ File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count364
 \c__siunitx_mathtt_int=\count365
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 57.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 60.
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 60.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 57.
+LaTeX Font Info:    No file OMScmss.fd. on input line 60.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 57.
+(Font)              for symbol `textasteriskcentered' on input line 60.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 57.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 60.
 (c:/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 57.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
 
 (./lange_Auswertung_NMR.toc)
 \tf@toc=\write4
@@ -1359,32 +1354,32 @@ File: ./Resources/magnetization_components.png Graphic file (type png)
 
 <use ./Resources/magnetization_components.png>
 Package pdftex.def Info: ./Resources/magnetization_components.png used on input
- line 87.
-(pdftex.def)             Requested size: 85.35826pt x 98.40192pt.
+ line 96.
+(pdftex.def)             Requested size: 86.38419pt x 99.58464pt.
 
 <./Resources/larmor_precession.png, id=20, 223.58531pt x 261.97874pt>
 File: ./Resources/larmor_precession.png Graphic file (type png)
 
 <use ./Resources/larmor_precession.png>
-Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 9
-4.
-(pdftex.def)             Requested size: 85.35826pt x 100.01666pt.
+Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 1
+04.
+(pdftex.def)             Requested size: 84.99059pt x 99.58464pt.
 
 <./Resources/hf_pulse.png, id=21, 694.84593pt x 293.59688pt>
 File: ./Resources/hf_pulse.png Graphic file (type png)
 
 <use ./Resources/hf_pulse.png>
-Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 104.
+Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 115.
 (pdftex.def)             Requested size: 199.16928pt x 84.15532pt.
  [3 <./Resources/magnetization_components.png> <./Resources/larmor_precession.p
-ng>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 117.
+ng> <./Resources/hf_pulse.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 128.
 
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
+Underfull \hbox (badness 10000) in paragraph at lines 126--129
 
  []
 
@@ -1392,7 +1387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--118
 File: ./Resources/pulse_train.jpg Graphic file (type jpg)
 
 <use ./Resources/pulse_train.jpg>
-Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 129.
+Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 140.
 (pdftex.def)             Requested size: 156.49014pt x 117.1545pt.
 
 <./Resources/single_pulse_event.jpg, id=33, 2392.94pt x 1790.69pt>
@@ -1400,36 +1395,157 @@ File: ./Resources/single_pulse_event.jpg Graphic file (type jpg)
 
 <use ./Resources/single_pulse_event.jpg>
 Package pdftex.def Info: ./Resources/single_pulse_event.jpg used on input line 
-136.
+147.
 (pdftex.def)             Requested size: 156.49014pt x 117.08202pt.
- [4 <./Resources/hf_pulse.png> <./Resources/pulse_train.jpg> <./Resources/singl
-e_pulse_event.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--148
+
+ []
+
+[4 <./Resources/pulse_train.jpg> <./Resources/single_pulse_event.jpg>]
 <./Resources/spin_ech_schematic.png, id=38, 792.71156pt x 758.835pt>
 File: ./Resources/spin_ech_schematic.png Graphic file (type png)
 
 <use ./Resources/spin_ech_schematic.png>
 Package pdftex.def Info: ./Resources/spin_ech_schematic.png used on input line 
-172.
-(pdftex.def)             Requested size: 227.62204pt x 217.89127pt.
+188.
+(pdftex.def)             Requested size: 148.60886pt x 142.26378pt.
 
 <./Resources/spinecho_osci.jpg, id=39, 2653.915pt x 2015.53pt>
 File: ./Resources/spinecho_osci.jpg Graphic file (type jpg)
 
 <use ./Resources/spinecho_osci.jpg>
-Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 181.
-(pdftex.def)             Requested size: 227.62204pt x 172.84013pt.
+Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 196.
+(pdftex.def)             Requested size: 187.29135pt x 142.26378pt.
+ [5 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>]
+Package epstopdf Info: Source file: <./Resources/t2_meas_p1.eps>
+(epstopdf)                    date: 2017-01-17 11:35:58
+(epstopdf)                    size: 18377 bytes
+(epstopdf)             Output file: <./Resources/t2_meas_p1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-17 12:04:58
+(epstopdf)                    size: 7308 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p1-eps
+-converted-to.pdf ./Resources/t2_meas_p1.eps>
+(epstopdf)             \includegraphics on input line 234.
+Package epstopdf Info: Output file is already uptodate.
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
+<./Resources/t2_meas_p1-eps-converted-to.pdf, id=45, 542.025pt x 309.155pt>
+File: ./Resources/t2_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
 
+<use ./Resources/t2_meas_p1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_meas_p1-eps-converted-to.pdf used on in
+put line 234.
+(pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
+Package epstopdf Info: Source file: <./Resources/t2_meas_p3.eps>
+(epstopdf)                    date: 2017-01-17 11:40:39
+(epstopdf)                    size: 14764 bytes
+(epstopdf)             Output file: <./Resources/t2_meas_p3-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-17 12:05:00
+(epstopdf)                    size: 7132 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p3-eps
+-converted-to.pdf ./Resources/t2_meas_p3.eps>
+(epstopdf)             \includegraphics on input line 242.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t2_meas_p3-eps-converted-to.pdf, id=46, 542.025pt x 309.155pt>
+File: ./Resources/t2_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t2_meas_p3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_meas_p3-eps-converted-to.pdf used on in
+put line 242.
+(pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
+ [6]
+Package epstopdf Info: Source file: <./Resources/t2_p1_cp.eps>
+(epstopdf)                    date: 2016-12-12 16:10:08
+(epstopdf)                    size: 21761 bytes
+(epstopdf)             Output file: <./Resources/t2_p1_cp-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-01-17 12:21:41
+(epstopdf)                    size: 19354 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p1_cp-eps-c
+onverted-to.pdf ./Resources/t2_p1_cp.eps>
+(epstopdf)             \includegraphics on input line 266.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t2_p1_cp-eps-converted-to.pdf, id=50, 505.89pt x 283.0575pt>
+File: ./Resources/t2_p1_cp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t2_p1_cp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_p1_cp-eps-converted-to.pdf used on inpu
+t line 266.
+(pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
+
+Underfull \hbox (badness 2547) in paragraph at lines 266--266
+[]\T1/cmr/bx/n/10 Abbildung 10: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
+Package epstopdf Info: Source file: <./Resources/t2_p3_cp.eps>
+(epstopdf)                    date: 2016-12-12 16:56:21
+(epstopdf)                    size: 21750 bytes
+(epstopdf)             Output file: <./Resources/t2_p3_cp-eps-converted-to.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
+(epstopdf)                    date: 2017-01-17 12:21:43
+(epstopdf)                    size: 19347 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p3_cp-eps-c
+onverted-to.pdf ./Resources/t2_p3_cp.eps>
+(epstopdf)             \includegraphics on input line 274.
+Package epstopdf Info: Output file is already uptodate.
+<./Resources/t2_p3_cp-eps-converted-to.pdf, id=51, 505.89pt x 283.0575pt>
+File: ./Resources/t2_p3_cp-eps-converted-to.pdf Graphic file (type pdf)
 
+<use ./Resources/t2_p3_cp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_p3_cp-eps-converted-to.pdf used on inpu
+t line 274.
+(pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
+
+Underfull \hbox (badness 2547) in paragraph at lines 274--274
+[]\T1/cmr/bx/n/10 Abbildung 11: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
-[5] [6 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>]
-[7] [8] [9] [10] [11] [12] (./lange_Auswertung_NMR.aux)
+Package epstopdf Info: Source file: <./Resources/t1_meas_p1.eps>
+(epstopdf)                    date: 2017-01-17 11:48:24
+(epstopdf)                    size: 17011 bytes
+(epstopdf)             Output file: <./Resources/t1_meas_p1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-17 12:36:38
+(epstopdf)                    size: 7386 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p1-eps
+-converted-to.pdf ./Resources/t1_meas_p1.eps>
+(epstopdf)             \includegraphics on input line 297.
+Package epstopdf Info: Output file is already uptodate.
+<./Resources/t1_meas_p1-eps-converted-to.pdf, id=52, 517.935pt x 309.155pt>
+File: ./Resources/t1_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t1_meas_p1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t1_meas_p1-eps-converted-to.pdf used on in
+put line 297.
+(pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
+Package epstopdf Info: Source file: <./Resources/t1_meas_p3.eps>
+(epstopdf)                    date: 2017-01-17 11:49:39
+(epstopdf)                    size: 15263 bytes
+(epstopdf)             Output file: <./Resources/t1_meas_p3-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-17 12:36:40
+(epstopdf)                    size: 7198 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p3-eps
+-converted-to.pdf ./Resources/t1_meas_p3.eps>
+(epstopdf)             \includegraphics on input line 305.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t1_meas_p3-eps-converted-to.pdf, id=53, 517.935pt x 309.155pt>
+File: ./Resources/t1_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t1_meas_p3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t1_meas_p3-eps-converted-to.pdf used on in
+put line 305.
+(pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
+ [7 <./Resources/t2_meas_p1-eps-converted-to.pdf> <./Resources/t2_meas_p3-eps-c
+onverted-to.pdf> <./Resources/t2_p1_cp-eps-converted-to.pdf> <./Resources/t2_p3
+_cp-eps-converted-to.pdf>]
+[8 <./Resources/t1_meas_p1-eps-converted-to.pdf> <./Resources/t1_meas_p3-eps-co
+nverted-to.pdf>] [9] [10] [11] [12] [13] (./lange_Auswertung_NMR.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1438,13 +1554,13 @@ Package logreq Info: Writing requests to 'lange_Auswertung_NMR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24838 strings out of 493054
- 469756 string characters out of 6138326
- 914929 words of memory out of 5000000
- 28069 multiletter control sequences out of 15000+600000
+ 24893 strings out of 493054
+ 471318 string characters out of 6138326
+ 914239 words of memory out of 5000000
+ 28117 multiletter control sequences out of 15000+600000
  24722 words of font info for 71 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 56i,9n,50p,10448b,1429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,11n,50p,10448b,1429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2015/texmf-dist
@@ -1464,10 +1580,10 @@ e/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2015/tex
 mf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2015/texmf-dist/fo
 nts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fonts/type1/
 public/cm-super/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (12 pages, 1747056 bytes).
+Output written on lange_Auswertung_NMR.pdf (13 pages, 1816903 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
+ 190 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
