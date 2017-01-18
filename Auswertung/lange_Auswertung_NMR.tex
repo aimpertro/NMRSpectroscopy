@@ -14,6 +14,7 @@
 \usepackage{setspace} % Anpassung des Zeilenabstandes, Befehl muss vor der Berechnung des Satzspiegels gesetzt werden.
 
 \usepackage{amsmath} % Ganz praktisch für Mathesachen
+\usepackage{mathtools}
 \usepackage[version=4]{mhchem}  % Für chemische Strukturformeln und Reaktionsgleichungen
 \usepackage{nicefrac} %schöne Brüche für Fließtext, ohne Mathemodus
 
@@ -57,7 +58,7 @@
 \begin{document}
 \author{Alexander Impertro \and Timo Gierlich}
 \title{F61: Nuclear Magnetic Resonance}
-\subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Betreuer: Jeremy Wilkinson -- testiert am:}}
+\subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Durchgeführt am 12. und 13. Dezember 2016 \newline Betreuer: Jeremy Wilkinson -- testiert am:}}
 \maketitle
 \tableofcontents
 
@@ -521,9 +522,51 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Theorie}
 
-\newpage
+Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen Magnetfelder verwendet werden, die eine Ortsabhängigkeit besitzen. Hierzu werdem dem statischen Feld $\vec{B_0}$, welches die z-Achse definiert, Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und die Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
+
+\paragraph{1-Dimensionale Bildgebung}
+
+Im eindimensionalen Fall wird ein Gradientenfeld verwendet, wodurch die Larmorfrequenz ortsabhängig wird. Im Folgenden soll das Verfahren anhand einer Aufnahme in z-Richtung vorgestellt werden.
+
+Die Larmorfrequenz folgt dann dem Zusammenhang:
+
+\begin{equation}
+\omega_L = \gamma (B_0 + G^z \cdot z) = \omega_L^0 + \omega_z
+\label{eq:larmor_mod}
+\end{equation}
+
+Um nun das NMR-Signal aufzunehmen, können zwei verschiedene Verfahren verwendet werden: \textit{Frequenzkodierung} und \textit{Phasenkodierung}.
+
+Bei der Frequenzkodierung wird das NMR-Signal als Funktion der Zeit aufgenommen. Die transversale Magnetisierung $M_{\perp}^{rot}(z)$ am Ort z präzediert mit der Larmor-Frequenz aus Gl. \eqref{eq:larmor_mod}. Wird das Signal innerhalb einer Zeit aufgenommen, die im Vergleich zur Relaxationszeit $T_2$ klein ist, bleibt die transversale Magnetisierung $M_{\perp}^{rot}(z)$ annähernd konstant und ist nur ortsabhängig. Das gemessene Signal $S(t)$ ist dann die eindimensionale Fouriertransformation von $M_{\perp}^{rot}(z)$. Damit kann über eine Rücktransformation des NMR-Signals auf die transversale Magnetisierung geschlossen werden.
+
+In der Praxis wird das NMR-Signal in festgelegten Zeitschritten abgetastet, wodurch eine Menge von N Datenpunkten ${S_N(N \Delta t)}$ aufzeichnet wird. Eine diskrete Fouriertransformation liefert dann die Menge $M_N=M_{\perp}(N \Delta z)$.
+
+Im Gegensatz dazu wird bei der Phasenkodierung ein Gradientenfeld angelegt, dessen Stärke in linearen Schritten $\Delta G^z$ erhöht wird. Innerhalb eines Zeitintervalls $T_{Ph}$ vor Abtasten des Signals wird ein Gradientenfeld $B^z = G^z z$ angelegt, wodurch die Phase
+\begin{equation}
+\phi (z) = (\gamma G^z T_{Ph})z \coloneqq k_z z
+\end{equation}
+am Ort z angenommen wird. Nach Abschalten des Gradienten präzedieren die Komponenten wieder mit der originalen Larmorfrequenz $\omega_{L}^0$, aber mit einem unterschiedlichen Phasenwinkel. Es werden zum Zeitpunkt $t_0$ $N$ Datenpunkte mit unterschiedlichen Ortsfrequenzen $k_n=n\Delta k$ aufgenommen. Eine Fouriertransformation liefert dann wieder die transversale Magnetisierung $M_{\perp}^{rot}(z)$.
+
+Beide Methoden sind mathematisch äquivalent. Der einzige Unterschied besteht in der Tatsache, dass bei der Frequenzkodierung alle Datenpunkte in einer Sequenz aufgenommen werden können, wohingegen bei der Phasenkodierung $N$ Sequenzen notwendig sind.
+
+\paragraph{2-Dimensionale Bildgebung}
+
+Zur Aufnahme eines zweidimensionalen NMR-Bildes werden alle drei Gradientenfelder verwendet. Zunächst muss in z-Richtung eine dünne Scheibe des Samples selektiv angeregt werden. Liegen ihre Koordinaten im Bereich $z_1 \leq z \leq z_2$, so sind die Begrenzungen durch die Larmorfrequenzen $\omega_1$ und $\omega_2$ charakterisiert. Wird nun ein Hochfrequenzpuls auf die Probe gegeben, der nur Frequenzen $\omega$ innerhalb dieses Bereichs enthält, kann die gewünschte Scheibe selektiv angeregt werden. 
+
+Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinformation aus einer Kombination von Phasenkodierung in x-Richtung und Frequenzkodierung in y-Richtung abgeleitet werden. Die Messsequenz wird $N$-Mal für unterschiedliche Phasengradienten wiederholt, wobei jede Sequenz $M$ Datenpunkte liefert. Aus dieser Matrix von $N x M$ Datenpunkten kann nun über eine zweidimensionale Fouriertransformation das NMR-Bild errechnet werden. Die zeitliche Abfolge der Pulse und des Messignals ist in Abb. \ref{fig:2d_imaging} veranschaulicht.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=80mm]{./Resources/2d_imaging.png}
+	\caption{Pulsfolge zur Aufnahme eines zweidimensionalen Bildes.}
+	\label{fig:2d_imaging}
+\end{figure}
 
 \subsubsection{Durchführung}
+
+\newpage
+
+\subsubsection{Auswertung}
 
 \newpage
 

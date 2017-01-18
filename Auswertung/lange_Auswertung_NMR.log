@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  17 JAN 2017 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  18 JAN 2017 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,6 +689,39 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(c:/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(c:/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count291
+\calc@Bcount=\count292
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip69
+\calc@Bskip=\skip70
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count293
+\calc@Cskip=\skip71
+)
+(c:/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count294
+\l_MT_multwidth_dim=\dimen115
+\origjot=\skip72
+\l_MT_shortvdotswithinadjustabove_dim=\dimen116
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen117
+\l_MT_above_intertext_sep=\dimen118
+\l_MT_below_intertext_sep=\dimen119
+\l_MT_above_shortintertext_sep=\dimen120
+\l_MT_below_shortintertext_sep=\dimen121
+)
 (c:/texlive/2015/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2015/11/29 v4.03 for typesetting chemical formulae
 
@@ -705,37 +738,37 @@ L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
 L3 Module: l3str 2015/09/20 v6021 L3 Strings
 L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
 L3 Module: l3int 2015/09/25 v6089 L3 Integers
-\c_max_int=\count291
-\l_tmpa_int=\count292
-\l_tmpb_int=\count293
-\g_tmpa_int=\count294
-\g_tmpb_int=\count295
+\c_max_int=\count295
+\l_tmpa_int=\count296
+\l_tmpb_int=\count297
+\g_tmpa_int=\count298
+\g_tmpb_int=\count299
 L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
 L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
-\g__prg_map_int=\count296
+\g__prg_map_int=\count300
 L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
 L3 Module: l3token 2015/09/28 v6114 L3 Experimental token manipulation
 L3 Module: l3prop 2015/08/05 v5777 L3 Property lists
 L3 Module: l3msg 2015/09/28 v6113 L3 Messages
 L3 Module: l3file 2015/09/23 v6037 L3 File and I/O operations
-\l_iow_line_count_int=\count297
-\l__iow_target_count_int=\count298
-\l__iow_current_line_int=\count299
-\l__iow_current_word_int=\count300
-\l__iow_current_indentation_int=\count301
+\l_iow_line_count_int=\count301
+\l__iow_target_count_int=\count302
+\l__iow_current_line_int=\count303
+\l__iow_current_word_int=\count304
+\l__iow_current_indentation_int=\count305
 L3 Module: l3skip 2015/09/25 v6089 L3 Dimensions and skips
-\c_zero_dim=\dimen113
-\c_max_dim=\dimen114
-\l_tmpa_dim=\dimen115
-\l_tmpb_dim=\dimen116
-\g_tmpa_dim=\dimen117
-\g_tmpb_dim=\dimen118
-\c_zero_skip=\skip69
-\c_max_skip=\skip70
-\l_tmpa_skip=\skip71
-\l_tmpb_skip=\skip72
-\g_tmpa_skip=\skip73
-\g_tmpb_skip=\skip74
+\c_zero_dim=\dimen122
+\c_max_dim=\dimen123
+\l_tmpa_dim=\dimen124
+\l_tmpb_dim=\dimen125
+\g_tmpa_dim=\dimen126
+\g_tmpb_dim=\dimen127
+\c_zero_skip=\skip73
+\c_max_skip=\skip74
+\l_tmpa_skip=\skip75
+\l_tmpb_skip=\skip76
+\g_tmpa_skip=\skip77
+\g_tmpb_skip=\skip78
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -743,18 +776,18 @@ L3 Module: l3skip 2015/09/25 v6089 L3 Dimensions and skips
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2015/09/23 v6037 L3 Key-value interfaces
-\g__keyval_level_int=\count302
-\l_keys_choice_int=\count303
+\g__keyval_level_int=\count306
+\l_keys_choice_int=\count307
 L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
-\c__fp_leading_shift_int=\count304
-\c__fp_middle_shift_int=\count305
-\c__fp_trailing_shift_int=\count306
-\c__fp_big_leading_shift_int=\count307
-\c__fp_big_middle_shift_int=\count308
-\c__fp_big_trailing_shift_int=\count309
-\c__fp_Bigg_leading_shift_int=\count310
-\c__fp_Bigg_middle_shift_int=\count311
-\c__fp_Bigg_trailing_shift_int=\count312
+\c__fp_leading_shift_int=\count308
+\c__fp_middle_shift_int=\count309
+\c__fp_trailing_shift_int=\count310
+\c__fp_big_leading_shift_int=\count311
+\c__fp_big_middle_shift_int=\count312
+\c__fp_big_trailing_shift_int=\count313
+\c__fp_Bigg_leading_shift_int=\count314
+\c__fp_Bigg_middle_shift_int=\count315
+\c__fp_Bigg_trailing_shift_int=\count316
 L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \c_empty_box=\box29
 \l_tmpa_box=\box30
@@ -763,13 +796,13 @@ L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
 \g_tmpb_box=\box33
 L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_internal_box=\box34
-\l__coffin_internal_dim=\dimen119
-\l__coffin_offset_x_dim=\dimen120
-\l__coffin_offset_y_dim=\dimen121
-\l__coffin_x_dim=\dimen122
-\l__coffin_y_dim=\dimen123
-\l__coffin_x_prime_dim=\dimen124
-\l__coffin_y_prime_dim=\dimen125
+\l__coffin_internal_dim=\dimen128
+\l__coffin_offset_x_dim=\dimen129
+\l__coffin_offset_y_dim=\dimen130
+\l__coffin_x_dim=\dimen131
+\l__coffin_y_dim=\dimen132
+\l__coffin_x_prime_dim=\dimen133
+\l__coffin_y_prime_dim=\dimen134
 \c_empty_coffin=\box35
 \l__coffin_aligned_coffin=\box36
 \l__coffin_aligned_internal_coffin=\box37
@@ -778,27 +811,27 @@ L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
 \l__coffin_display_coffin=\box40
 \l__coffin_display_coord_coffin=\box41
 \l__coffin_display_pole_coffin=\box42
-\l__coffin_display_offset_dim=\dimen126
-\l__coffin_display_x_dim=\dimen127
-\l__coffin_display_y_dim=\dimen128
+\l__coffin_display_offset_dim=\dimen135
+\l__coffin_display_x_dim=\dimen136
+\l__coffin_display_y_dim=\dimen137
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3candidates 2015/11/01 v6216 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen129
-\l__box_bottom_dim=\dimen130
-\l__box_left_dim=\dimen131
-\l__box_right_dim=\dimen132
-\l__box_top_new_dim=\dimen133
-\l__box_bottom_new_dim=\dimen134
-\l__box_left_new_dim=\dimen135
-\l__box_right_new_dim=\dimen136
+\l__box_top_dim=\dimen138
+\l__box_bottom_dim=\dimen139
+\l__box_left_dim=\dimen140
+\l__box_right_dim=\dimen141
+\l__box_top_new_dim=\dimen142
+\l__box_bottom_new_dim=\dimen143
+\l__box_left_new_dim=\dimen144
+\l__box_right_new_dim=\dimen145
 \l__box_internal_box=\box43
-\l__coffin_bounding_shift_dim=\dimen137
-\l__coffin_left_corner_dim=\dimen138
-\l__coffin_right_corner_dim=\dimen139
-\l__coffin_bottom_corner_dim=\dimen140
-\l__coffin_top_corner_dim=\dimen141
-\l__coffin_scaled_total_height_dim=\dimen142
-\l__coffin_scaled_width_dim=\dimen143
+\l__coffin_bounding_shift_dim=\dimen146
+\l__coffin_left_corner_dim=\dimen147
+\l__coffin_right_corner_dim=\dimen148
+\l__coffin_bottom_corner_dim=\dimen149
+\l__coffin_top_corner_dim=\dimen150
+\l__coffin_scaled_total_height_dim=\dimen151
+\l__coffin_scaled_width_dim=\dimen152
 L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
 L3 Module: l3luatex 2015/09/10 v5983 L3 Experimental LuaTeX-specific functions
 )
@@ -807,7 +840,7 @@ File: l3unicode-data.def 2015/07/20 v5676 L3 Unicode data
 )
 (c:/texlive/2015/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2015/09/10 v5983 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count313
+\l__driver_color_stack_int=\count317
 ))
 (c:/texlive/2015/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2015/11/04 v6224 LaTeX2e option processing using LaTeX3 keys
@@ -817,15 +850,15 @@ Package: l3regex 2015/11/04 v6224 L3 Experimental regular expressions
 
 (c:/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
 Package: l3tl-build 2015/11/04 v6224 L3 Experimental token list construction
-\l__tl_build_start_index_int=\count314
-\l__tl_build_index_int=\count315
+\l__tl_build_start_index_int=\count318
+\l__tl_build_index_int=\count319
 )
 (c:/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
 Package: l3tl-analysis 2015/09/26 v6106 L3 Experimental token lists analysis
-\l__tl_analysis_normal_int=\count316
-\l__tl_analysis_index_int=\count317
-\l__tl_analysis_nesting_int=\count318
-\l__tl_analysis_type_int=\count319
+\l__tl_analysis_normal_int=\count320
+\l__tl_analysis_index_int=\count321
+\l__tl_analysis_nesting_int=\count322
+\l__tl_analysis_type_int=\count323
 )
 (c:/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3flag.sty
 Package: l3flag 2015/11/04 v6224 L3 Experimental flags
@@ -833,73 +866,60 @@ Package: l3flag 2015/11/04 v6224 L3 Experimental flags
 (c:/texlive/2015/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
 Package: l3str-convert 2015/09/26 v6106 L3 Experimental string encoding convers
 ions
-\l__str_internal_int=\count320
-\c__str_replacement_char_int=\count321
+\l__str_internal_int=\count324
+\c__str_replacement_char_int=\count325
 )
-\l__regex_internal_a_int=\count322
-\l__regex_internal_b_int=\count323
-\l__regex_internal_c_int=\count324
-\l__regex_balance_int=\count325
-\l__regex_group_level_int=\count326
-\l__regex_mode_int=\count327
-\l__regex_catcodes_int=\count328
-\l__regex_default_catcodes_int=\count329
-\c__regex_catcode_D_int=\count330
-\c__regex_catcode_S_int=\count331
-\c__regex_catcode_L_int=\count332
-\c__regex_catcode_O_int=\count333
-\c__regex_catcode_A_int=\count334
-\c__regex_all_catcodes_int=\count335
-\l__regex_show_lines_int=\count336
-\l__regex_min_state_int=\count337
-\l__regex_max_state_int=\count338
-\l__regex_left_state_int=\count339
-\l__regex_right_state_int=\count340
-\l__regex_capturing_group_int=\count341
-\l__regex_min_pos_int=\count342
-\l__regex_max_pos_int=\count343
-\l__regex_current_pos_int=\count344
-\l__regex_start_pos_int=\count345
-\l__regex_success_pos_int=\count346
-\l__regex_current_char_int=\count347
-\l__regex_current_catcode_int=\count348
-\l__regex_last_char_int=\count349
-\l__regex_case_changed_char_int=\count350
-\l__regex_current_state_int=\count351
-\l__regex_step_int=\count352
-\l__regex_min_active_int=\count353
-\l__regex_max_active_int=\count354
-\l__regex_replacement_csnames_int=\count355
-\l__regex_match_count_int=\count356
-\l__regex_submatch_int=\count357
-\l__regex_zeroth_submatch_int=\count358
-)
-(c:/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count359
-\calc@Bcount=\count360
-\calc@Adimen=\dimen144
-\calc@Bdimen=\dimen145
-\calc@Askip=\skip75
-\calc@Bskip=\skip76
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count361
-\calc@Cskip=\skip77
+\l__regex_internal_a_int=\count326
+\l__regex_internal_b_int=\count327
+\l__regex_internal_c_int=\count328
+\l__regex_balance_int=\count329
+\l__regex_group_level_int=\count330
+\l__regex_mode_int=\count331
+\l__regex_catcodes_int=\count332
+\l__regex_default_catcodes_int=\count333
+\c__regex_catcode_D_int=\count334
+\c__regex_catcode_S_int=\count335
+\c__regex_catcode_L_int=\count336
+\c__regex_catcode_O_int=\count337
+\c__regex_catcode_A_int=\count338
+\c__regex_all_catcodes_int=\count339
+\l__regex_show_lines_int=\count340
+\l__regex_min_state_int=\count341
+\l__regex_max_state_int=\count342
+\l__regex_left_state_int=\count343
+\l__regex_right_state_int=\count344
+\l__regex_capturing_group_int=\count345
+\l__regex_min_pos_int=\count346
+\l__regex_max_pos_int=\count347
+\l__regex_current_pos_int=\count348
+\l__regex_start_pos_int=\count349
+\l__regex_success_pos_int=\count350
+\l__regex_current_char_int=\count351
+\l__regex_current_catcode_int=\count352
+\l__regex_last_char_int=\count353
+\l__regex_case_changed_char_int=\count354
+\l__regex_current_state_int=\count355
+\l__regex_step_int=\count356
+\l__regex_min_active_int=\count357
+\l__regex_max_active_int=\count358
+\l__regex_replacement_csnames_int=\count359
+\l__regex_match_count_int=\count360
+\l__regex_submatch_int=\count361
+\l__regex_zeroth_submatch_int=\count362
 )
 (c:/texlive/2015/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (c:/texlive/2015/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2015/11/04 v6224 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count362
-\l__xparse_m_args_int=\count363
-\l__xparse_mandatory_args_int=\count364
-\l__xparse_processor_int=\count365
-\l__xparse_v_nesting_int=\count366
+\l__xparse_current_arg_int=\count363
+\l__xparse_m_args_int=\count364
+\l__xparse_mandatory_args_int=\count365
+\l__xparse_processor_int=\count366
+\l__xparse_v_nesting_int=\count367
 )
 Package: chemgreek 2015/11/10 v1.0b interfaceforuprightgreeklettersforuseinchem
 istry (CN)
-\l__chemgreek_tmpa_int=\count367
-\g__chemgreek_tmpa_int=\count368
+\l__chemgreek_tmpa_int=\count368
+\g__chemgreek_tmpa_int=\count369
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -964,35 +984,35 @@ Package graphics Info: Driver file: pdftex.def on input line 94.
 
 (c:/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count369
+\Gread@gobject=\count370
 ))
-\l__mhchem_ce_distanceFromLastComma_int=\count370
-\__mhchem_arrow_extPgfLength_skip=\skip78
-\mhchem@bondwidth=\skip79
-\mhchem@bondheight=\skip80
-\mhchem@smallbondwidth@tmpA=\skip81
-\mhchem@smallbondwidth@tmpB=\skip82
-\mhchem@smallbondwidth=\skip83
-\mhchem@bondtmp@minussidebearingleft=\skip84
-\mhchem@bondtmp@minussidebearingright=\skip85
-\mhchem@minispace@tmp=\skip86
-\mhchem@minibackspace@tmp=\skip87
-\l__mhchem_option_version_int=\count371
-\mhchem@option@minusmathsidebearingleft=\dimen146
-\mhchem@option@minusmathsidebearingright=\dimen147
-\mhchem@option@minustextsidebearingleft=\dimen148
-\mhchem@option@minustextsidebearingright=\dimen149
+\l__mhchem_ce_distanceFromLastComma_int=\count371
+\__mhchem_arrow_extPgfLength_skip=\skip79
+\mhchem@bondwidth=\skip80
+\mhchem@bondheight=\skip81
+\mhchem@smallbondwidth@tmpA=\skip82
+\mhchem@smallbondwidth@tmpB=\skip83
+\mhchem@smallbondwidth=\skip84
+\mhchem@bondtmp@minussidebearingleft=\skip85
+\mhchem@bondtmp@minussidebearingright=\skip86
+\mhchem@minispace@tmp=\skip87
+\mhchem@minibackspace@tmp=\skip88
+\l__mhchem_option_version_int=\count372
+\mhchem@option@minusmathsidebearingleft=\dimen153
+\mhchem@option@minusmathsidebearingright=\dimen154
+\mhchem@option@minustextsidebearingleft=\dimen155
+\mhchem@option@minustextsidebearingright=\dimen156
 )
 (c:/texlive/2015/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip88
-\L@UnitsRaiseTextstyle=\skip89
-\L@UnitsRaiseScriptstyle=\skip90
+\L@UnitsRaiseDisplaystyle=\skip89
+\L@UnitsRaiseTextstyle=\skip90
+\L@UnitsRaiseScriptstyle=\skip91
 )
 (c:/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
 )
 (c:/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
@@ -1000,33 +1020,33 @@ Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
 (c:/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen152
-\captionmargin@=\dimen153
-\captionwidth=\dimen154
-\caption@tempdima=\dimen155
-\caption@indent=\dimen156
-\caption@parindent=\dimen157
-\caption@hangindent=\dimen158
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
 )
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count372
+\c@ContinuedFloat=\count373
 )
 (c:/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2015/09/15 v1.1-100 Sub-captions (AR)
-\c@subfigure=\count373
-\c@subtable=\count374
+\c@subfigure=\count374
+\c@subtable=\count375
 )
 (c:/texlive/2015/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen159
-\WF@size=\dimen160
-\c@WF@wrappedlines=\count375
+\wrapoverhang=\dimen166
+\WF@size=\dimen167
+\c@WF@wrappedlines=\count376
 \WF@box=\box44
 \WF@everypar=\toks24
 Package: wrapfig 2003/01/31  v 3.6
 )
 (c:/texlive/2015/texmf-dist/tex/latex/tools/varioref.sty
 Package: varioref 2015/09/22 v1.5b package for extended references (FMi)
-\c@vrcnt=\count376
+\c@vrcnt=\count377
 )
 (c:/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
@@ -1051,16 +1071,16 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 (c:/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen161
-\extrarowheight=\dimen162
+\col@sep=\dimen168
+\extrarowheight=\dimen169
 \NC@list=\toks25
-\extratabsurround=\skip91
-\backup@length=\skip92
+\extratabsurround=\skip92
+\backup@length=\skip93
 )
 \everycr=\toks26
-\minrowclearance=\skip93
+\minrowclearance=\skip94
 )
-\rownum=\count377
+\rownum=\count378
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
@@ -1073,52 +1093,52 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (c:/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
-\@cmidla=\count378
-\@cmidlb=\count379
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
-\@thisruleclass=\count380
-\@lastruleclass=\count381
-\@thisrulewidth=\dimen175
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count379
+\@cmidlb=\count380
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count381
+\@lastruleclass=\count382
+\@thisrulewidth=\dimen182
 )
 (c:/texlive/2015/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
-\TX@col@width=\dimen176
-\TX@old@table=\dimen177
-\TX@old@col=\dimen178
-\TX@target=\dimen179
-\TX@delta=\dimen180
-\TX@cols=\count382
+\TX@col@width=\dimen183
+\TX@old@table=\dimen184
+\TX@old@col=\dimen185
+\TX@target=\dimen186
+\TX@delta=\dimen187
+\TX@cols=\count383
 \TX@ftn=\toks27
 )
 (c:/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count383
+\lst@mode=\count384
 \lst@gtempboxa=\box45
 \lst@token=\toks28
-\lst@length=\count384
-\lst@currlwidth=\dimen181
-\lst@column=\count385
-\lst@pos=\count386
-\lst@lostspace=\dimen182
-\lst@width=\dimen183
-\lst@newlines=\count387
-\lst@lineno=\count388
-\lst@maxwidth=\dimen184
+\lst@length=\count385
+\lst@currlwidth=\dimen188
+\lst@column=\count386
+\lst@pos=\count387
+\lst@lostspace=\dimen189
+\lst@width=\dimen190
+\lst@newlines=\count388
+\lst@lineno=\count389
+\lst@maxwidth=\dimen191
 
 (c:/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count389
-\lst@skipnumbers=\count390
+\c@lstnumber=\count390
+\lst@skipnumbers=\count391
 \lst@framebox=\box46
 )
 (c:/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
@@ -1129,45 +1149,45 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (c:/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2015/10/15 v2.6m A comprehensive (SI) units package
 \l__siunitx_tmp_box=\box47
-\l__siunitx_tmp_dim=\dimen185
-\l__siunitx_tmp_int=\count391
-\l__siunitx_number_mantissa_length_int=\count392
-\l__siunitx_number_uncert_length_int=\count393
-\l__siunitx_round_int=\count394
-\l__siunitx_process_decimal_int=\count395
-\l__siunitx_process_uncertainty_int=\count396
-\l__siunitx_process_fixed_int=\count397
-\l__siunitx_process_integer_min_int=\count398
-\l__siunitx_process_precision_int=\count399
-\l__siunitx_group_min_int=\count400
+\l__siunitx_tmp_dim=\dimen192
+\l__siunitx_tmp_int=\count392
+\l__siunitx_number_mantissa_length_int=\count393
+\l__siunitx_number_uncert_length_int=\count394
+\l__siunitx_round_int=\count395
+\l__siunitx_process_decimal_int=\count396
+\l__siunitx_process_uncertainty_int=\count397
+\l__siunitx_process_fixed_int=\count398
+\l__siunitx_process_integer_min_int=\count399
+\l__siunitx_process_precision_int=\count400
+\l__siunitx_group_min_int=\count401
 \l__siunitx_angle_marker_box=\box48
 \l__siunitx_angle_unit_box=\box49
-\l__siunitx_angle_marker_dim=\dimen186
-\l__siunitx_angle_unit_dim=\dimen187
-\l__siunitx_unit_int=\count401
-\l__siunitx_unit_denominator_int=\count402
-\l__siunitx_unit_numerator_int=\count403
-\l__siunitx_unit_prefix_int=\count404
-\l__siunitx_unit_prefix_base_int=\count405
-\l__siunitx_unit_prefix_gram_int=\count406
-\l__siunitx_number_product_int=\count407
-\c__siunitx_one_fill_skip=\skip94
-\l__siunitx_table_unit_align_skip=\skip95
-\l__siunitx_table_exponent_dim=\dimen188
-\l__siunitx_table_integer_dim=\dimen189
-\l__siunitx_table_mantissa_dim=\dimen190
-\l__siunitx_table_marker_dim=\dimen191
-\l__siunitx_table_result_dim=\dimen192
-\l__siunitx_table_uncert_dim=\dimen193
-\l__siunitx_table_fill_pre_dim=\dimen194
-\l__siunitx_table_fill_post_dim=\dimen195
-\l__siunitx_table_fill_mid_dim=\dimen196
+\l__siunitx_angle_marker_dim=\dimen193
+\l__siunitx_angle_unit_dim=\dimen194
+\l__siunitx_unit_int=\count402
+\l__siunitx_unit_denominator_int=\count403
+\l__siunitx_unit_numerator_int=\count404
+\l__siunitx_unit_prefix_int=\count405
+\l__siunitx_unit_prefix_base_int=\count406
+\l__siunitx_unit_prefix_gram_int=\count407
+\l__siunitx_number_product_int=\count408
+\c__siunitx_one_fill_skip=\skip95
+\l__siunitx_table_unit_align_skip=\skip96
+\l__siunitx_table_exponent_dim=\dimen195
+\l__siunitx_table_integer_dim=\dimen196
+\l__siunitx_table_mantissa_dim=\dimen197
+\l__siunitx_table_marker_dim=\dimen198
+\l__siunitx_table_result_dim=\dimen199
+\l__siunitx_table_uncert_dim=\dimen256
+\l__siunitx_table_fill_pre_dim=\dimen257
+\l__siunitx_table_fill_post_dim=\dimen258
+\l__siunitx_table_fill_mid_dim=\dimen259
 \l__siunitx_table_pre_box=\box50
 \l__siunitx_table_post_box=\box51
 \l__siunitx_table_mantissa_box=\box52
 \l__siunitx_table_result_box=\box53
-\l__siunitx_table_number_align_skip=\skip96
-\l__siunitx_table_text_align_skip=\skip97
+\l__siunitx_table_number_align_skip=\skip97
+\l__siunitx_table_text_align_skip=\skip98
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1292,11 +1312,11 @@ Package: translator 2010/06/12 ver 1.10
 
 (c:/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-language-map
 pings.tex))) (c:/texlive/2015/texmf-dist/tex/latex/multirow/multirow.sty
-\bigstrutjot=\dimen197
+\bigstrutjot=\dimen260
 )
 (c:/texlive/2015/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count408
+\c@float@type=\count409
 \float@exts=\toks29
 \float@box=\box54
 \@float@everytoks=\toks30
@@ -1318,18 +1338,18 @@ File: german.lbx 2015/10/21 v3.1 biblatex localization (PK/JW/AB)
 (./lange_Auswertung_NMR.aux)
 \openout1 = `lange_Auswertung_NMR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1338,26 +1358,26 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'lange_Auswertung_NMR.bbl' found.
  (./lange_Auswertung_NMR.bbl)
-Package biblatex Info: Reference section=0 on input line 57.
-Package biblatex Info: Reference segment=0 on input line 57.
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 57.
+. Activating mapping `default' on line 58.
 .................................................
 
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count409
-\scratchdimen=\dimen198
+\scratchcounter=\count410
+\scratchdimen=\dimen261
 \scratchbox=\box56
-\nofMPsegments=\count410
-\nofMParguments=\count411
+\nofMPsegments=\count411
+\nofMParguments=\count412
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count412
-\MPscratchDim=\dimen199
-\MPnumerator=\count413
-\makeMPintoPDFobject=\count414
+\MPscratchCnt=\count413
+\MPscratchDim=\dimen262
+\MPnumerator=\count414
+\makeMPintoPDFobject=\count415
 \everyMPtoPDFconversion=\toks32
 ) (c:/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -1395,7 +1415,7 @@ Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count415
+\c@lstlisting=\count416
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
@@ -1478,28 +1498,28 @@ Dictionary: translator-basic-dictionary, Language: English
 (c:/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/10/15 v2.6m siunitx: Abbreviated units
 )
-\c__siunitx_mathsf_int=\count416
-\c__siunitx_mathtt_int=\count417
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 62.
+\c__siunitx_mathsf_int=\count417
+\c__siunitx_mathtt_int=\count418
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 63.
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 63.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 62.
+LaTeX Font Info:    No file OMScmss.fd. on input line 63.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 62.
+(Font)              for symbol `textasteriskcentered' on input line 63.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
 (c:/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
 
 (./lange_Auswertung_NMR.toc)
 \tf@toc=\write4
@@ -1514,7 +1534,7 @@ File: ./Resources/magnetization_components.png Graphic file (type png)
 
 <use ./Resources/magnetization_components.png>
 Package pdftex.def Info: ./Resources/magnetization_components.png used on input
- line 96.
+ line 97.
 (pdftex.def)             Requested size: 86.38419pt x 99.58464pt.
 
 <./Resources/larmor_precession.png, id=17, 223.58531pt x 261.97874pt>
@@ -1522,24 +1542,24 @@ File: ./Resources/larmor_precession.png Graphic file (type png)
 
 <use ./Resources/larmor_precession.png>
 Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 1
-04.
+05.
 (pdftex.def)             Requested size: 84.99059pt x 99.58464pt.
 
 <./Resources/hf_pulse.png, id=18, 694.84593pt x 293.59688pt>
 File: ./Resources/hf_pulse.png Graphic file (type png)
 
 <use ./Resources/hf_pulse.png>
-Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 116.
+Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 117.
 (pdftex.def)             Requested size: 199.16928pt x 84.15532pt.
  [2 <./Resources/magnetization_components.png> <./Resources/larmor_precession.p
 ng> <./Resources/hf_pulse.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 129.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 130.
 
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 127--130
+Underfull \hbox (badness 10000) in paragraph at lines 128--131
 
  []
 
@@ -1547,7 +1567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--130
 File: ./Resources/pulse_train.jpg Graphic file (type jpg)
 
 <use ./Resources/pulse_train.jpg>
-Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 141.
+Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 142.
 (pdftex.def)             Requested size: 156.49014pt x 117.1545pt.
 
 <./Resources/single_pulse_event.jpg, id=30, 2392.94pt x 1790.69pt>
@@ -1555,10 +1575,10 @@ File: ./Resources/single_pulse_event.jpg Graphic file (type jpg)
 
 <use ./Resources/single_pulse_event.jpg>
 Package pdftex.def Info: ./Resources/single_pulse_event.jpg used on input line 
-148.
+149.
 (pdftex.def)             Requested size: 156.49014pt x 117.08202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--149
+Underfull \hbox (badness 10000) in paragraph at lines 132--150
 
  []
 
@@ -1568,26 +1588,26 @@ File: ./Resources/spin_ech_schematic.png Graphic file (type png)
 
 <use ./Resources/spin_ech_schematic.png>
 Package pdftex.def Info: ./Resources/spin_ech_schematic.png used on input line 
-189.
+190.
 (pdftex.def)             Requested size: 148.60886pt x 142.26378pt.
 
 <./Resources/spinecho_osci.jpg, id=36, 2653.915pt x 2015.53pt>
 File: ./Resources/spinecho_osci.jpg Graphic file (type jpg)
 
 <use ./Resources/spinecho_osci.jpg>
-Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 197.
+Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 198.
 (pdftex.def)             Requested size: 187.29135pt x 142.26378pt.
  [4 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>]
 Package epstopdf Info: Source file: <./Resources/t2_meas_p1.eps>
-(epstopdf)                    date: 2017-01-17 11:35:58
-(epstopdf)                    size: 18377 bytes
+(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    size: 18819 bytes
 (epstopdf)             Output file: <./Resources/t2_meas_p1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-17 12:04:58
+(epstopdf)                    date: 2017-01-18 11:29:15
 (epstopdf)                    size: 7308 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p1-eps
 -converted-to.pdf ./Resources/t2_meas_p1.eps>
-(epstopdf)             \includegraphics on input line 235.
+(epstopdf)             \includegraphics on input line 236.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Resources/t2_meas_p1-eps-converted-to.pdf, id=42, 542.025pt x 309.155pt>
@@ -1595,18 +1615,18 @@ File: ./Resources/t2_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_meas_p1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_meas_p1-eps-converted-to.pdf used on in
-put line 235.
+put line 236.
 (pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
 Package epstopdf Info: Source file: <./Resources/t2_meas_p3.eps>
-(epstopdf)                    date: 2017-01-17 11:40:39
-(epstopdf)                    size: 14764 bytes
+(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    size: 15136 bytes
 (epstopdf)             Output file: <./Resources/t2_meas_p3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-17 12:05:00
+(epstopdf)                    date: 2017-01-18 11:28:41
 (epstopdf)                    size: 7132 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p3-eps
 -converted-to.pdf ./Resources/t2_meas_p3.eps>
-(epstopdf)             \includegraphics on input line 243.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Resources/t2_meas_p3-eps-converted-to.pdf, id=43, 542.025pt x 309.155pt>
@@ -1614,19 +1634,19 @@ File: ./Resources/t2_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_meas_p3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_meas_p3-eps-converted-to.pdf used on in
-put line 243.
+put line 244.
 (pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
  [5]
 Package epstopdf Info: Source file: <./Resources/t2_p1_cp.eps>
-(epstopdf)                    date: 2016-12-12 16:10:08
+(epstopdf)                    date: 2017-01-18 11:28:41
 (epstopdf)                    size: 21761 bytes
 (epstopdf)             Output file: <./Resources/t2_p1_cp-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-17 12:21:41
+(epstopdf)                    date: 2017-01-18 11:28:41
 (epstopdf)                    size: 19354 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p1_cp-eps-c
 onverted-to.pdf ./Resources/t2_p1_cp.eps>
-(epstopdf)             \includegraphics on input line 267.
+(epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Resources/t2_p1_cp-eps-converted-to.pdf, id=47, 505.89pt x 283.0575pt>
@@ -1634,64 +1654,64 @@ File: ./Resources/t2_p1_cp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_p1_cp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_p1_cp-eps-converted-to.pdf used on inpu
-t line 267.
+t line 268.
 (pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 267--267
+Underfull \hbox (badness 2547) in paragraph at lines 268--268
 []\T1/cmr/bx/n/10 Abbildung 10: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
 Package epstopdf Info: Source file: <./Resources/t2_p3_cp.eps>
-(epstopdf)                    date: 2016-12-12 16:56:21
+(epstopdf)                    date: 2017-01-18 11:28:41
 (epstopdf)                    size: 21750 bytes
 (epstopdf)             Output file: <./Resources/t2_p3_cp-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-17 12:21:43
+(epstopdf)                    date: 2017-01-18 11:28:41
 (epstopdf)                    size: 19347 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p3_cp-eps-c
 onverted-to.pdf ./Resources/t2_p3_cp.eps>
-(epstopdf)             \includegraphics on input line 275.
+(epstopdf)             \includegraphics on input line 276.
 Package epstopdf Info: Output file is already uptodate.
 <./Resources/t2_p3_cp-eps-converted-to.pdf, id=48, 505.89pt x 283.0575pt>
 File: ./Resources/t2_p3_cp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_p3_cp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_p3_cp-eps-converted-to.pdf used on inpu
-t line 275.
+t line 276.
 (pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 275--275
+Underfull \hbox (badness 2547) in paragraph at lines 276--276
 []\T1/cmr/bx/n/10 Abbildung 11: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
 Package epstopdf Info: Source file: <./Resources/t1_meas_p1.eps>
-(epstopdf)                    date: 2017-01-17 11:48:24
-(epstopdf)                    size: 17011 bytes
+(epstopdf)                    date: 2017-01-18 11:28:40
+(epstopdf)                    size: 17426 bytes
 (epstopdf)             Output file: <./Resources/t1_meas_p1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-17 12:36:38
+(epstopdf)                    date: 2017-01-18 11:28:40
 (epstopdf)                    size: 7386 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p1-eps
 -converted-to.pdf ./Resources/t1_meas_p1.eps>
-(epstopdf)             \includegraphics on input line 298.
+(epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
 <./Resources/t1_meas_p1-eps-converted-to.pdf, id=49, 517.935pt x 309.155pt>
 File: ./Resources/t1_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t1_meas_p1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t1_meas_p1-eps-converted-to.pdf used on in
-put line 298.
+put line 299.
 (pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
 Package epstopdf Info: Source file: <./Resources/t1_meas_p3.eps>
-(epstopdf)                    date: 2017-01-17 11:49:39
-(epstopdf)                    size: 15263 bytes
+(epstopdf)                    date: 2017-01-18 11:28:40
+(epstopdf)                    size: 15644 bytes
 (epstopdf)             Output file: <./Resources/t1_meas_p3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-17 12:36:40
+(epstopdf)                    date: 2017-01-18 11:28:40
 (epstopdf)                    size: 7198 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p3-eps
 -converted-to.pdf ./Resources/t1_meas_p3.eps>
-(epstopdf)             \includegraphics on input line 306.
+(epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
 
 <./Resources/t1_meas_p3-eps-converted-to.pdf, id=50, 517.935pt x 309.155pt>
@@ -1699,7 +1719,7 @@ File: ./Resources/t1_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t1_meas_p3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t1_meas_p3-eps-converted-to.pdf used on in
-put line 306.
+put line 307.
 (pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
  [6 <./Resources/t2_meas_p1-eps-converted-to.pdf> <./Resources/t2_meas_p3-eps-c
 onverted-to.pdf> <./Resources/t2_p1_cp-eps-converted-to.pdf> <./Resources/t2_p3
@@ -1711,14 +1731,14 @@ File: ./Resources/Tetramethylsilan.png Graphic file (type png)
 
 <use ./Resources/Tetramethylsilan.png>
 Package pdftex.def Info: ./Resources/Tetramethylsilan.png used on input line 35
-4.
+5.
 (pdftex.def)             Requested size: 80.66028pt x 56.8031pt.
 
 <./Resources/chem_shifts.png, id=108, 597.87pt x 469.755pt>
 File: ./Resources/chem_shifts.png Graphic file (type png)
 
 <use ./Resources/chem_shifts.png>
-Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 372.
+Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 373.
 (pdftex.def)             Requested size: 403.31511pt x 316.89891pt.
  [8 <./Resources/Tetramethylsilan.png>]
 [9 <./Resources/chem_shifts.png>]
@@ -1726,28 +1746,28 @@ Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 372.
 File: ./Resources/toluol.png Graphic file (type png)
 
 <use ./Resources/toluol.png>
-Package pdftex.def Info: ./Resources/toluol.png used on input line 390.
+Package pdftex.def Info: ./Resources/toluol.png used on input line 391.
 (pdftex.def)             Requested size: 34.98306pt x 17.07182pt.
 
 <./Resources/p-xylol.png, id=119, 220.095pt x 58.5825pt>
 File: ./Resources/p-xylol.png Graphic file (type png)
 
 <use ./Resources/p-xylol.png>
-Package pdftex.def Info: ./Resources/p-xylol.png used on input line 391.
+Package pdftex.def Info: ./Resources/p-xylol.png used on input line 392.
 (pdftex.def)             Requested size: 64.13823pt x 17.07182pt.
 
 <./Resources/acetic_acid.png, id=120, 194.3625pt x 45.4425pt>
 File: ./Resources/acetic_acid.png Graphic file (type png)
 
 <use ./Resources/acetic_acid.png>
-Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 392.
+Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 393.
 (pdftex.def)             Requested size: 73.01921pt x 17.07182pt.
 
 <./Resources/fluoroacetone.png, id=121, 254.04pt x 52.0125pt>
 File: ./Resources/fluoroacetone.png Graphic file (type png)
 
 <use ./Resources/fluoroacetone.png>
-Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 393.
+Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 394.
 (pdftex.def)             Requested size: 83.37991pt x 17.07182pt.
 
 <./Resources/fluoroacetonitril.png, id=122, 171.3675pt x 49.275pt>
@@ -1755,12 +1775,19 @@ File: ./Resources/fluoroacetonitril.png Graphic file (type png)
 
 <use ./Resources/fluoroacetonitril.png>
 Package pdftex.def Info: ./Resources/fluoroacetonitril.png used on input line 3
-94.
+95.
 (pdftex.def)             Requested size: 59.37286pt x 17.07182pt.
  [10 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_aci
 d.png> <./Resources/fluoroacetone.png> <./Resources/fluoroacetonitril.png>] [11
-] [12] [13] [14] [15]
-(./lange_Auswertung_NMR.aux)
+] [12] [13]
+<./Resources/2d_imaging.png, id=139, 419.5675pt x 384.43625pt>
+File: ./Resources/2d_imaging.png Graphic file (type png)
+
+<use ./Resources/2d_imaging.png>
+Package pdftex.def Info: ./Resources/2d_imaging.png used on input line 560.
+(pdftex.def)             Requested size: 227.62204pt x 208.56036pt.
+ [14 <./Resources/2d_imaging.png>] [15]
+[16] (./lange_Auswertung_NMR.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1769,10 +1796,10 @@ Package logreq Info: Writing requests to 'lange_Auswertung_NMR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26817 strings out of 493054
- 515374 string characters out of 6138326
- 993260 words of memory out of 5000000
- 30000 multiletter control sequences out of 15000+600000
+ 27296 strings out of 493054
+ 524129 string characters out of 6138326
+ 1004301 words of memory out of 5000000
+ 30471 multiletter control sequences out of 15000+600000
  26861 words of font info for 74 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  56i,21n,56p,10435b,1437s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1799,10 +1826,10 @@ super/sfsx1440.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx
 2074.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><
 c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive
 /2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (15 pages, 1971889 bytes).
+Output written on lange_Auswertung_NMR.pdf (16 pages, 2017373 bytes).
 PDF statistics:
- 225 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
