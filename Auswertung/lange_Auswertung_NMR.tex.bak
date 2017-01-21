@@ -445,16 +445,16 @@ Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in 
 Folgende Messungen werden mittels 2-D-Fouriermethode durchgeführt:
 
 \begin{itemize}
-	\item Es wird ein Glaszylinder mit \SI{15}{mm} Öl befüllt und ein horizontaler Ausschnitt gewählt (Abbildung \ref{fig:2d_oel_hori}). Wie erwartet sehen wir eine mehr oder minder homogene Kreisscheibe. Ein vertikaler Ausschnitt von links nach rechts ergibt ein Rechteck, an dem unten die Wölbung des Glaszylinders und oben der Meniskus auf Grund der Oberflächenspannung sichtbar ist (Abbildung \ref{fig:2d_oel_vert}).
-	\item Das Bild der PFTE-Struktur sieht auch wie erwartet aus (Abbildung \ref{fig:2d_teflon}). Da Teflon unsichtbar für unser Gerät ist, wird es schwarz dargestellt.
+	\item Es wird ein Glaszylinder mit \SI{15}{mm} Öl befüllt und ein horizontaler Ausschnitt gewählt. Wie erwartet sehen wir eine mehr oder minder homogene Kreisscheibe. Ein vertikaler Ausschnitt von links nach rechts ergibt ein Rechteck, an dem unten die Wölbung des Glaszylinders und oben der Meniskus auf Grund der Oberflächenspannung sichtbar ist.
+	\item Das Bild der PFTE-Struktur sieht auch wie erwartet aus. Da Teflon unsichtbar für unser Gerät ist, wird es schwarz dargestellt.
 \end{itemize}
 
 Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw. Ölgehalt der Probe. Helle Stellen enthalten viel Wasser oder Öl, weshalb sie ein starkes Signal erzeugen. 
 
 \begin{itemize}
-	\item Bei der Olive (Abbildung \ref{fig:2d_olive}) ist der Stein gut zu erkennen. Er besteht aus einer trockenen Schale und enthält im Inneren den Keimling, der viel Feuchtigkeit und Öle enthält. Um den Kern ist das ölhaltige Fruchtfleisch angesiedelt. 
-	\item Die Schale der Erdnuss (Abbildung \ref{fig:2d_erdnuss}) ist sehr trocken und taucht daher im NMR-Bild nicht auf. Die untere Erdnuss ist gerade so ausgerichtet, dass der Luftspalt zwischen den beiden Hälften sichtbar ist. Am unteren Ende befindet sich der Keimling, weshalb dort viel Öl vorhanden ist.
-	\item In Ermangelung einer Staudenselerie mussten wir auf eine Scheibe einer Aloe vera zurückgreifen (Abbildung \ref{fig:2d_aloevera}). Man kann gut die Querschnittsform der beiden Stücke erkennen. Der Stofftransport findet in der äußeren Schicht statt, was am hellen Rand erkennbar ist.
+	\item Bei der Olive ist der Stein gut zu erkennen. Er besteht aus einer trockenen Schale und enthält im Inneren den Keimling, der viel Feuchtigkeit und Öle enthält. Um den Kern ist das ölhaltige Fruchtfleisch angesiedelt. 
+	\item Die Schale der Erdnuss ist sehr trocken und taucht daher im NMR-Bild nicht auf. Die untere Erdnuss ist gerade so ausgerichtet, dass der Luftspalt zwischen den beiden Hälften sichtbar ist. Am unteren Ende befindet sich der Keimling, weshalb dort viel Öl vorhanden ist.
+	\item In Ermangelung einer Staudenselerie mussten wir auf eine Sch
 \end{itemize}
 
 \begin{figure}[htbp]
@@ -491,13 +491,13 @@ Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw.
 		\centering
 		\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/peanut_shell.JPG}
 		\subcaption{Zwei Erdnüsse in der Schale}
-		\label{fig:2d_erdnuss}}
+		\label{fig:2d_teflon}}
 	\hfill  
 	\parbox{0.48\textwidth}{
 		\centering
 		\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/aloevera_2d.JPG}
 		\subcaption{Aloe vera im Querschnitt}
-		\label{fig:2d_aloevera}}
+		\label{fig:2d_olive}}
 		
 		}	
 		\caption{Zweidimensionale Aufnahmen von verschiedenen Objekten}

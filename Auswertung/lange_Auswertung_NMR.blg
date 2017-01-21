@@ -1,9 +1,9 @@
-[0] Config.pm:327> INFO - This is Biber 2.2
-[0] Config.pm:330> INFO - Logfile is 'lange_Auswertung_NMR.blg'
-[38] biber-MSWIN:283> INFO - === 
-[38] Biber.pm:334> INFO - Reading 'lange_Auswertung_NMR.bcf'
-[140] Biber.pm:677> INFO - Found 0 citekeys in bib section 0
-[140] Utils.pm:147> WARN - The file 'lange_Auswertung_NMR.bcf' does not contain any citations!
-[163] bbl.pm:505> INFO - Writing 'lange_Auswertung_NMR.bbl' with encoding 'UTF-8'
-[163] bbl.pm:596> INFO - Output to lange_Auswertung_NMR.bbl
-[165] Biber.pm:107> INFO - WARNINGS: 1
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'lange_Auswertung_NMR.blg'
+[53] biber:287> INFO - === Sa Jan 21, 2017, 17:57:57
+[171] Biber.pm:348> INFO - Reading 'lange_Auswertung_NMR.bcf'
+[365] Biber.pm:742> INFO - Found 0 citekeys in bib section 0
+[365] Utils.pm:147> WARN - The file 'lange_Auswertung_NMR.bcf' does not contain any citations!
+[373] bbl.pm:519> INFO - Writing 'lange_Auswertung_NMR.bbl' with encoding 'UTF-8'
+[375] bbl.pm:615> INFO - Output to lange_Auswertung_NMR.bbl
+[376] Biber.pm:109> INFO - WARNINGS: 1
