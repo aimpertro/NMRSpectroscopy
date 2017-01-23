@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  21 JAN 2017 23:45
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  18 JAN 2017 14:48
->>>>>>> origin/alex_main
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  23 JAN 2017 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1524,410 +1520,389 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
-
-(./lange_Auswertung_NMR.toc)
-\tf@toc=\write4
-\openout4 = `lange_Auswertung_NMR.toc'.
-
  [1
 
 
-{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<./Resources/magnetization_components.png, id=16, 226.59656pt x 261.22594pt>
+{c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./lange_Auswer
+tung_NMR.toc)
+\tf@toc=\write4
+\openout4 = `lange_Auswertung_NMR.toc'.
+
+ [2]
+<./Resources/magnetization_components.png, id=21, 226.59656pt x 261.22594pt>
 File: ./Resources/magnetization_components.png Graphic file (type png)
 
 <use ./Resources/magnetization_components.png>
 Package pdftex.def Info: ./Resources/magnetization_components.png used on input
- line 97.
+ line 99.
 (pdftex.def)             Requested size: 86.38419pt x 99.58464pt.
 
-<./Resources/larmor_precession.png, id=17, 223.58531pt x 261.97874pt>
+<./Resources/larmor_precession.png, id=22, 223.58531pt x 261.97874pt>
 File: ./Resources/larmor_precession.png Graphic file (type png)
 
 <use ./Resources/larmor_precession.png>
 Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 1
-05.
+07.
 (pdftex.def)             Requested size: 84.99059pt x 99.58464pt.
 
-<./Resources/hf_pulse.png, id=18, 694.84593pt x 293.59688pt>
+<./Resources/hf_pulse.png, id=23, 694.84593pt x 293.59688pt>
 File: ./Resources/hf_pulse.png Graphic file (type png)
 
 <use ./Resources/hf_pulse.png>
-Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 117.
+Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 119.
 (pdftex.def)             Requested size: 199.16928pt x 84.15532pt.
- [2 <./Resources/magnetization_components.png> <./Resources/larmor_precession.p
+ [3 <./Resources/magnetization_components.png> <./Resources/larmor_precession.p
 ng> <./Resources/hf_pulse.png>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 130.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 132.
 
 
 (c:/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 130--133
 
  []
 
-<./Resources/pulse_train.jpg, id=29, 2557.555pt x 1915.155pt>
+<./Resources/pulse_train.jpg, id=33, 2557.555pt x 1915.155pt>
 File: ./Resources/pulse_train.jpg Graphic file (type jpg)
 
 <use ./Resources/pulse_train.jpg>
-Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 142.
+Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 144.
 (pdftex.def)             Requested size: 156.49014pt x 117.1545pt.
 
-<./Resources/single_pulse_event.jpg, id=30, 2392.94pt x 1790.69pt>
+<./Resources/single_pulse_event.jpg, id=34, 2392.94pt x 1790.69pt>
 File: ./Resources/single_pulse_event.jpg Graphic file (type jpg)
 
 <use ./Resources/single_pulse_event.jpg>
 Package pdftex.def Info: ./Resources/single_pulse_event.jpg used on input line 
-149.
+151.
 (pdftex.def)             Requested size: 156.49014pt x 117.08202pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--150
+Underfull \hbox (badness 10000) in paragraph at lines 134--152
 
  []
 
-[3 <./Resources/pulse_train.jpg> <./Resources/single_pulse_event.jpg>]
-<./Resources/spin_ech_schematic.png, id=35, 792.71156pt x 758.835pt>
+[4 <./Resources/pulse_train.jpg> <./Resources/single_pulse_event.jpg>]
+<./Resources/spin_ech_schematic.png, id=39, 792.71156pt x 758.835pt>
 File: ./Resources/spin_ech_schematic.png Graphic file (type png)
 
 <use ./Resources/spin_ech_schematic.png>
 Package pdftex.def Info: ./Resources/spin_ech_schematic.png used on input line 
-190.
+192.
 (pdftex.def)             Requested size: 148.60886pt x 142.26378pt.
 
-<./Resources/spinecho_osci.jpg, id=36, 2653.915pt x 2015.53pt>
+<./Resources/spinecho_osci.jpg, id=40, 2653.915pt x 2015.53pt>
 File: ./Resources/spinecho_osci.jpg Graphic file (type jpg)
 
 <use ./Resources/spinecho_osci.jpg>
-Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 198.
+Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 200.
 (pdftex.def)             Requested size: 187.29135pt x 142.26378pt.
- [4 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>]
+ [5 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>] [6]
 Package epstopdf Info: Source file: <./Resources/t2_meas_p1.eps>
-(epstopdf)                    date: 2017-01-18 11:28:41
-(epstopdf)                    size: 18819 bytes
+(epstopdf)                    date: 2017-01-23 03:15:52
+(epstopdf)                    size: 18377 bytes
 (epstopdf)             Output file: <./Resources/t2_meas_p1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-18 11:29:15
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 7308 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p1-eps
 -converted-to.pdf ./Resources/t2_meas_p1.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 238.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Resources/t2_meas_p1-eps-converted-to.pdf, id=42, 542.025pt x 309.155pt>
+<./Resources/t2_meas_p1-eps-converted-to.pdf, id=49, 542.025pt x 309.155pt>
 File: ./Resources/t2_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_meas_p1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_meas_p1-eps-converted-to.pdf used on in
-put line 236.
+put line 238.
 (pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
 Package epstopdf Info: Source file: <./Resources/t2_meas_p3.eps>
-(epstopdf)                    date: 2017-01-18 11:28:41
-(epstopdf)                    size: 15136 bytes
+(epstopdf)                    date: 2017-01-23 03:15:52
+(epstopdf)                    size: 14764 bytes
 (epstopdf)             Output file: <./Resources/t2_meas_p3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 7132 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p3-eps
 -converted-to.pdf ./Resources/t2_meas_p3.eps>
-(epstopdf)             \includegraphics on input line 244.
+(epstopdf)             \includegraphics on input line 246.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Resources/t2_meas_p3-eps-converted-to.pdf, id=43, 542.025pt x 309.155pt>
+<./Resources/t2_meas_p3-eps-converted-to.pdf, id=50, 542.025pt x 309.155pt>
 File: ./Resources/t2_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_meas_p3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_meas_p3-eps-converted-to.pdf used on in
-put line 244.
+put line 246.
 (pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
- [5]
 Package epstopdf Info: Source file: <./Resources/t2_p1_cp.eps>
-(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 21761 bytes
 (epstopdf)             Output file: <./Resources/t2_p1_cp-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 19354 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p1_cp-eps-c
 onverted-to.pdf ./Resources/t2_p1_cp.eps>
-(epstopdf)             \includegraphics on input line 268.
+(epstopdf)             \includegraphics on input line 270.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Resources/t2_p1_cp-eps-converted-to.pdf, id=47, 505.89pt x 283.0575pt>
+<./Resources/t2_p1_cp-eps-converted-to.pdf, id=51, 505.89pt x 283.0575pt>
 File: ./Resources/t2_p1_cp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_p1_cp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_p1_cp-eps-converted-to.pdf used on inpu
-t line 268.
+t line 270.
 (pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 268--268
+Underfull \hbox (badness 2547) in paragraph at lines 270--270
 []\T1/cmr/bx/n/10 Abbildung 10: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
 Package epstopdf Info: Source file: <./Resources/t2_p3_cp.eps>
-(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 21750 bytes
 (epstopdf)             Output file: <./Resources/t2_p3_cp-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2017-01-18 11:28:41
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 19347 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p3_cp-eps-c
 onverted-to.pdf ./Resources/t2_p3_cp.eps>
-(epstopdf)             \includegraphics on input line 276.
+(epstopdf)             \includegraphics on input line 278.
 Package epstopdf Info: Output file is already uptodate.
-<./Resources/t2_p3_cp-eps-converted-to.pdf, id=48, 505.89pt x 283.0575pt>
+<./Resources/t2_p3_cp-eps-converted-to.pdf, id=52, 505.89pt x 283.0575pt>
 File: ./Resources/t2_p3_cp-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t2_p3_cp-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t2_p3_cp-eps-converted-to.pdf used on inpu
-t line 276.
+t line 278.
 (pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
 
-Underfull \hbox (badness 2547) in paragraph at lines 276--276
+Underfull \hbox (badness 2547) in paragraph at lines 278--278
 []\T1/cmr/bx/n/10 Abbildung 11: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
-[6 <./Resources/t2_meas_p1-eps-converted-to.pdf> <./Resources/t2_meas_p3-eps-co
+[7 <./Resources/t2_meas_p1-eps-converted-to.pdf> <./Resources/t2_meas_p3-eps-co
 nverted-to.pdf> <./Resources/t2_p1_cp-eps-converted-to.pdf> <./Resources/t2_p3_
 cp-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./Resources/t1_meas_p1.eps>
-(epstopdf)                    date: 2017-01-18 11:28:40
-(epstopdf)                    size: 17426 bytes
+(epstopdf)                    date: 2017-01-23 03:15:52
+(epstopdf)                    size: 17011 bytes
 (epstopdf)             Output file: <./Resources/t1_meas_p1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-18 11:28:40
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 7386 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p1-eps
 -converted-to.pdf ./Resources/t1_meas_p1.eps>
-(epstopdf)             \includegraphics on input line 299.
+(epstopdf)             \includegraphics on input line 301.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Resources/t1_meas_p1-eps-converted-to.pdf, id=82, 517.935pt x 309.155pt>
+<./Resources/t1_meas_p1-eps-converted-to.pdf, id=87, 517.935pt x 309.155pt>
 File: ./Resources/t1_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t1_meas_p1-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t1_meas_p1-eps-converted-to.pdf used on in
-put line 299.
+put line 301.
 (pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
 Package epstopdf Info: Source file: <./Resources/t1_meas_p3.eps>
-(epstopdf)                    date: 2017-01-18 11:28:40
-(epstopdf)                    size: 15644 bytes
+(epstopdf)                    date: 2017-01-23 03:15:52
+(epstopdf)                    size: 15263 bytes
 (epstopdf)             Output file: <./Resources/t1_meas_p3-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2017-01-18 11:28:40
+(epstopdf)                    date: 2017-01-23 03:15:52
 (epstopdf)                    size: 7198 bytes
 (epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p3-eps
 -converted-to.pdf ./Resources/t1_meas_p3.eps>
-(epstopdf)             \includegraphics on input line 307.
+(epstopdf)             \includegraphics on input line 309.
 Package epstopdf Info: Output file is already uptodate.
 
-<./Resources/t1_meas_p3-eps-converted-to.pdf, id=83, 517.935pt x 309.155pt>
+<./Resources/t1_meas_p3-eps-converted-to.pdf, id=88, 517.935pt x 309.155pt>
 File: ./Resources/t1_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./Resources/t1_meas_p3-eps-converted-to.pdf>
 Package pdftex.def Info: ./Resources/t1_meas_p3-eps-converted-to.pdf used on in
-put line 307.
+put line 309.
 (pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
- [7 <./Resources/t1_meas_p1-eps-converted-to.pdf> <./Resources/t1_meas_p3-eps-c
+ [8 <./Resources/t1_meas_p1-eps-converted-to.pdf> <./Resources/t1_meas_p3-eps-c
 onverted-to.pdf>]
-<./Resources/Tetramethylsilan.png, id=106, 213.79875pt x 150.5625pt>
+<./Resources/Tetramethylsilan.png, id=110, 213.79875pt x 150.5625pt>
 File: ./Resources/Tetramethylsilan.png Graphic file (type png)
 
 <use ./Resources/Tetramethylsilan.png>
 Package pdftex.def Info: ./Resources/Tetramethylsilan.png used on input line 35
-5.
-<<<<<<< HEAD
+7.
 (pdftex.def)             Requested size: 75.28293pt x 53.0147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 []\T1/cmr/bx/n/10 Abbildung 14:
  []
-=======
-(pdftex.def)             Requested size: 80.66028pt x 56.8031pt.
->>>>>>> origin/alex_main
 
-<./Resources/chem_shifts.png, id=108, 597.87pt x 469.755pt>
+<./Resources/chem_shifts.png, id=112, 597.87pt x 469.755pt>
 File: ./Resources/chem_shifts.png Graphic file (type png)
 
 <use ./Resources/chem_shifts.png>
-Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 373.
-<<<<<<< HEAD
+Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 375.
 (pdftex.def)             Requested size: 376.42744pt x 295.77519pt.
-=======
-(pdftex.def)             Requested size: 403.31511pt x 316.89891pt.
->>>>>>> origin/alex_main
- [8 <./Resources/Tetramethylsilan.png>]
-[9 <./Resources/chem_shifts.png>]
-<./Resources/toluol.png, id=118, 136.875pt x 66.795pt>
+ [9 <./Resources/Tetramethylsilan.png>]
+[10 <./Resources/chem_shifts.png>]
+<./Resources/toluol.png, id=122, 136.875pt x 66.795pt>
 File: ./Resources/toluol.png Graphic file (type png)
 
 <use ./Resources/toluol.png>
-Package pdftex.def Info: ./Resources/toluol.png used on input line 391.
+Package pdftex.def Info: ./Resources/toluol.png used on input line 393.
 (pdftex.def)             Requested size: 34.98306pt x 17.07182pt.
 
-<./Resources/p-xylol.png, id=119, 220.095pt x 58.5825pt>
+<./Resources/p-xylol.png, id=123, 220.095pt x 58.5825pt>
 File: ./Resources/p-xylol.png Graphic file (type png)
 
 <use ./Resources/p-xylol.png>
-Package pdftex.def Info: ./Resources/p-xylol.png used on input line 392.
+Package pdftex.def Info: ./Resources/p-xylol.png used on input line 394.
 (pdftex.def)             Requested size: 64.13823pt x 17.07182pt.
 
-<./Resources/acetic_acid.png, id=120, 194.3625pt x 45.4425pt>
+<./Resources/acetic_acid.png, id=124, 194.3625pt x 45.4425pt>
 File: ./Resources/acetic_acid.png Graphic file (type png)
 
 <use ./Resources/acetic_acid.png>
-Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 393.
+Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 395.
 (pdftex.def)             Requested size: 73.01921pt x 17.07182pt.
 
-<./Resources/fluoroacetone.png, id=121, 254.04pt x 52.0125pt>
+<./Resources/fluoroacetone.png, id=125, 254.04pt x 52.0125pt>
 File: ./Resources/fluoroacetone.png Graphic file (type png)
 
 <use ./Resources/fluoroacetone.png>
-Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 394.
+Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 396.
 (pdftex.def)             Requested size: 83.37991pt x 17.07182pt.
 
-<./Resources/fluoroacetonitril.png, id=122, 171.3675pt x 49.275pt>
+<./Resources/fluoroacetonitril.png, id=126, 171.3675pt x 49.275pt>
 File: ./Resources/fluoroacetonitril.png Graphic file (type png)
 
 <use ./Resources/fluoroacetonitril.png>
 Package pdftex.def Info: ./Resources/fluoroacetonitril.png used on input line 3
-95.
+97.
 (pdftex.def)             Requested size: 59.37286pt x 17.07182pt.
-<<<<<<< HEAD
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 440--440
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, Peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, bei-de
  []
 
-[10 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_acid
+[11 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_acid
 .png> <./Resources/fluoroacetone.png> <./Resources/fluoroacetonitril.png>]
-[11] [12] [13] <./Resources/2d_imaging.png, id=139, 419.5675pt x 384.43625pt>
-=======
- [10 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_aci
-d.png> <./Resources/fluoroacetone.png> <./Resources/fluoroacetonitril.png>] [11
-] [12] [13]
-<./Resources/2d_imaging.png, id=139, 419.5675pt x 384.43625pt>
->>>>>>> origin/alex_main
+[12] [13] [14] <./Resources/2d_imaging.png, id=143, 419.5675pt x 384.43625pt>
 File: ./Resources/2d_imaging.png Graphic file (type png)
 
 <use ./Resources/2d_imaging.png>
-Package pdftex.def Info: ./Resources/2d_imaging.png used on input line 560.
+Package pdftex.def Info: ./Resources/2d_imaging.png used on input line 562.
 (pdftex.def)             Requested size: 227.62204pt x 208.56036pt.
-<<<<<<< HEAD
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 567.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 569.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 567.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 569.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 567.
+(Font)              using `OMS/cmsy/m/n' instead on input line 569.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 567.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 569.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 567.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 569.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 567.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 569.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 567.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 569.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 574.
-[14 <./Resources/2d_imaging.png>]
-<./Resources/Teil_3/oeldiff_chinchilla.jpg, id=145, 1674.255pt x 836.12375pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 576.
+[15 <./Resources/2d_imaging.png>]
+<./Resources/Teil_3/oeldiff_chinchilla.jpg, id=149, 1674.255pt x 836.12375pt>
 File: ./Resources/Teil_3/oeldiff_chinchilla.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_chinchilla.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_chinchilla.jpg used on inpu
-t line 591.
+t line 593.
 (pdftex.def)             Requested size: 334.60571pt x 167.0942pt.
 
-<./Resources/Teil_3/oeldiff_papa.jpg, id=146, 1686.3pt x 951.555pt>
+<./Resources/Teil_3/oeldiff_papa.jpg, id=150, 1686.3pt x 951.555pt>
 File: ./Resources/Teil_3/oeldiff_papa.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_papa.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_papa.jpg used on input line
- 597.
+ 599.
 (pdftex.def)             Requested size: 334.60571pt x 188.8121pt.
 
-Overfull \hbox (4.50606pt too wide) in paragraph at lines 608--609
+Overfull \hbox (4.50606pt too wide) in paragraph at lines 610--611
 [] \T1/cmss/bx/n/10.95 Zwei-di-men-sio-na-le Bild-ge-bung[][] \T1/cmr/m/n/10.95
  Fol-gen-de Mes-sun-gen wer-den mit-tels 2-D-Fouriermethode
  []
 
-[15] [16 <./Resources/Teil_3/oeldiff_chinchilla.jpg> <./Resources/Teil_3/oeldif
+[16] [17 <./Resources/Teil_3/oeldiff_chinchilla.jpg> <./Resources/Teil_3/oeldif
 f_papa.jpg>]
-<./Resources/Teil_3/oel_horizontal.JPG, id=153, 455.45157pt x 341.77687pt>
+<./Resources/Teil_3/oel_horizontal.JPG, id=157, 455.45157pt x 341.77687pt>
 File: ./Resources/Teil_3/oel_horizontal.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_horizontal.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/oel_horizontal.JPG used on input li
-ne 629.
+ne 631.
 (pdftex.def)             Requested size: 200.76086pt x 150.65346pt.
 
-<./Resources/Teil_3/oel_vert.JPG, id=154, 453.19313pt x 344.03531pt>
+<./Resources/Teil_3/oel_vert.JPG, id=158, 453.19313pt x 344.03531pt>
 File: ./Resources/Teil_3/oel_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_vert.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 635
+Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 637
 .
 (pdftex.def)             Requested size: 200.76086pt x 152.4049pt.
 
-<./Resources/Teil_3/ptfe_vert.JPG, id=155, 456.20438pt x 342.5297pt>
+<./Resources/Teil_3/ptfe_vert.JPG, id=159, 456.20438pt x 342.5297pt>
 File: ./Resources/Teil_3/ptfe_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/ptfe_vert.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/ptfe_vert.JPG used on input line 64
-3.
+5.
 (pdftex.def)             Requested size: 200.76086pt x 150.73444pt.
 
-<./Resources/Teil_3/olive_2d.JPG, id=156, 504.88625pt x 391.4625pt>
+<./Resources/Teil_3/olive_2d.JPG, id=160, 504.88625pt x 391.4625pt>
 File: ./Resources/Teil_3/olive_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/olive_2d.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 649
+Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 651
 .
 (pdftex.def)             Requested size: 200.76086pt x 155.66234pt.
 
-<./Resources/Teil_3/peanut_shell.JPG, id=157, 456.95718pt x 344.03531pt>
+<./Resources/Teil_3/peanut_shell.JPG, id=161, 456.95718pt x 344.03531pt>
 File: ./Resources/Teil_3/peanut_shell.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/peanut_shell.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/peanut_shell.JPG used on input line
- 657.
+ 659.
 (pdftex.def)             Requested size: 200.76086pt x 151.15027pt.
 
-<./Resources/Teil_3/aloevera_2d.JPG, id=158, 453.94594pt x 346.29375pt>
+<./Resources/Teil_3/aloevera_2d.JPG, id=162, 453.94594pt x 346.29375pt>
 File: ./Resources/Teil_3/aloevera_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/aloevera_2d.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/aloevera_2d.JPG used on input line 
-663.
+665.
 (pdftex.def)             Requested size: 200.76086pt x 153.15175pt.
 
 
-LaTeX Warning: Float too large for page by 8.73328pt on input line 669.
+LaTeX Warning: Float too large for page by 8.73328pt on input line 671.
 
-[17] [18 <./Resources/Teil_3/oel_horizontal.JPG> <./Resources/Teil_3/oel_vert.J
+[18] [19 <./Resources/Teil_3/oel_horizontal.JPG> <./Resources/Teil_3/oel_vert.J
 PG> <./Resources/Teil_3/ptfe_vert.JPG> <./Resources/Teil_3/olive_2d.JPG> <./Res
-ources/Teil_3/peanut_shell.JPG> <./Resources/Teil_3/aloevera_2d.JPG>] [19]
+ources/Teil_3/peanut_shell.JPG> <./Resources/Teil_3/aloevera_2d.JPG>]
 (./lange_Auswertung_NMR.aux)
-=======
- [14 <./Resources/2d_imaging.png>] [15]
-[16] (./lange_Auswertung_NMR.aux)
->>>>>>> origin/alex_main
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1936,21 +1911,13 @@ Package logreq Info: Writing requests to 'lange_Auswertung_NMR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 27386 strings out of 493054
- 526520 string characters out of 6138326
- 1005974 words of memory out of 5000000
- 30551 multiletter control sequences out of 15000+600000
- 27620 words of font info for 75 fonts, out of 8000000 for 9000
-=======
- 27296 strings out of 493054
- 524129 string characters out of 6138326
- 1004301 words of memory out of 5000000
- 30471 multiletter control sequences out of 15000+600000
- 26861 words of font info for 74 fonts, out of 8000000 for 9000
->>>>>>> origin/alex_main
+ 27518 strings out of 493054
+ 528935 string characters out of 6138326
+ 1005989 words of memory out of 5000000
+ 30681 multiletter control sequences out of 15000+600000
+ 29079 words of font info for 77 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 56i,21n,56p,10435b,1437s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,21n,56p,10435b,1638s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2015/texmf-dist
@@ -1963,38 +1930,25 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2015/texmf-dist/fonts/type1
 /public/cm-super/sfbx1000.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm
--super/sfrm0600.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfr
-m0800.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-<c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texliv
-e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2015/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2015/texmf-dist/fo
-<<<<<<< HEAD
-nts/type1/public/cm-super/sfss0800.pfb><c:/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfss1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfsx1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx
-1200.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><
-c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2015/texm
-f-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2015/texmf-dist/fon
-ts/type1/public/cm-super/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (19 pages, 2609181 bytes).
+-super/sfbx1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfc
+c1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb>
+<c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texliv
+e/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2015/tex
+mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2015/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/
+public/cm-super/sfrm1440.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-
+super/sfss0800.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss
+1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><
+c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive
+/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2015/texm
+f-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fon
+ts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2015/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on lange_Auswertung_NMR.pdf (19 pages, 2649791 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 263 PDF objects out of 1000 (max. 8388607)
+ 171 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-nts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/
-public/cm-super/sfsx1200.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-
-super/sfsx1440.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx
-2074.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><
-c:/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive
-/2015/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (16 pages, 2017373 bytes).
-PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/alex_main
 

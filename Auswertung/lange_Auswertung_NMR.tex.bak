@@ -4,7 +4,7 @@
 \usepackage[ngerman]{babel} % Anpassung des Dokumants deutsche Richtlinien
 
 \usepackage[babel, german=guillemets]{csquotes}
-\usepackage[backend=biber]{biblatex}
+\usepackage{biblatex}
 \bibliography{lit_nmr} %Neues Quellenverzeichnis einfügen!
 
 \usepackage{url} %Einbinden von Hyperlinks
@@ -14,7 +14,6 @@
 \usepackage{setspace} % Anpassung des Zeilenabstandes, Befehl muss vor der Berechnung des Satzspiegels gesetzt werden.
 
 \usepackage{amsmath} % Ganz praktisch für Mathesachen
-\usepackage{mathtools}
 \usepackage[version=4]{mhchem}  % Für chemische Strukturformeln und Reaktionsgleichungen
 \usepackage{nicefrac} %schöne Brüche für Fließtext, ohne Mathemodus
 
@@ -43,7 +42,6 @@
 %###############################################################################
 
 
-\newcommand{\nl}{\, \newline}
 \newcommand{\err}[2]{( #1 \, \pm \, #2 )} % Formatierungen für den Mathemodus. Helfen, Messergebnisse und Einheiten zu formatieren. Außerhalb des Mathemodus bitte \SI verwenden!
 \newcommand{\um}{\: \mathrm{\mu m}}
 \newcommand{\mm}{\, \mathrm{mm}}
@@ -51,8 +49,6 @@
 \newcommand{\cm}{\, \mathrm{cm}}
 \newcommand{\nn}{\, \mathrm{nN}}
 \newcommand{\us}{\, \mathrm{\mu s}}
-\newcommand{\ms}{\, \mathrm{ms}}
-\newcommand{\be}{\, \mathrm{b.E.}}
 \newcommand{\npm}{\, \mathrm{N/m}}
 
 \begin{document}
@@ -60,22 +56,17 @@
 \title{F61: Nuclear Magnetic Resonance}
 \subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Durchgeführt am 12. und 13. Dezember 2016 \newline Betreuer: Jeremy Wilkinson -- testiert am:}}
 \maketitle
-
+\tableofcontents
 
 \brokenpenalty=1000 %Verhindert Zeilenumbrüche über einen Seitenumbruch
 \widowpenalty1000 %Verhindert Hurenkinder
 \clubpenalty1000 %Verhindert Schusterjungen
 
-
-\begin{abstract}
-
-
-	\textbf{Abstract:} The goal of this advanced lab course was to study the basic principles of nuclear magnetic resonance spectroscopy (NMR spectroscopy). This technique is used in chemistry and biochemistry to determine the properties of organic molecules. The lab course is divided into three parts: In the first part we made ourselves familiar with the experimental setup and measured the spin-lattice relaxation time $T_1$ and the spin-spin relaxation time $T_2$ by using the spin echo method as well as the Carr-Purcell method. In the second part we identified five different organic substances by determining the chemical  shift. In the last part we used a newer Bruker NMR analyzer for one dimensional and two dimensional imaging. We examined the dispersal of oil in sand and found out that it is an infiltration process rather than a diffusion process. Finally, we took 2d-pictures of different organic objects.
-\end{abstract}
-
 \newpage
 
-\tableofcontents
+\begin{abstract}
+	The goal of this advanced lab course was to study the basic principles of nuclear magnetic resonance spetroskopy (NMR spectroscopy). This technique is used in chemistry and biochemistry to determine the properties of organic molecules. The lab course is devided into three parts: In the first part we made ourselves familiar with the experimental setup and meassured the spin-lattice relaxation time $T_1$ and the spin-spin relaxation time $T_2$ by using the spin echo method as well as the Carr-Purcell method. In the second part we identified five different organic substanced by determining the chemical  shift. In the last part we used a newer Bruker NMR analyzer for one dimensional and two dimensional imaging. We examined the dispersal of oil in sand and found out that is an infiltration process rather than a diffusion process 
+\end{abstract}
 
 \newpage
 
@@ -83,38 +74,32 @@
 
 \subsection{Grundlagen der NMR-Spektroskopie}
 
-Kerne mit einem Spin $J$ tragen ein magnetisches Dipolmoment $\mu$, welches in einem magnetischen Feld eine potentielle Energie hat.
+Kerne mit einem Spin $J$ haben ein magnetisches Dipolmoment $\mu$, welches in einem magnetischen Feld eine potentielle Energie hat.
+%%%% Bei der Gleichung stimmt was nicht! (Vektor!)
 \begin{equation}
-	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma J
+	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma \vec{J}
 \end{equation}
 Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richtet sich das Dipolmoment entweder parallel (bevorzugt), oder antiparallel zu den magnetischen Feldlinien aus. In einem makroskopischen Ensemble aus $N$ Protonen erhalten wir damit eine messbare Magnetisierung $\vec{M}$.
-\begin{figure}[H]
+\begin{figure}[!htb]
 	\centering
-	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
-	\parbox{70mm}{
-		\centering
-		\includegraphics[height=35mm]{./Resources/magnetization_components.png}
-		\caption{Zerlegung der Magnetisierung \autocite{skript}}
-		\label{fig:mag_components}
-	}
-	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
-	\hspace*{\fill}
-	\parbox{70mm}{
-		\centering
-		\includegraphics[height=35mm]{./Resources/larmor_precession.png}
-		\caption{Larmor-Präzession von $M_{\perp}$ \autocite{skript}}
-		\label{fig:larmor}
-	}
+	\includegraphics[width=30mm]{./Resources/magnetization_components.png}
+	\caption{Zerlegung der Magnetisierung in Komponenten \autocite{skript}}
 \end{figure}
 
-Im Grundzustand ist die Magnetisierung parallel zu den Feldlinien, in angeregten Zuständen können wir diese in einen Anteil $M_{\perp}$ senkrecht und $M_{\parallel}$ parallel zu den Feldlinien aufspalten (s. Abb. \ref{fig:mag_components}). Angeregte Zustände zerfallen dabei auf einer charakteristischen Zeitskala in den Grundzustand.
+Im Grundzustand ist die Magnetisierung parallel zu den Feldlinien, in angeregten Zuständen können wir diese in einen Anteil $M_{\perp}$ senkrecht und $M_{\parallel}$ parallel zu den Feldlinien aufspalten. Angeregte Zustände zerfallen dabei auf einer charakteristischen Zeitskala in den Grundzustand.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=30mm]{./Resources/larmor_precession.png}
+	\caption{Larmor-Präzession von $M_{\perp}$ \autocite{skript}}
+\end{figure}
 
-Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\vec{M}$ führt zu einem Drehmoment $\vec{\tau}$, wodurch $M_{\perp}$ mit einer Winkelfrequenz $\omega_{L}$ um $\vec{B_0}$ präzediert (s. Abb. \ref{fig:larmor}). Diese sogenannte Larmorfrequenz ist gegeben durch:
+Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\vec{M}$ führt zu einem Drehmoment $\vec{\tau}$, wodurch $M_{\perp}$ mit einer Winkelfrequenz $\omega_{L}$ um $\vec{B_0}$ präzediert. Diese sogenannte Larmorfrequenz ist gegeben durch:
 \begin{equation}
 \omega_{L} = \gamma B_0
 \label{eq:larmor_freq}
 \end{equation}
-\begin{figure}[H]
+
+\begin{figure}[!htb]
 	\centering
 	\includegraphics[width=70mm]{./Resources/hf_pulse.png}
 	\caption{Hochfrequenzpuls zur Rotation der Magnetisierung \autocite{skript}}
@@ -133,7 +118,7 @@ Zunächst müssen die im Gerät als \texttt{PULS I} und \texttt{PULS II} ausgeze
 
 Um nun die Pulse zu kalibrieren, wird das in der Spule induzierte Signal auf dem Oszilloskop beobachtet (s. Abb. \ref{fig:pulse_induced}). \texttt{PULS I} entspricht genau dann einer Drehung um $90^\circ$, wenn die Anstiegsflanke des Pulses maximal steil ist, \texttt{PULS II} einer Drehung um $180^\circ$, wenn die Flanke möglichst flach ist.
 \newline
-\begin{figure}[H]
+\begin{figure}[!htb]
 	\centering
 	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
 	\parbox{60mm}{
@@ -180,155 +165,38 @@ Die zeitliche Entwicklung einer transversalen Magnetisierung ergibt sich aus der
 M_{\perp}(t) = M_{\perp}^0 e^{-\frac{t}{T_2}}
 \end{equation}
 
-Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden (s. Abb. \ref{fig:spinecho_bloch}).
+Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden.
+\newline
 \begin{figure}[!htb]
 	\centering
-	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
-	\parbox{70mm}{
-		\centering
-		\includegraphics[height=50mm]{./Resources/spin_ech_schematic.png}
-		\caption{Prinzip der Spin-Echo Methode \autocite{skript}}
-		\label{fig:spinecho_bloch}
-	}
-	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
-	\hspace*{\fill}
-	\parbox{70mm}{
-		\centering
-		\includegraphics[height=50mm]{./Resources/spinecho_osci.jpg}
-		\caption{Spin-Echo Messung mit $\tau=10ms$}
-		\label{fig:spinecho_osci}
-	}
+	\includegraphics[width=80mm]{./Resources/spin_ech_schematic.png}
+	\caption{Prinzip der Spin-Echo Methode \autocite{skript}}
+	\label{fig:spinecho_bloch}
 \end{figure}
 
 Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung dann, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}).
+\newline
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=80mm]{./Resources/spinecho_osci.jpg}
+	\caption{Spin-Echo Messung mit $\tau=10ms$}
+	\label{fig:spinecho_osci}
+\end{figure}
 
-Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also Punkte des Zerfallsgesetztes in Gl. (6) aufgenommen werden. 
+Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also Punkte des Zerfallsgesetztes in Gl. (6) aufgenommen werden.
 Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T_2$.
-
+\newline\newline
 Diese Limitation kann durch Verwendung einer sogenannten Carr-Purcell Sequenz minimiert werden. Hierbei wird wie gehabt mit einem $90^\circ$-Puls gestartet, und nach allen ungeraden Vielfachen einer kurzen Zeit $\tau$ wird ein $180^\circ$-Puls angelegt. Zu allen geraden Vielfachen von $\tau$ ist das System phasenkohärent, und wir können die Relaxation der Magnetisierung mit einer höheren Genauigkeit messen.
-
+\newline\newline
 Die zeitliche Entwicklung einer antiparallelen Magnetisierung ergibt sich aus der Lösung von Gl. (5) zu:
 \begin{equation}
 M_{\parallel}(t) = M_{\parallel}^0(1-2e^{-\frac{t}{T_1}})
 \end{equation}
-Die Spin-Gitter Relaxationszeit $T_1$ kann bestimmt werden, in dem zunächst mit eine, $180^\circ$-Puls gestartet wird. Diese Magnetisierung produziert kein Signal, weshalb nach einer Zeit $t=\tau$ ein $90^\circ$-Puls zur Messung angelegt werden muss. Ähnlich der Spin-Echo Methode können nun unterschiedliche Punkte der Zerfallskurve durch Messung bei variablen Werten von $\tau$ bestimmt werden.
+Die Spin-Gitter Relaxationszeit $T1$ kann bestimmt werden, in dem zunächst mit eine, $180^\circ$-Puls gestartet wird. Diese Magnetisierung produziert kein Signal, weshalb nach einer Zeit $t=\tau$ ein $90^\circ$-Puls zur Messung angelegt werden muss. Ähnlich der Spin-Echo Methode können nun unterschiedliche Punkte der Zerfallskurve durch Messung bei variablen Werten von $\tau$ bestimmt werden.
 
 \subsubsection{Durchführung}
 
-Zunächst wird mithilfe der Spin-Echo Methode die Relaxationszeit $T_2$ bestimmt. Als Pulssequenz wählen wir die \texttt{I-II}-Folge mit $\tau = 10ms$ und einer Wiederholrate von $1/3Hz$. Mittels LabView-Programm wird in einer Messreihe mit zehn Punkten die Amplitude der Spin-Echo-Einhüllenden als Funktion von $\tau$ gemessen. Das Programm ermittelt die Amplitude durch Transformation des Signals in den Frequenzraum, wobei für ein lineares Signal-zu-Rausch Verhältnis (SNR) jeweils automatisch über zehn Messungen gemittelt wird. Weil die Trial-to-trial variability zum Teil deutlich größer als die angegebene Standardabweichung war, haben wir jeden Datenpunkt mehrmals gemessen.
-
-Für Probe 1 (Gd 1:500) ergibt sich durch exponentiellen Fit (s. Abb. \ref{fig:t2_p1}):
-\begin{enumerate}
-	\item[] $T_2 = \err{119,5}{0,5} \ms$
-	\item[] $A = \err{8,6}{0,0} \be$
-\end{enumerate}
-Analog dazu ergibt sich für Probe 3 (Gd 1:600) (s. Abb. \ref{fig:t2_p3}):
-\begin{enumerate}
-	\item[] $T_2 = \err{139,3}{0,8} \ms$
-	\item[] $A = \err{8,1}{0,0} \be$
-\end{enumerate}
-\begin{figure}[H]
-	\centering
-	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t2_meas_p1.eps}
-		\caption{T2-Messung Probe 1 mit Fit.}
-		\label{fig:t2_p1}
-	}
-	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
-	\hspace*{\fill}
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t2_meas_p3.eps}
-		\caption{T2-Messung Probe 3 mit Fit.}
-		\label{fig:t2_p3}
-	}
-\end{figure}
-
-Zum Vergleich wird die Relaxationszeit $T_2$ mittels einer Carr-Purcell-Sequenz gemessen. Im LabView-Programm wird über 10 Messungen gemittelt, die Zeitdifferenz zwischen den Pulsen beträgt $\tau = 20ms$.
-
-Für Probe 1 (Gd 1:500) ergibt sich durch exponentiellen Fit (s. Abb. \ref{fig:t2_p1_cp}):
-\begin{enumerate}
-	\item[] $T_2 = \err{140,1}{0,4} \ms$
-	\item[] $A = \err{92,8}{0,4} \be$
-\end{enumerate}
-Analog dazu ergibt sich für Probe 3 (Gd 1:600) (s. Abb. \ref{fig:t2_p3_cp}):
-\begin{enumerate}
-	\item[] $T_2 = \err{166,9}{0,4} \ms$
-	\item[] $A = \err{93,9}{0,2} \be$
-\end{enumerate}
-
-\begin{figure}[H]
-	\centering
-	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t2_p1_cp.eps}
-		\caption{T2-Messung über Carr-Purcell Probe 1 mit Fit.}
-		\label{fig:t2_p1_cp}
-	}
-	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
-	\hspace*{\fill}
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t2_p3_cp.eps}
-		\caption{T2-Messung über Carr-Purcell Probe 3 mit Fit.}
-		\label{fig:t2_p3_cp}
-	}
-\end{figure}
-Anschließend wird die Spin-Gitter Relaxationszeit $T_1$ bestimmt, wobei das Messprinzip identisch zur ersten Messung von $T_2$ ist. Die Parameter bleiben unverändert.
-
-Für Probe 1 (Gd 1:500) ergibt sich durch exponentiellen Fit (s. Abb. \ref{fig:t1_p1}):
-\begin{enumerate}
-	\item[] $T_1 = \err{125,5}{0,6} \ms$
-	\item[] $A = \err{3,79}{0,02} \be$
-\end{enumerate}
-Analog dazu ergibt sich für Probe 3 (Gd 1:600) (s. Abb. \ref{fig:t1_p3}):
-\begin{enumerate}
-	\item[] $T_1 = \err{150,5}{1,2} \ms$
-	\item[] $A = \err{4,17}{0,03} \be$
-\end{enumerate}
-
-\begin{figure}[H]
-	\centering
-	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t1_meas_p1.eps}
-		\caption{T1-Messung Probe 1 mit Fit.}
-		\label{fig:t1_p1}
-	}
-	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
-	\hspace*{\fill}
-	\parbox{70mm}{
-		\centering
-		\includegraphics[width=70mm]{./Resources/t1_meas_p3.eps}
-		\caption{T1-Messung Probe 3 mit Fit.}
-		\label{fig:t1_p3}
-	}
-\end{figure}
-
-\subsubsection{Auswertung}
-
-In Tabelle \ref{tab:relaxtimes} sind unsere Messungen für die Relaxationszeiten $T_1$ und $T_2$ zusammengefasst.
-
-\begin{table}[H] 
-	\centering
-	\caption{Strukturparameter der Kalibrationsgitter}
-	\label{tab:relaxtimes}
-	\begin{tabular}{cccc}
-		\toprule
-		Zeit & T1 [$\mathrm{ms}$] & T2 [$\mathrm{ms}$] & T2 [$\mathrm{ms}$]\\
-		Methode & Spin-Echo & Spin-Echo & Carr-Purcell\\
-		\midrule
-		Probe 1 (Gd 1:500)& $\err{125,5}{0,6}$ & $\err{119,5}{0,5}$ & $\err{140,1}{0,4}$\\
-		Probe 3 (Gd 1:600)& $\err{150,5}{1,2}$ & $\err{139,3}{0,8}$ & $\err{166,9}{0,4}$\\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-Es fällt auf, dass ...
+Zunächst wird mithilfe der Spin-Echo Methode die Relaxationszeit $T2$ bestimmt.
 
 \newpage
 
@@ -524,45 +392,7 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Theorie}
 
-Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werdem dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$ Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und die Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
-
-\paragraph{Eindimensionale Bildgebung}
-
-Im eindimensionalen Fall wird ein Gradientenfeld verwendet, wodurch die Larmorfrequenz ortsabhängig wird. Im Folgenden soll das Verfahren anhand einer Aufnahme in z-Richtung vorgestellt werden.
-
-Die Larmorfrequenz folgt dann dem Zusammenhang:
-
-\begin{equation}
-	\omega_L = \gamma (B_0 + G^z \cdot z) = \omega_L^0 + \omega_z
-	\label{eq:larmor_mod}
-\end{equation}
-
-Um nun das NMR-Signal aufzunehmen, können zwei verschiedene Verfahren verwendet werden: \textit{Frequenzkodierung} und \textit{Phasenkodierung}.
-
-Bei der Frequenzkodierung wird das NMR-Signal als Funktion der Zeit aufgenommen. Die transversale Magnetisierung $M_{\perp}^{rot}(z)$ am Ort z präzediert mit der Larmor-Frequenz aus Gl. \eqref{eq:larmor_mod}. Wird das Signal innerhalb einer Zeit aufgenommen, die im Vergleich zur Relaxationszeit $T_2$ klein ist, bleibt die transversale Magnetisierung $M_{\perp}^{rot}(z)$ annähernd konstant und ist nur ortsabhängig. Das gemessene Signal $S(t)$ ist dann die eindimensionale Fouriertransformation von $M_{\perp}^{rot}(z)$. Damit kann über eine Rücktransformation des NMR-Signals auf die transversale Magnetisierung geschlossen werden.
-
-In der Praxis wird das NMR-Signal in festgelegten Zeitschritten abgetastet, wodurch eine Menge von N Datenpunkten ${S_N(N \Delta t)}$ aufzeichnet wird. Eine diskrete Fouriertransformation liefert dann die Menge $M_N=M_{\perp}(N \Delta z)$.
-
-Im Gegensatz dazu wird bei der Phasenkodierung ein Gradientenfeld angelegt, dessen Stärke in linearen Schritten $\Delta G^z$ erhöht wird. Innerhalb eines Zeitintervalls $T_{Ph}$ vor Abtasten des Signals wird ein Gradientenfeld $B^z = G^z z$ angelegt, wodurch die Phase
-\begin{equation}
-	\phi (z) = (\gamma G^z T_{Ph})z \coloneqq k_z z
-\end{equation}
-am Ort z angenommen wird. Nach Abschalten des Gradienten präzedieren die Komponenten wieder mit der originalen Larmorfrequenz $\omega_{L}^0$, aber mit einem unterschiedlichen Phasenwinkel. Es werden zum Zeitpunkt $t_0$ $N$ Datenpunkte mit unterschiedlichen Ortsfrequenzen $k_n=n\Delta k$ aufgenommen. Eine Fouriertransformation liefert dann wieder die transversale Magnetisierung $M_{\perp}^{rot}(z)$.
-
-Beide Methoden sind mathematisch äquivalent. Der einzige Unterschied besteht in der Tatsache, dass bei der Frequenzkodierung alle Datenpunkte in einer Sequenz aufgenommen werden können, wohingegen bei der Phasenkodierung $N$ Sequenzen notwendig sind.
-
-\paragraph{Zweidimensionale Bildgebung}
-
-Zur Aufnahme eines zweidimensionalen NMR-Bildes werden alle drei Gradientenfelder verwendet. Zunächst muss in z-Richtung eine dünne Scheibe des Samples selektiv angeregt werden. Liegen ihre Koordinaten im Bereich $z_1 \leq z \leq z_2$, so sind die Begrenzungen durch die Larmorfrequenzen $\omega_1$ und $\omega_2$ charakterisiert. Wird nun ein Hochfrequenzpuls auf die Probe gegeben, der nur Frequenzen $\omega$ innerhalb dieses Bereichs enthält, kann die gewünschte Scheibe selektiv angeregt werden. 
-
-Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinformation aus einer Kombination von Phasenkodierung in x-Richtung und Frequenzkodierung in y-Richtung abgeleitet werden. Die Messsequenz wird $N$-Mal für unterschiedliche Phasengradienten wiederholt, wobei jede Sequenz $M$ Datenpunkte liefert. Aus dieser Matrix von $N x M$ Datenpunkten kann nun über eine zweidimensionale Fouriertransformation das NMR-Bild errechnet werden. Die zeitliche Abfolge der Pulse und des Messignals ist in Abb. \ref{fig:2d_imaging} veranschaulicht.
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=80mm]{./Resources/2d_imaging.png}
-	\caption{Pulsfolge zur Aufnahme eines zweidimensionalen Bildes.}
-	\label{fig:2d_imaging}
-\end{figure}
+\newpage
 
 \subsubsection{Durchführung und Auswertung}
 
@@ -605,7 +435,7 @@ Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in 
 	
 \end{figure}
 
-\paragraph{Zweidimensionale Bildgebung}
+\paragraph{zweidimensionale Bildgebung}
 
 Folgende Messungen werden mittels 2-D-Fouriermethode durchgeführt:
 

@@ -16,5 +16,39 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{TMS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=819e1c8fc58990f04441220fa5f2f7f3}{Enzyklopedie}{E\bibinitperiod}{Wikipedia\bibnamedelima -}{W\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim \bibinitperiod}{die\bibnamedelima freie}{d\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+      }
+      \strng{namehash}{819e1c8fc58990f04441220fa5f2f7f3}
+      \strng{fullhash}{819e1c8fc58990f04441220fa5f2f7f3}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tetramethylsilan}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Tetramethylsilan
+      \endverb
+    \endentry
+    \entry{skript}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c939c568cb028c9752fb4a146a1491a3}{Schicker}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c939c568cb028c9752fb4a146a1491a3}
+      \strng{fullhash}{c939c568cb028c9752fb4a146a1491a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nuclear Magnetic Resonance F61/F62}
+      \field{year}{2010}
+    \endentry
+  \endsortlist
+\endrefsection
 \endinput
 
