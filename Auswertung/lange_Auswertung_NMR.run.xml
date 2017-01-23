@@ -80,7 +80,7 @@
       <file>lange_Auswertung_NMR.bcf</file>
     </requires>
     <requires type="editable">
-      <file>lit_afm.bib</file>
+      <file>lit_nmr.bib</file>
     </requires>
   </external>
 </requests>

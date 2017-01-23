@@ -5,7 +5,7 @@
 
 \usepackage[babel, german=guillemets]{csquotes}
 \usepackage{biblatex}
-\bibliography{lit_afm} %Neues Quellenverzeichnis einfügen!
+\bibliography{lit_nmr} %Neues Quellenverzeichnis einfügen!
 
 \usepackage{url} %Einbinden von Hyperlinks
 \usepackage{mdwlist} % Für Listen ohne Abstand zwischen den Aufzählungspunkten.
@@ -56,22 +56,22 @@
 \title{F61: Nuclear Magnetic Resonance}
 \subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Durchgeführt am 12. und 13. Dezember 2016 \newline Betreuer: Jeremy Wilkinson -- testiert am:}}
 \maketitle
-\tableofcontents
+
 
 \brokenpenalty=1000 %Verhindert Zeilenumbrüche über einen Seitenumbruch
 \widowpenalty1000 %Verhindert Hurenkinder
 \clubpenalty1000 %Verhindert Schusterjungen
 
+
+\begin{abstract}
+
+
+	\textbf{Abstract:} The goal of this advanced lab course was to study the basic principles of nuclear magnetic resonance spetroskopy (NMR spectroscopy). This technique is used in chemistry and biochemistry to determine the properties of organic molecules. The lab course is devided into three parts: In the first part we made ourselves familiar with the experimental setup and meassured the spin-lattice relaxation time $T_1$ and the spin-spin relaxation time $T_2$ by using the spin echo method as well as the Carr-Purcell method. In the second part we identified five different organic substanced by determining the chemical  shift. In the last part we used a newer Bruker NMR analyzer for one dimensional and two dimensional imaging. We examined the dispersal of oil in sand and found out that is an infiltration process rather than a diffusion process. Finally we took 2d-pictures of different organic objects.
+\end{abstract}
+
 \newpage
 
-\vfill
-
-\parbox{0.9\textwidth}{   %% etwas schmaler als normaler Satz
-	Abstract:
-	\small The abstract should preferentially be in English. Here we explain in a
-	few lines (i) what was done, and (ii) what the results were.
-}
-\vfill
+\tableofcontents
 
 \newpage
 
@@ -88,14 +88,14 @@ Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richte
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=30mm]{./Resources/magnetization_components.png}
-	\caption{Zerlegung der Magnetisierung in Komponenten}
+	\caption{Zerlegung der Magnetisierung in Komponenten \autocite{skript}}
 \end{figure}
 
 Im Grundzustand ist die Magnetisierung parallel zu den Feldlinien, in angeregten Zuständen können wir diese in einen Anteil $M_{\perp}$ senkrecht und $M_{\parallel}$ parallel zu den Feldlinien aufspalten. Angeregte Zustände zerfallen dabei auf einer charakteristischen Zeitskala in den Grundzustand.
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=30mm]{./Resources/larmor_precession.png}
-	\caption{Larmor-Präzession von $M_{\perp}$}
+	\caption{Larmor-Präzession von $M_{\perp}$ \autocite{skript}}
 \end{figure}
 
 Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\vec{M}$ führt zu einem Drehmoment $\vec{\tau}$, wodurch $M_{\perp}$ mit einer Winkelfrequenz $\omega_{L}$ um $\vec{B_0}$ präzediert. Diese sogenannte Larmorfrequenz ist gegeben durch:
@@ -107,7 +107,7 @@ Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=70mm]{./Resources/hf_pulse.png}
-	\caption{Hochfrequenzpuls zur Rotation der Magnetisierung}
+	\caption{Hochfrequenzpuls zur Rotation der Magnetisierung \autocite{skript}}
 \end{figure}
 Eine bestimmte Magnetisierung kann durch Anlegen eines HF-Pulses an die Magnetisierung im Grundzustand erzeugt werden. Das zusätzliche Magnetfeld $\vec{B_1}$ dreht die Grundzustandsmagnetisierung während eines Zeitintervalls $\Delta t$ um einen Winkel
 \begin{equation}
@@ -175,7 +175,7 @@ Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode 
 \begin{figure}[!htb]
 	\centering
 	\includegraphics[width=80mm]{./Resources/spin_ech_schematic.png}
-	\caption{Prinzip der Spin-Echo Methode}
+	\caption{Prinzip der Spin-Echo Methode \autocite{skript}}
 	\label{fig:spinecho_bloch}
 \end{figure}
 
@@ -233,7 +233,7 @@ Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Absch
   \label{fig:TMS}
 \end{wrapfigure}
 
-Um chemische Substanzen zu identifizieren, wird in der Praxis eine Referenzsubstanz zur Probe hinzugemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfreguenz Omega aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)}[Quelle angeben!] (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silicium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
+Um chemische Substanzen zu identifizieren, wird in der Praxis eine Referenzsubstanz zur Probe hinzugemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfreguenz Omega aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)} \autocite{TMS} (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silicium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
 
 \begin{equation}
 	\delta_i = \sigma_i -\sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}
@@ -246,7 +246,7 @@ In Abbildung \ref{fig:chem_shift} sind die chemischen Verschiebungen für divers
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width= 0.9\textwidth]{./Resources/chem_shifts.png}
-	\caption{Chemische Verschiebung $\delta_i$ verschiedener funktioneller Gruppen relativ zu TMS}
+	\caption{Chemische Verschiebung $\delta_i$ verschiedener funktioneller Gruppen relativ zu TMS \autocite{skript}}
 	\label{fig:chem_shift}
 \end{figure}
 
@@ -401,14 +401,14 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Durchführung und Auswertung}
 
-In diesem Versuchsteil verwenden wir den \textsf{Bruker$^{\textregistered}$ NMR analyzer mq7.5}, ein professioneller NMR-Analysator für ein- und zweidimensionale Messungen (siehe Abbildung ). Für die Analyse der aufgenommenen Bilder steht uns eine kommerzielle Software der Firma \textsf{Bruker$^{\textregistered}$} zur Verfügung.
+In diesem Versuchsteil verwenden wir den \textsf{Bruker$^{\textregistered}$ NMR analyzer mq7.5}, ein professioneller NMR-Analysator für ein- und zweidimensionale Messungen. Für die Analyse der aufgenommenen Bilder steht uns eine kommerzielle Software der Firma \textsf{Bruker$^{\textregistered}$} zur Verfügung.
 
 \paragraph{Eindimensionale Bildgebung}
 
 Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in vertikaler Richtung (y-Richtung) scannen.
 
 \begin{itemize}
-	\item Ein Glaszylinder wird \SI{15}{mm} hoch mit Öl gefüllt. Wie erwartet erhalten wir ein rechteckiges Signal, siehe Abbildung
+	\item Ein Glaszylinder wird \SI{15}{mm} hoch mit Öl gefüllt. Wie erwartet erhalten wir ein rechteckiges Signal.
 	\item Ein Glaszylinder wird \SI{50}{mm} hoch mit Wasser gefüllt. Es entsteht wieder ein rechteckförmiges Signal, diesmal breiter und von höherer Intensität, da die Dichte der Wasserstoffatome größer ist als in Öl. Es treten nichtlineare Effekte auf Grund der Inhomogenität des Magnetfeldes auf. Diesen Effekt äußert sich in einer Krümmung des Signal einem Bereich, der eigentlich ein konstantes Signal liefern sollte. Daher sollte die Probe dort positioniert werden, wo diese Inhomogenitäten nicht auftreten (um den Nullpunkt: $\pm$ \SI{5}{mm}).
 	\item Es wird der Glaszylinder mit der scheibenförmigen Teflonstruktur eingesetzt. Da Teflon kein NMR-Signal erzeugt, sind im Signal fünf Vertiefungen zu erkennen, für jede Scheibe eine. An diesen Stellen wird das Wasser stärker verdrängt, weshalb das Signal schwächer ist.
 	\item Wir untersuchen den Versickerungsprozess von Öl in Sand hinsichtlich der Frage, ob es sich um einen \emph{Diffusionsprozess} handelt. Dazu befüllen wir den Glaszylinder mit einer \SI{15}{mm} hohen Sandschicht, auf der eine \SI{4}{mm} hohe Ölschicht platziert wird. Wir messen die zeitliche Entwicklung der vertikalen Verteilung des Öls im Sand (siehe Abbildung \ref{fig:oel_diff}).
@@ -508,6 +508,6 @@ Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw.
 
 \section{Zusammenfassung und Fazit}
 
-
+\printbibliography
 
 \end{document}
