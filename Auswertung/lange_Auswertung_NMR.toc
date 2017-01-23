@@ -7,18 +7,19 @@
 \contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung und Auswertung}{5}
 \contentsline {subsection}{\numberline {2.1}Teil I: Relaxationszeiten}{5}
 \contentsline {subsubsection}{\numberline {2.1.1}Theorie}{5}
-\contentsline {subsubsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{7}
-\contentsline {subsection}{\numberline {2.2}Teil II: Chemische Verschiebung}{8}
-\contentsline {subsubsection}{\numberline {2.2.1}Theorie}{8}
-\contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{8}
-\contentsline {paragraph}{\nonumberline Einfluss der Rotation}{10}
-\contentsline {paragraph}{\nonumberline Zuordnung der Proben}{10}
-\contentsline {subsubsection}{\numberline {2.2.3}Auswertung}{11}
-\contentsline {paragraph}{\nonumberline Zuordnung}{11}
-\contentsline {paragraph}{\nonumberline Energieaufl\IeC {\"o}sung}{12}
-\contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{13}
-\contentsline {subsubsection}{\numberline {2.3.1}Theorie}{13}
-\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung und Auswertung}{14}
-\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{14}
-\contentsline {paragraph}{\nonumberline zweidimensionale Bildgebung}{16}
-\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{16}
+\contentsline {subsubsection}{\numberline {2.1.2}Durchf\IeC {\"u}hrung}{6}
+\contentsline {subsubsection}{\numberline {2.1.3}Auswertung}{8}
+\contentsline {subsection}{\numberline {2.2}Teil II: Chemische Verschiebung}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}Theorie}{9}
+\contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{9}
+\contentsline {paragraph}{\nonumberline Einfluss der Rotation}{11}
+\contentsline {paragraph}{\nonumberline Zuordnung der Proben}{11}
+\contentsline {subsubsection}{\numberline {2.2.3}Auswertung}{12}
+\contentsline {paragraph}{\nonumberline Zuordnung}{12}
+\contentsline {paragraph}{\nonumberline Energieaufl\IeC {\"o}sung}{13}
+\contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{14}
+\contentsline {subsubsection}{\numberline {2.3.1}Theorie}{14}
+\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung und Auswertung}{15}
+\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{15}
+\contentsline {paragraph}{\nonumberline zweidimensionale Bildgebung}{17}
+\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{17}

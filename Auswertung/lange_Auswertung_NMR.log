@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.1)  23 JAN 2017 11:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.1)  23 JAN 2017 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1390,18 +1390,18 @@ File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 (./lange_Auswertung_NMR.aux)
 \openout1 = `lange_Auswertung_NMR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1410,12 +1410,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'lange_Auswertung_NMR.bbl' found.
  (./lange_Auswertung_NMR.bbl)
-Package biblatex Info: Reference section=0 on input line 54.
-Package biblatex Info: Reference segment=0 on input line 54.
+Package biblatex Info: Reference section=0 on input line 57.
+Package biblatex Info: Reference segment=0 on input line 57.
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 54.
+. Activating mapping `default' on line 57.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -1552,26 +1552,26 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count416
 \c__siunitx_mathtt_int=\count417
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 59.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 62.
 
-LaTeX Font Info:    No file OMScmss.fd. on input line 59.
+LaTeX Font Info:    No file OMScmss.fd. on input line 62.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/bx/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 59.
+(Font)              for symbol `textasteriskcentered' on input line 62.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 59.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 59.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
  [1
 
 
@@ -1586,32 +1586,32 @@ File: ./Resources/magnetization_components.png Graphic file (type png)
 
 <use ./Resources/magnetization_components.png>
 Package pdftex.def Info: ./Resources/magnetization_components.png used on input
- line 90.
-(pdftex.def)             Requested size: 85.35826pt x 98.40192pt.
+ line 98.
+(pdftex.def)             Requested size: 86.38419pt x 99.58464pt.
 
 <./Resources/larmor_precession.png, id=22, 223.58531pt x 261.97874pt>
 File: ./Resources/larmor_precession.png Graphic file (type png)
 
 <use ./Resources/larmor_precession.png>
-Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 9
-7.
-(pdftex.def)             Requested size: 85.35826pt x 100.01666pt.
+Package pdftex.def Info: ./Resources/larmor_precession.png used on input line 1
+06.
+(pdftex.def)             Requested size: 84.99059pt x 99.58464pt.
 
 <./Resources/hf_pulse.png, id=23, 694.84593pt x 293.59688pt>
 File: ./Resources/hf_pulse.png Graphic file (type png)
 
 <use ./Resources/hf_pulse.png>
-Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 109.
+Package pdftex.def Info: ./Resources/hf_pulse.png used on input line 118.
 (pdftex.def)             Requested size: 199.16928pt x 84.15532pt.
  [3 <./Resources/magnetization_components.png> <./Resources/larmor_precession.p
-ng>]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 122.
+ng> <./Resources/hf_pulse.png>]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 131.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 120--123
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
 
  []
 
@@ -1619,7 +1619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--123
 File: ./Resources/pulse_train.jpg Graphic file (type jpg)
 
 <use ./Resources/pulse_train.jpg>
-Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 134.
+Package pdftex.def Info: ./Resources/pulse_train.jpg used on input line 143.
 (pdftex.def)             Requested size: 156.49014pt x 117.1545pt.
 
 <./Resources/single_pulse_event.jpg, id=34, 2392.94pt x 1790.69pt>
@@ -1627,193 +1627,320 @@ File: ./Resources/single_pulse_event.jpg Graphic file (type jpg)
 
 <use ./Resources/single_pulse_event.jpg>
 Package pdftex.def Info: ./Resources/single_pulse_event.jpg used on input line 
-141.
+150.
 (pdftex.def)             Requested size: 156.49014pt x 117.08202pt.
- [4 <./Resources/hf_pulse.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--151
+
+ []
+
+[4 <./Resources/pulse_train.jpg> <./Resources/single_pulse_event.jpg>]
 <./Resources/spin_ech_schematic.png, id=39, 792.71156pt x 758.835pt>
 File: ./Resources/spin_ech_schematic.png Graphic file (type png)
 
 <use ./Resources/spin_ech_schematic.png>
 Package pdftex.def Info: ./Resources/spin_ech_schematic.png used on input line 
-177.
-(pdftex.def)             Requested size: 227.62204pt x 217.89127pt.
+191.
+(pdftex.def)             Requested size: 148.60886pt x 142.26378pt.
 
 <./Resources/spinecho_osci.jpg, id=40, 2653.915pt x 2015.53pt>
 File: ./Resources/spinecho_osci.jpg Graphic file (type jpg)
 
 <use ./Resources/spinecho_osci.jpg>
-Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 186.
-(pdftex.def)             Requested size: 227.62204pt x 172.84013pt.
- [5 <./Resources/pulse_train.jpg> <./Resources/single_pulse_event.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 191--197
+Package pdftex.def Info: ./Resources/spinecho_osci.jpg used on input line 199.
+(pdftex.def)             Requested size: 187.29135pt x 142.26378pt.
+ [5 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>] [6]
+Package epstopdf Info: Source file: <./Resources/t2_meas_p1.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 18377 bytes
+(epstopdf)             Output file: <./Resources/t2_meas_p1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 7308 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p1-eps
+-converted-to.pdf ./Resources/t2_meas_p1.eps>
+(epstopdf)             \includegraphics on input line 237.
+Package epstopdf Info: Output file is already uptodate.
 
+<./Resources/t2_meas_p1-eps-converted-to.pdf, id=49, 542.025pt x 309.155pt>
+File: ./Resources/t2_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t2_meas_p1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_meas_p1-eps-converted-to.pdf used on in
+put line 237.
+(pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
+Package epstopdf Info: Source file: <./Resources/t2_meas_p3.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 14764 bytes
+(epstopdf)             Output file: <./Resources/t2_meas_p3-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 7132 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_meas_p3-eps
+-converted-to.pdf ./Resources/t2_meas_p3.eps>
+(epstopdf)             \includegraphics on input line 245.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t2_meas_p3-eps-converted-to.pdf, id=50, 542.025pt x 309.155pt>
+File: ./Resources/t2_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t2_meas_p3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_meas_p3-eps-converted-to.pdf used on in
+put line 245.
+(pdftex.def)             Requested size: 199.16928pt x 113.59776pt.
+Package epstopdf Info: Source file: <./Resources/t2_p1_cp.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 21761 bytes
+(epstopdf)             Output file: <./Resources/t2_p1_cp-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 19354 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p1_cp-eps-c
+onverted-to.pdf ./Resources/t2_p1_cp.eps>
+(epstopdf)             \includegraphics on input line 269.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t2_p1_cp-eps-converted-to.pdf, id=51, 505.89pt x 283.0575pt>
+File: ./Resources/t2_p1_cp-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t2_p1_cp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_p1_cp-eps-converted-to.pdf used on inpu
+t line 269.
+(pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
+
+Underfull \hbox (badness 2547) in paragraph at lines 269--269
+[]\T1/cmr/bx/n/10 Abbildung 10: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
+Package epstopdf Info: Source file: <./Resources/t2_p3_cp.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 21750 bytes
+(epstopdf)             Output file: <./Resources/t2_p3_cp-eps-converted-to.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--197
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 19347 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t2_p3_cp-eps-c
+onverted-to.pdf ./Resources/t2_p3_cp.eps>
+(epstopdf)             \includegraphics on input line 277.
+Package epstopdf Info: Output file is already uptodate.
+<./Resources/t2_p3_cp-eps-converted-to.pdf, id=52, 505.89pt x 283.0575pt>
+File: ./Resources/t2_p3_cp-eps-converted-to.pdf Graphic file (type pdf)
 
+<use ./Resources/t2_p3_cp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t2_p3_cp-eps-converted-to.pdf used on inpu
+t line 277.
+(pdftex.def)             Requested size: 199.16928pt x 111.44151pt.
+
+Underfull \hbox (badness 2547) in paragraph at lines 277--277
+[]\T1/cmr/bx/n/10 Abbildung 11: |\T1/cmr/m/n/10 T2-Messung über Carr-
  []
 
-[6 <./Resources/spin_ech_schematic.png> <./Resources/spinecho_osci.jpg>]
-[7] <./Resources/Tetramethylsilan.png, id=53, 213.79875pt x 150.5625pt>
+[7 <./Resources/t2_meas_p1-eps-converted-to.pdf> <./Resources/t2_meas_p3-eps-co
+nverted-to.pdf> <./Resources/t2_p1_cp-eps-converted-to.pdf> <./Resources/t2_p3_
+cp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Resources/t1_meas_p1.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 17011 bytes
+(epstopdf)             Output file: <./Resources/t1_meas_p1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 7386 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p1-eps
+-converted-to.pdf ./Resources/t1_meas_p1.eps>
+(epstopdf)             \includegraphics on input line 300.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t1_meas_p1-eps-converted-to.pdf, id=87, 517.935pt x 309.155pt>
+File: ./Resources/t1_meas_p1-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t1_meas_p1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t1_meas_p1-eps-converted-to.pdf used on in
+put line 300.
+(pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
+Package epstopdf Info: Source file: <./Resources/t1_meas_p3.eps>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 15263 bytes
+(epstopdf)             Output file: <./Resources/t1_meas_p3-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2017-01-23 11:50:45
+(epstopdf)                    size: 7198 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Resources/t1_meas_p3-eps
+-converted-to.pdf ./Resources/t1_meas_p3.eps>
+(epstopdf)             \includegraphics on input line 308.
+Package epstopdf Info: Output file is already uptodate.
+
+<./Resources/t1_meas_p3-eps-converted-to.pdf, id=88, 517.935pt x 309.155pt>
+File: ./Resources/t1_meas_p3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./Resources/t1_meas_p3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Resources/t1_meas_p3-eps-converted-to.pdf used on in
+put line 308.
+(pdftex.def)             Requested size: 199.16928pt x 118.88588pt.
+ [8 <./Resources/t1_meas_p1-eps-converted-to.pdf> <./Resources/t1_meas_p3-eps-c
+onverted-to.pdf>]
+<./Resources/Tetramethylsilan.png, id=110, 213.79875pt x 150.5625pt>
 File: ./Resources/Tetramethylsilan.png Graphic file (type png)
 
 <use ./Resources/Tetramethylsilan.png>
-Package pdftex.def Info: ./Resources/Tetramethylsilan.png used on input line 23
-0.
+Package pdftex.def Info: ./Resources/Tetramethylsilan.png used on input line 35
+6.
 (pdftex.def)             Requested size: 75.28293pt x 53.0147pt.
 
-<./Resources/chem_shifts.png, id=55, 597.87pt x 469.755pt>
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
+[]\T1/cmr/bx/n/10 Abbildung 14:
+ []
+
+<./Resources/chem_shifts.png, id=112, 597.87pt x 469.755pt>
 File: ./Resources/chem_shifts.png Graphic file (type png)
 
 <use ./Resources/chem_shifts.png>
-Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 248.
+Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 374.
 (pdftex.def)             Requested size: 376.42744pt x 295.77519pt.
- [8 <./Resources/Tetramethylsilan.png>]
-[9 <./Resources/chem_shifts.png>]
-<./Resources/toluol.png, id=65, 136.875pt x 66.795pt>
+ [9 <./Resources/Tetramethylsilan.png>]
+[10 <./Resources/chem_shifts.png>]
+<./Resources/toluol.png, id=122, 136.875pt x 66.795pt>
 File: ./Resources/toluol.png Graphic file (type png)
 
 <use ./Resources/toluol.png>
-Package pdftex.def Info: ./Resources/toluol.png used on input line 266.
+Package pdftex.def Info: ./Resources/toluol.png used on input line 392.
 (pdftex.def)             Requested size: 34.98306pt x 17.07182pt.
 
-<./Resources/p-xylol.png, id=66, 220.095pt x 58.5825pt>
+<./Resources/p-xylol.png, id=123, 220.095pt x 58.5825pt>
 File: ./Resources/p-xylol.png Graphic file (type png)
 
 <use ./Resources/p-xylol.png>
-Package pdftex.def Info: ./Resources/p-xylol.png used on input line 267.
+Package pdftex.def Info: ./Resources/p-xylol.png used on input line 393.
 (pdftex.def)             Requested size: 64.13823pt x 17.07182pt.
 
-<./Resources/acetic_acid.png, id=67, 194.3625pt x 45.4425pt>
+<./Resources/acetic_acid.png, id=124, 194.3625pt x 45.4425pt>
 File: ./Resources/acetic_acid.png Graphic file (type png)
 
 <use ./Resources/acetic_acid.png>
-Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 268.
+Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 394.
 (pdftex.def)             Requested size: 73.01921pt x 17.07182pt.
 
-<./Resources/fluoroacetone.png, id=68, 254.04pt x 52.0125pt>
+<./Resources/fluoroacetone.png, id=125, 254.04pt x 52.0125pt>
 File: ./Resources/fluoroacetone.png Graphic file (type png)
 
 <use ./Resources/fluoroacetone.png>
-Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 269.
+Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 395.
 (pdftex.def)             Requested size: 83.37991pt x 17.07182pt.
 
-<./Resources/fluoroacetonitril.png, id=69, 171.3675pt x 49.275pt>
+<./Resources/fluoroacetonitril.png, id=126, 171.3675pt x 49.275pt>
 File: ./Resources/fluoroacetonitril.png Graphic file (type png)
 
 <use ./Resources/fluoroacetonitril.png>
-Package pdftex.def Info: ./Resources/fluoroacetonitril.png used on input line 2
-70.
+Package pdftex.def Info: ./Resources/fluoroacetonitril.png used on input line 3
+96.
 (pdftex.def)             Requested size: 59.37286pt x 17.07182pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--313
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, Peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--371
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, bei-de
  []
 
-[10 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_acid
+[11 <./Resources/toluol.png> <./Resources/p-xylol.png> <./Resources/acetic_acid
 .png> <./Resources/fluoroacetone.png> <./Resources/fluoroacetonitril.png>]
-[11] [12] [13]
+[12] [13] [14]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 404.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 530.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 404.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 530.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 404.
+(Font)              using `OMS/cmsy/m/n' instead on input line 530.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 404.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 530.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 404.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 530.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 404.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 530.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 404.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 530.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 411.
-<./Resources/Teil_3/oeldiff_chinchilla.jpg, id=86, 1674.255pt x 836.12375pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 537.
+<./Resources/Teil_3/oeldiff_chinchilla.jpg, id=143, 1674.255pt x 836.12375pt>
 File: ./Resources/Teil_3/oeldiff_chinchilla.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_chinchilla.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_chinchilla.jpg used on inpu
-t line 428.
+t line 554.
 (pdftex.def)             Requested size: 334.60571pt x 167.0942pt.
 
-<./Resources/Teil_3/oeldiff_papa.jpg, id=87, 1686.3pt x 951.555pt>
+<./Resources/Teil_3/oeldiff_papa.jpg, id=144, 1686.3pt x 951.555pt>
 File: ./Resources/Teil_3/oeldiff_papa.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_papa.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_papa.jpg used on input line
- 434.
+ 560.
 (pdftex.def)             Requested size: 334.60571pt x 188.8121pt.
 
-Overfull \hbox (2.3671pt too wide) in paragraph at lines 445--446
+Overfull \hbox (2.3671pt too wide) in paragraph at lines 571--572
 [] \T1/cmss/bx/n/10.95 zwei-di-men-sio-na-le Bild-ge-bung[][] \T1/cmr/m/n/10.95
  Fol-gen-de Mes-sun-gen wer-den mit-tels 2-D-Fouriermethode
  []
 
-[14] [15 <./Resources/Teil_3/oeldiff_chinchilla.jpg> <./Resources/Teil_3/oeldif
+[15] [16 <./Resources/Teil_3/oeldiff_chinchilla.jpg> <./Resources/Teil_3/oeldif
 f_papa.jpg>]
-<./Resources/Teil_3/oel_horizontal.JPG, id=96, 455.45157pt x 341.77687pt>
+<./Resources/Teil_3/oel_horizontal.JPG, id=153, 455.45157pt x 341.77687pt>
 File: ./Resources/Teil_3/oel_horizontal.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_horizontal.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/oel_horizontal.JPG used on input li
-ne 466.
+ne 592.
 (pdftex.def)             Requested size: 200.76086pt x 150.65346pt.
 
-<./Resources/Teil_3/oel_vert.JPG, id=97, 453.19313pt x 344.03531pt>
+<./Resources/Teil_3/oel_vert.JPG, id=154, 453.19313pt x 344.03531pt>
 File: ./Resources/Teil_3/oel_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_vert.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 472
+Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 598
 .
 (pdftex.def)             Requested size: 200.76086pt x 152.4049pt.
 
-<./Resources/Teil_3/ptfe_vert.JPG, id=98, 456.20438pt x 342.5297pt>
+<./Resources/Teil_3/ptfe_vert.JPG, id=155, 456.20438pt x 342.5297pt>
 File: ./Resources/Teil_3/ptfe_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/ptfe_vert.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/ptfe_vert.JPG used on input line 48
-0.
+Package pdftex.def Info: ./Resources/Teil_3/ptfe_vert.JPG used on input line 60
+6.
 (pdftex.def)             Requested size: 200.76086pt x 150.73444pt.
 
-<./Resources/Teil_3/olive_2d.JPG, id=99, 504.88625pt x 391.4625pt>
+<./Resources/Teil_3/olive_2d.JPG, id=156, 504.88625pt x 391.4625pt>
 File: ./Resources/Teil_3/olive_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/olive_2d.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 486
+Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 612
 .
 (pdftex.def)             Requested size: 200.76086pt x 155.66234pt.
 
-<./Resources/Teil_3/peanut_shell.JPG, id=100, 456.95718pt x 344.03531pt>
+<./Resources/Teil_3/peanut_shell.JPG, id=157, 456.95718pt x 344.03531pt>
 File: ./Resources/Teil_3/peanut_shell.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/peanut_shell.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/peanut_shell.JPG used on input line
- 494.
+ 620.
 (pdftex.def)             Requested size: 200.76086pt x 151.15027pt.
 
-<./Resources/Teil_3/aloevera_2d.JPG, id=101, 453.94594pt x 346.29375pt>
+<./Resources/Teil_3/aloevera_2d.JPG, id=158, 453.94594pt x 346.29375pt>
 File: ./Resources/Teil_3/aloevera_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/aloevera_2d.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/aloevera_2d.JPG used on input line 
-500.
+626.
 (pdftex.def)             Requested size: 200.76086pt x 153.15175pt.
- [16] [17 <./Resources/Teil_3/oel_horizontal.JPG> <./Resources/Teil_3/oel_vert.
+ [17] [18 <./Resources/Teil_3/oel_horizontal.JPG> <./Resources/Teil_3/oel_vert.
 JPG> <./Resources/Teil_3/ptfe_vert.JPG> <./Resources/Teil_3/olive_2d.JPG> <./Re
 sources/Teil_3/peanut_shell.JPG> <./Resources/Teil_3/aloevera_2d.JPG>] (./lange
 _Auswertung_NMR.aux)
@@ -1825,13 +1952,13 @@ Package logreq Info: Writing requests to 'lange_Auswertung_NMR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27274 strings out of 493029
- 523487 string characters out of 6136234
- 975790 words of memory out of 5000000
- 30464 multiletter control sequences out of 15000+600000
+ 27326 strings out of 493029
+ 524999 string characters out of 6136234
+ 976095 words of memory out of 5000000
+ 30509 multiletter control sequences out of 15000+600000
  29079 words of font info for 77 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 56i,21n,56p,10433b,1601s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,21n,58p,10433b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
@@ -1857,10 +1984,10 @@ onts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm
 </usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfti1095.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (17 pages, 2556669 bytes).
+Output written on lange_Auswertung_NMR.pdf (18 pages, 2610556 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
+ 258 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 111 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
