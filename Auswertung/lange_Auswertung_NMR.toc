@@ -11,8 +11,25 @@
 \contentsline {subsubsection}{\numberline {2.1.3}Auswertung}{8}
 \contentsline {subsection}{\numberline {2.2}Teil II: Chemische Verschiebung}{9}
 \contentsline {subsubsection}{\numberline {2.2.1}Theorie}{9}
+<<<<<<< HEAD
 \contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{10}
 \contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{11}
 \contentsline {subsubsection}{\numberline {2.3.1}Theorie}{11}
 \contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{12}
 \contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{13}
+=======
+\contentsline {subsubsection}{\numberline {2.2.2}Durchf\IeC {\"u}hrung}{9}
+\contentsline {paragraph}{\nonumberline Einfluss der Rotation}{11}
+\contentsline {paragraph}{\nonumberline Zuordnung der Proben}{11}
+\contentsline {subsubsection}{\numberline {2.2.3}Auswertung}{12}
+\contentsline {paragraph}{\nonumberline Zuordnung}{12}
+\contentsline {paragraph}{\nonumberline Energieaufl\IeC {\"o}sung}{13}
+\contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{14}
+\contentsline {subsubsection}{\numberline {2.3.1}Theorie}{14}
+\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{14}
+\contentsline {paragraph}{\nonumberline Zweidimensionale Bildgebung}{15}
+\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung und Auswertung}{15}
+\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{15}
+\contentsline {paragraph}{\nonumberline Zweidimensionale Bildgebung}{16}
+\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{18}
+>>>>>>> refs/remotes/origin/alex_main
