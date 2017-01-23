@@ -5,7 +5,7 @@
 
 \usepackage[babel, german=guillemets]{csquotes}
 \usepackage[backend=biber]{biblatex}
-\bibliography{lit_afm} %Neues Quellenverzeichnis einfügen!
+\bibliography{lit_afm}
 
 \usepackage{url} %Einbinden von Hyperlinks
 \usepackage{mdwlist} % Für Listen ohne Abstand zwischen den Aufzählungspunkten.
@@ -14,8 +14,6 @@
 \usepackage{setspace} % Anpassung des Zeilenabstandes, Befehl muss vor der Berechnung des Satzspiegels gesetzt werden.
 
 \usepackage{amsmath} % Ganz praktisch für Mathesachen
-\usepackage[version=4]{mhchem}  % Für chemische Strukturformeln und Reaktionsgleichungen
-\usepackage{nicefrac} %schöne Brüche für Fließtext, ohne Mathemodus
 
 \usepackage{graphicx} %ganz nützlich für die Einbettung von Grafiken
 %\usepackage{subfig}
@@ -65,6 +63,8 @@
 \widowpenalty1000 %Verhindert Hurenkinder
 \clubpenalty1000 %Verhindert Schusterjungen
 
+\newpage
+
 \vfill
 
 \parbox{0.9\textwidth}{   %% etwas schmaler als normaler Satz
@@ -82,7 +82,7 @@
 
 Kerne mit einem Spin $J$ tragen ein magnetisches Dipolmoment $\mu$, welches in einem magnetischen Feld eine potentielle Energie hat.
 \begin{equation}
-	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma J
+	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma \vec{J}
 \end{equation}
 Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richtet sich das Dipolmoment entweder parallel (bevorzugt), oder antiparallel zu den magnetischen Feldlinien aus. In einem makroskopischen Ensemble aus $N$ Protonen erhalten wir damit eine messbare Magnetisierung $\vec{M}$.
 \begin{figure}[H]
@@ -109,7 +109,6 @@ Im Grundzustand ist die Magnetisierung parallel zu den Feldlinien, in angeregten
 Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\vec{M}$ führt zu einem Drehmoment $\vec{\tau}$, wodurch $M_{\perp}$ mit einer Winkelfrequenz $\omega_{L}$ um $\vec{B_0}$ präzediert (s. Abb. \ref{fig:larmor}). Diese sogenannte Larmorfrequenz ist gegeben durch:
 \begin{equation}
 \omega_{L} = \gamma B_0
-\label{eq:larmor_freq}
 \end{equation}
 \begin{figure}[H]
 	\centering
@@ -333,187 +332,9 @@ Es fällt auf, dass ...
 
 \subsubsection{Theorie}
 
-Im folgenden Abschnitt betrachten wir Protonen, die in Molekülen gebunden sind. In diesem Fall wird das äußere Magnetfeld $B_0$ aufgrund der Elektronenorbitale in der Umgebung des Proton um den Betrag
-
-\begin{equation}
-	\delta \vec{B} = - \sigma \vec{B_0}
-	\label{eq:delta_B}
-\end{equation}
-
-verringert. Nach Gleichung \eqref{eq:larmor_freq} wird dadurch auch die Larmorfrequenz modifiziert:
-
-\begin{equation}
-	\omega_i = \omega_L \left(1-\sigma_i \right)
-	\label{eq:omega_i}
-\end{equation}
-
-Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Abschirmung und charakteristisch für die chemische Gruppe, in der sich das Proton befindet. Damit ist die Messung von $\omega_i$ für die chemische Strukturanayse von Substanzen geeignet. 
-
-\begin{wrapfigure}[10]{r}{0.2\textwidth}
-	\begin{center}
-		\includegraphics[width = 0.18\textwidth]{./Resources/Tetramethylsilan.png}
-	\end{center}
-	\caption{Te\-tramethylsilan}
-	\label{fig:TMS}
-\end{wrapfigure}
-
-Um chemische Substanzen zu identifizieren, wird in der Praxis eine Referenzsubstanz zur Probe hinzugemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfreguenz Omega aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)}[Quelle angeben!] (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silicium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
-
-\begin{equation}
-	\delta_i = \sigma_i -\sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}
-	\label{eq:delta_i}
-\end{equation}
-
-Das hat den Vorteil, dass die Werte für die chemischen Verschiebungen unabhängig vom angelegten Magnetfeld $B_0$ sind, was sicher stellt, dass Messergebnisse von unterschiedlichen Messapparaturen untereinander vergleichbar sind.
-In Abbildung \ref{fig:chem_shift} sind die chemischen Verschiebungen für diverse organische Verbindungen dargestellt. 
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width= 0.9\textwidth]{./Resources/chem_shifts.png}
-	\caption{Chemische Verschiebung $\delta_i$ verschiedener funktioneller Gruppen relativ zu TMS}
-	\label{fig:chem_shift}
-\end{figure}
-
+\newpage
 
 \subsubsection{Durchführung}
-
-Das Ziel dieses Versuchsteils war die Identifizierung von verschiedenen chemischen Substanzen an Hand ihrer chemischen Verschiebung. Als Referenz haben wir das oben erwähnte TMS verwendet. Allgemein standen uns jeweils fünf chemische Proben in zweifacher Ausführung zur Verfügung: einmal die reine Substanz und einmal ein Gemsich aus der Subtanz und TMS. Zusätzlich muss die Probe, die in einem dünnen Glasrohr eingeschlossen ist, mittels Durckluft in Rotation versetzt werden, um die Schärfe der Messpeaks bzw. die Auflösung zu optimieren. Inhomogenitäten in der Probe und im Magnetfeld $B_0$ sowie durch Difusionsprozesse verschlechtern die Auflösung. Das Spektroskop wird bei einer Working-Frequency von $\nu_{\omega} = $ \SI{500}{Hz} und mit $90^{\circ}$ - Pulsen bei einer Wiederholrate von \SI{1/3}{Hz}.
-
-\paragraph{Einfluss der Rotation}
-
-Zunächst untersuchen wir, welchen Einfluss die Rotation der Proben auf das Messergebnis hat. Dazu wird Probe 3 verwendet. Ohne Rotation hat das Responsesignal eine Breite (FWHM) von ca. \SI{200}{Hz} bei einer maximalen Intensität von 0,25. Mit Rotatoin beträgt die Breite nur ca. \SI{20}{Hz} und das Maximum 1,9. Offensichtlich lässt sich also die Breite der Peaks und damit die Auflösung durch diese Methode deutlich verbessern, weil sich die oben genannten Inhomogenitäten und Diffusionseffekte heraus mitteln.
-
-\paragraph{Zuordnung der Proben}
-Wir messen nacheinander die Präparate A bis E, jeweils mit TMS-Beimischung\footnote{Die Daten für die Proben A+ und D+ stammen aus der Datenbank, da uns keine Probe zur Verfügung stand} (gekennzeichnet durch ein +) und ohne. Der relative Abstand der Peaks, die zu den chemischen Gruppen gehören gibt Aufschluss über die chemische Zusammensetzung.Uns standen folgende Proben zur Verfügung:
-
-\begin{description}
-	\item[Toluol] \includegraphics[height = 0.6 cm]{./Resources/toluol.png}
-	\item[p-Xylol] \includegraphics[height = 0.6 cm]{./Resources/p-xylol.png}
-	\item[Essigsäure] \includegraphics[height = 0.6 cm]{./Resources/acetic_acid.png}
-	\item[Fluoraceton] \includegraphics[height = 0.6 cm]{./Resources/fluoroacetone.png}
-	\item[Fluoroacetonitril] \includegraphics[height = 0.6 cm]{./Resources/fluoroacetonitril.png}
-\end{description}
-
-Unsere Messergebnisse sind in den Talleben \ref{tab:Probe_A} bis \ref{tab:Probe_E} zusammen mit der Zuordnung zu der entsprechenden chemischen Gruppe dargestellt. 
-
-
-
-\begin{table}[!htb]
-	\centering
-	\caption{Messergebnisse für Probe A, Zuordnung: \emph{Flouraceton} }
-	\label{tab:Probe_A}
-	\begin{tabularx}{1.0\linewidth}{cccX}
-		\toprule 
-		Peaks von A+ [ppm] & Peaks von A [ppm] & Chem. Versch. & Zuordnung \\ 
-		\midrule
-		$p_1 = 22,2$ & $p_1 = 23,8$ & $\delta_i = 6,3$ & \multirow{2}{*}{\ce{FCH2}-Gruppe} \\ 
-		
-		$p_2 = 24,6$ & $p_2 = 21,4$ & $\delta_i= 3,9$ &  \\ 
-		
-		$p_3 = 26,4$ & $p_3 = 19,6$ & $\delta_i = 2,1 $ & Methyl-Gruppe \ce{CH3} \\ 
-		
-		$p_4 = 28,5$ & -- & -- & TMS \\ 
-		\bottomrule 
-	\end{tabularx} 
-	
-	
-\end{table}
-
-\begin{table}[!htb]
-	\centering
-	\caption{Messergebnisse für Probe B, Zuordnung: \emph{p-Xylol} }
-	\label{tab:Probe_B}
-	\begin{tabularx}{1.0\linewidth}{cccX}
-		\toprule 
-		Peaks von B+ [ppm] & Peaks von B [ppm] & Chem. Versch. & Zuordnung \\ 
-		\midrule
-		$p_1 = 22,7$ & $p_1 = 22,7$ & $\delta_i = 7,0$ & Benzol-Gruppe \\ 
-		
-		$p_2 = 27,5$ & $p_2 = 27,5$ & $\delta_i = 2,2$ & Methyl-Gruppe, Peak doppelt so groß wie $p_1$ \\ 
-		
-		$p_3 = 29,7$ & -- & --  & TMS \\ 
-		
-		\bottomrule 
-	\end{tabularx} 
-	
-	
-\end{table}
-
-\begin{table}[!htb]
-	\centering
-	\caption{Messergebnisse für Probe C, Zuordnung: \emph{Essigsäure} }
-	\label{tab:Probe_C}
-	\begin{tabularx}{1.0\linewidth}{cccX}
-		\toprule 
-		Peaks von C+ [ppm] & Peaks von C [ppm] & Chem. Versch. & Zuordnung \\ 
-		\midrule
-		$p_1 = 16,7$ & $p_1 = 17,0$ & $\delta_i = 11,6$ & \ce{COOH}-Gruppe \\ 
-		
-		$p_2 = 26,2$ & $p_2 = 26,6$ & $\delta_i = 2,1$ & Methyl-Gruppe \ce{CH3} \\ 
-		
-		$p_3 = 28,3$ & -- & -- & TMS \\ 
-		\bottomrule 
-	\end{tabularx} 
-	
-	
-\end{table}
-
-\begin{table}[!htb]
-	\centering
-	\caption{Messergebnisse für Probe D, Zuordnung: \emph{Fluoroacetonitril} }
-	\label{tab:Probe_D}
-	\begin{tabularx}{1.0\linewidth}{cccX}
-		\toprule 
-		Peaks von D+ [ppm] & Peaks von D [ppm] & Chem. Versch. & Zuordnung \\ 
-		\midrule
-		$p_1 = 30,8$ & -- & -- & TMS \\ 
-		
-		$p_2 = 34,8$ & $p_2 = 26,6$ & $\delta_i = 6,4$ & \multirow{2}{*}{\ce{FCH2}-Gruppe} \\ 
-		
-		$p_3 = 37,2$ & $p_3 = 24,2$ & $delta_i = 4,0$ &  \\ 
-		
-		\bottomrule 
-	\end{tabularx}
-	
-\end{table}
-
-\begin{table}[!htb]
-	\centering
-	\caption{Messergebnisse für Probe E, Zuordnung: \emph{Toluol} }
-	\label{tab:Probe_E}
-	\begin{tabularx}{1.0\linewidth}{cccX}
-		\toprule 
-		Peaks von E+ [ppm] & Peaks von E [ppm] & Chem. Versch. & Zuordnung \\ 
-		\midrule
-		$p_1 = 19,5$ & $p_1 = 23,1$ & $\delta_i = 7,3 $ & Benzol-Gruppe \\ 
-		
-		$p_2 = 24,4$ & $p_2 = 23,1$ & $\delta_i = 2,4$ & Methyl-Gruppe, beide Peaks gleich groß \\ 
-		
-		$p_3 = 26,8$ & -- & -- & TMS \\ 
-		
-		\bottomrule 
-	\end{tabularx}
-	
-\end{table}
-
-\subsubsection{Auswertung}
-\paragraph{Zuordnung}
-
-Bei der Zuordnung sind wir nach dem Ausschlussprinzip vorgegangen. Probe C lässt sich eindeutig der \emph{Essigsäure} zuweisen, da die COOH-Gruppe gemäß Abbildung \ref{fig:chem_shift} eine sehr charakteristische hohe chemische Verschiebung von \SI{9}{ppm} bis \SI{13}{ppm}. Wegen der hohen Elektronegativität des Sauerstoffatoms das Elektron des Wasserstoffs stark vom Protonkern weggezogen, was den hohen Wert dür $\delta_i$ erklärt.
-Die Stoffe \emph{Toluol} und {p-Xylol} sind in ihrem chemischen Aufbau sehr ähnlich mit dem Unterschied, dass Toluol eine Methylgruppe (\ce{CH3}) und p-Xylol zwei hat. Dementsprechend konnten wir beim p-Xylol einen Peak beobachten, der doppelt so groß ist wie des Benzols, wohingegen beim Toluol zwei Peaks der selben Höhe zu sehen waren. Interessant ist an dieser Stelle auch die Tatsache, dass die Benzol-Gruppe eine relativ große chemische Verschiebung von $\delta_i \approx 7,0$ hat. Das ist darauf zurückzuführen, dass die Bindungselektronen im Benzolring relativ stark delokalisiert sind und deshalb wenig zur Abschirmung beitragen.
-Die beiden verbleibenden Stoffe unterscheiden sich in vor allem in der Anzahl der NMR-aktiven Gruppen. Die \ce{FCH2}-Gruppe ist sowohl im \emph{Flouraceton} als auch im \emph{Flouroacetonitril} enthalten und sorgt für zwei Peaks im NMR-Spektrum. Das resultiert aus der Spin-Spin-Kopplung vom Fluor- und Wasserstoff-Atom. Beide Kerne haben einen Spin von I = \nicefrac{1}{2}, was zu einer Zeeman-Aufspaltung beim Wasserstoff führt. Da die \ce{CN}-Gruppe kein Signal liefert -- \ce{14N} hat zwar einen Spin von I = 1, jedoch liegt $\omega_L$ wegen des gyrmomagnetischen Verhältnisses außerhalb unserer Messbereichs -- hat Fluoracetonitril zwei Peaks und Fluoraceton drei. Der dritte gehört zur Methylgruppe.
-
-\paragraph{Energieauflösung}
-
-Aus der Breite der Peaks lässt sich die Energieauflösung des Spektroskops bestimmen. Wir ermittelten die FWHM des schmalsten Peaks: $\Delta \nu = 20\, \mathrm{s^{-1}}$
-\begin{equation}
-	\Delta E_{NMR} = h \cdot \Delta \nu = 8,28 \cdot 10^{-14} \, \mathrm{eV}
-\end{equation}
-
-Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonitril, was Auskunft über die Stärke der Spin-Spin-Wechselwirkung zwischen dem Fluor- und dem Wasserstoffkern gibt:
-\begin{equation}
-	\Delta E(H, F) = h \cdot | \nu_1 - \nu_2 | = 4,14 \cdot 10^{-15} \, \mathrm{eV\,s} \cdot 48 \, \mathrm{s^{-1}} = 2,0 \cdot 10^{-13} \, \mathrm{eV}
-\end{equation}
 
 \newpage
 
@@ -528,7 +349,6 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 \newpage
 
 \section{Zusammenfassung und Fazit}
-
 
 
 \end{document}
