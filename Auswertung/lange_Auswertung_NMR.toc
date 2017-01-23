@@ -19,5 +19,9 @@
 \contentsline {paragraph}{\nonumberline Energieaufl\IeC {\"o}sung}{12}
 \contentsline {subsection}{\numberline {2.3}Teil III: Bildgebung mit NMR}{13}
 \contentsline {subsubsection}{\numberline {2.3.1}Theorie}{13}
-\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung}{14}
-\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{15}
+\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{13}
+\contentsline {paragraph}{\nonumberline Zweidimensionale Bildgebung}{14}
+\contentsline {subsubsection}{\numberline {2.3.2}Durchf\IeC {\"u}hrung und Auswertung}{14}
+\contentsline {paragraph}{\nonumberline Eindimensionale Bildgebung}{14}
+\contentsline {paragraph}{\nonumberline Zweidimensionale Bildgebung}{15}
+\contentsline {section}{\numberline {3}Zusammenfassung und Fazit}{19}

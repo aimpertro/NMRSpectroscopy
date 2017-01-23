@@ -1,4 +1,4 @@
-\documentclass[a4paper, DIV12]{scrartcl} %DIV und ne Zahl dahinter passt den Satzspiegel an
+\documentclass[a4paper]{scrartcl} %DIV und ne Zahl dahinter passt den Satzspiegel an
 \usepackage[T1]{fontenc} % fontenc mit T1 sorgt für richtige Kodierung europäischer Zeichen
 \usepackage[utf8]{inputenc} % Eingabezeichensatz: direkte Eingabe von Umlauten usw.
 \usepackage[ngerman]{babel} % Anpassung des Dokumants deutsche Richtlinien
@@ -14,6 +14,7 @@
 \usepackage{setspace} % Anpassung des Zeilenabstandes, Befehl muss vor der Berechnung des Satzspiegels gesetzt werden.
 
 \usepackage{amsmath} % Ganz praktisch für Mathesachen
+\usepackage{mathtools}
 \usepackage[version=4]{mhchem}  % Für chemische Strukturformeln und Reaktionsgleichungen
 \usepackage{nicefrac} %schöne Brüche für Fließtext, ohne Mathemodus
 
@@ -57,7 +58,7 @@
 \begin{document}
 \author{Alexander Impertro \and Timo Gierlich}
 \title{F61: Nuclear Magnetic Resonance}
-\subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Betreuer: Jeremy Wilkinson -- testiert am:}}
+\subtitle{Lange Auswertung im Rahmen des Fortgeschrittenen-Praktikums\footnote{Durchgeführt am 12. und 13. Dezember 2016 \newline Betreuer: Jeremy Wilkinson -- testiert am:}}
 \maketitle
 \tableofcontents
 
@@ -521,9 +522,151 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Theorie}
 
-\newpage
+Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werdem dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$ Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und die Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
 
-\subsubsection{Durchführung}
+\paragraph{Eindimensionale Bildgebung}
+
+Im eindimensionalen Fall wird ein Gradientenfeld verwendet, wodurch die Larmorfrequenz ortsabhängig wird. Im Folgenden soll das Verfahren anhand einer Aufnahme in z-Richtung vorgestellt werden.
+
+Die Larmorfrequenz folgt dann dem Zusammenhang:
+
+\begin{equation}
+\omega_L = \gamma (B_0 + G^z \cdot z) = \omega_L^0 + \omega_z
+\label{eq:larmor_mod}
+\end{equation}
+
+Um nun das NMR-Signal aufzunehmen, können zwei verschiedene Verfahren verwendet werden: \textit{Frequenzkodierung} und \textit{Phasenkodierung}.
+
+Bei der Frequenzkodierung wird das NMR-Signal als Funktion der Zeit aufgenommen. Die transversale Magnetisierung $M_{\perp}^{rot}(z)$ am Ort z präzediert mit der Larmor-Frequenz aus Gl. \eqref{eq:larmor_mod}. Wird das Signal innerhalb einer Zeit aufgenommen, die im Vergleich zur Relaxationszeit $T_2$ klein ist, bleibt die transversale Magnetisierung $M_{\perp}^{rot}(z)$ annähernd konstant und ist nur ortsabhängig. Das gemessene Signal $S(t)$ ist dann die eindimensionale Fouriertransformation von $M_{\perp}^{rot}(z)$. Damit kann über eine Rücktransformation des NMR-Signals auf die transversale Magnetisierung geschlossen werden.
+
+In der Praxis wird das NMR-Signal in festgelegten Zeitschritten abgetastet, wodurch eine Menge von N Datenpunkten ${S_N(N \Delta t)}$ aufzeichnet wird. Eine diskrete Fouriertransformation liefert dann die Menge $M_N=M_{\perp}(N \Delta z)$.
+
+Im Gegensatz dazu wird bei der Phasenkodierung ein Gradientenfeld angelegt, dessen Stärke in linearen Schritten $\Delta G^z$ erhöht wird. Innerhalb eines Zeitintervalls $T_{Ph}$ vor Abtasten des Signals wird ein Gradientenfeld $B^z = G^z z$ angelegt, wodurch die Phase
+\begin{equation}
+\phi (z) = (\gamma G^z T_{Ph})z \coloneqq k_z z
+\end{equation}
+am Ort z angenommen wird. Nach Abschalten des Gradienten präzedieren die Komponenten wieder mit der originalen Larmorfrequenz $\omega_{L}^0$, aber mit einem unterschiedlichen Phasenwinkel. Es werden zum Zeitpunkt $t_0$ $N$ Datenpunkte mit unterschiedlichen Ortsfrequenzen $k_n=n\Delta k$ aufgenommen. Eine Fouriertransformation liefert dann wieder die transversale Magnetisierung $M_{\perp}^{rot}(z)$.
+
+Beide Methoden sind mathematisch äquivalent. Der einzige Unterschied besteht in der Tatsache, dass bei der Frequenzkodierung alle Datenpunkte in einer Sequenz aufgenommen werden können, wohingegen bei der Phasenkodierung $N$ Sequenzen notwendig sind.
+
+\paragraph{Zweidimensionale Bildgebung}
+
+Zur Aufnahme eines zweidimensionalen NMR-Bildes werden alle drei Gradientenfelder verwendet. Zunächst muss in z-Richtung eine dünne Scheibe des Samples selektiv angeregt werden. Liegen ihre Koordinaten im Bereich $z_1 \leq z \leq z_2$, so sind die Begrenzungen durch die Larmorfrequenzen $\omega_1$ und $\omega_2$ charakterisiert. Wird nun ein Hochfrequenzpuls auf die Probe gegeben, der nur Frequenzen $\omega$ innerhalb dieses Bereichs enthält, kann die gewünschte Scheibe selektiv angeregt werden. 
+
+Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinformation aus einer Kombination von Phasenkodierung in x-Richtung und Frequenzkodierung in y-Richtung abgeleitet werden. Die Messsequenz wird $N$-Mal für unterschiedliche Phasengradienten wiederholt, wobei jede Sequenz $M$ Datenpunkte liefert. Aus dieser Matrix von $N x M$ Datenpunkten kann nun über eine zweidimensionale Fouriertransformation das NMR-Bild errechnet werden. Die zeitliche Abfolge der Pulse und des Messignals ist in Abb. \ref{fig:2d_imaging} veranschaulicht.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=80mm]{./Resources/2d_imaging.png}
+	\caption{Pulsfolge zur Aufnahme eines zweidimensionalen Bildes.}
+	\label{fig:2d_imaging}
+\end{figure}
+
+\subsubsection{Durchführung und Auswertung}
+
+In diesem Versuchsteil verwenden wir den \textsf{Bruker$^{\textregistered}$ NMR analyzer mq7.5}, ein professioneller NMR-Analysator für ein- und zweidimensionale Messungen (siehe Abbildung ). Für die Analyse der aufgenommenen Bilder steht uns eine kommerzielle Software der Firma \textsf{Bruker$^{\textregistered}$} zur Verfügung.
+
+\paragraph{Eindimensionale Bildgebung}
+
+Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in vertikaler Richtung (y-Richtung) scannen.
+
+\begin{itemize}
+	\item Ein Glaszylinder wird \SI{15}{mm} hoch mit Öl gefüllt. Wie erwartet erhalten wir ein rechteckiges Signal, siehe Abbildung
+	\item Ein Glaszylinder wird \SI{50}{mm} hoch mit Wasser gefüllt. Es entsteht wieder ein rechteckförmiges Signal, diesmal breiter und von höherer Intensität, da die Dichte der Wasserstoffatome größer ist als in Öl. Es treten nichtlineare Effekte auf Grund der Inhomogenität des Magnetfeldes auf. Diesen Effekt äußert sich in einer Krümmung des Signal einem Bereich, der eigentlich ein konstantes Signal liefern sollte. Daher sollte die Probe dort positioniert werden, wo diese Inhomogenitäten nicht auftreten (um den Nullpunkt: $\pm$ \SI{5}{mm}).
+	\item Es wird der Glaszylinder mit der scheibenförmigen Teflonstruktur eingesetzt. Da Teflon kein NMR-Signal erzeugt, sind im Signal fünf Vertiefungen zu erkennen, für jede Scheibe eine. An diesen Stellen wird das Wasser stärker verdrängt, weshalb das Signal schwächer ist.
+	\item Wir untersuchen den Versickerungsprozess von Öl in Sand hinsichtlich der Frage, ob es sich um einen \emph{Diffusionsprozess} handelt. Dazu befüllen wir den Glaszylinder mit einer \SI{15}{mm} hohen Sandschicht, auf der eine \SI{4}{mm} hohe Ölschicht platziert wird. Wir messen die zeitliche Entwicklung der vertikalen Verteilung des Öls im Sand (siehe Abbildung \ref{fig:oel_diff}).
+	
+	Diffusion folgt dem zweiten Fickschen Gesetz (eindimensionaler Fall):
+	\begin{equation}
+		\frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
+	\end{equation}
+	Wir betrachten eine Stelle im Sand. Hier gilt stets $\tfrac{\partial c}{\partial t} > 0$ und $D > 0$, wobei $D$ der Diffusionskoeffizient ist. Daraus folgt, dass $\tfrac{\partial^2 c}{\partial x^2} > 0$, d.h. alle Konzentrationskurven im Sand sollten konvex sein.
+	
+	In unserem Fall jedoch sind alle alle Kurven in beiden Abbildungen \ref{fig:oeldiff_chinchilla} und \ref{fig:oeldiff_papa} konkav. Dementsprechend kann es sich nicht um Diffusionsprozesse handeln, sondern um normale Versickerungsprozesse.
+\end{itemize}
+
+\begin{figure}[htbp]
+	{
+		\centering
+		\includegraphics[width=.8 \linewidth]{./Resources/Teil_3/oeldiff_chinchilla.jpg}
+		\subcaption{Chinchillasand, feinkörnig}
+		\label{fig:oeldiff_chinchilla}
+		\vspace{1cm}
+		
+		\centering
+		\includegraphics[width=.8 \linewidth]{./Resources/Teil_3/oeldiff_papa.jpg}
+		\subcaption{Papageiensand, grobkörnig}
+		\label{fig:oeldiff_papa}
+	}	
+	\caption{Zeitliche Aufnahmen des Versickerung von Öl im Sand. Die größere Porosität vom Papageiensand führt zu einer rascheren Verickerung (oben).}
+	\label{fig:oel_diff}
+	
+\end{figure}
+
+\paragraph{Zweidimensionale Bildgebung}
+
+Folgende Messungen werden mittels 2-D-Fouriermethode durchgeführt:
+
+\begin{itemize}
+	\item Es wird ein Glaszylinder mit \SI{15}{mm} Öl befüllt und ein horizontaler Ausschnitt gewählt (Abbildung \ref{fig:2d_oel_hori}). Wie erwartet sehen wir eine mehr oder minder homogene Kreisscheibe. Ein vertikaler Ausschnitt von links nach rechts ergibt ein Rechteck, an dem unten die Wölbung des Glaszylinders und oben der Meniskus auf Grund der Oberflächenspannung sichtbar ist (Abbildung \ref{fig:2d_oel_vert}).
+	\item Das Bild der PFTE-Struktur sieht auch wie erwartet aus (Abbildung \ref{fig:2d_teflon}). Da Teflon unsichtbar für unser Gerät ist, wird es schwarz dargestellt.
+\end{itemize}
+
+Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw. Ölgehalt der Probe. Helle Stellen enthalten viel Wasser oder Öl, weshalb sie ein starkes Signal erzeugen. 
+
+\begin{itemize}
+	\item Bei der Olive (Abbildung \ref{fig:2d_olive}) ist der Stein gut zu erkennen. Er besteht aus einer trockenen Schale und enthält im Inneren den Keimling, der viel Feuchtigkeit und Öle enthält. Um den Kern ist das ölhaltige Fruchtfleisch angesiedelt. 
+	\item Die Schale der Erdnuss (Abbildung \ref{fig:2d_erdnuss}) ist sehr trocken und taucht daher im NMR-Bild nicht auf. Die untere Erdnuss ist gerade so ausgerichtet, dass der Luftspalt zwischen den beiden Hälften sichtbar ist. Am unteren Ende befindet sich der Keimling, weshalb dort viel Öl vorhanden ist.
+	\item In Ermangelung einer Staudenselerie mussten wir auf eine Scheibe einer Aloe vera zurückgreifen (Abbildung \ref{fig:2d_aloevera}). Man kann gut die Querschnittsform der beiden Stücke erkennen. Der Stofftransport findet in der äußeren Schicht statt, was am hellen Rand erkennbar ist.
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering{
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/oel_horizontal.JPG}
+			\subcaption{Glaszylinder mit Öl, horizontaler Schnitt}
+			\label{fig:2d_oel_hori}}
+		\hfill  
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/oel_vert.JPG}
+			\subcaption{Glaszylinder mit Öl, vertikaler Schnitt}
+			\label{fig:2d_oel_vert}}
+		
+		\bigskip
+		
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/ptfe_vert.JPG}
+			\subcaption{Teflon-Struktur}
+			\label{fig:2d_teflon}}
+		\hfill  
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/olive_2d.JPG}
+			\subcaption{Olive}
+			\label{fig:2d_olive}}
+		
+		\bigskip
+		
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/peanut_shell.JPG}
+			\subcaption{Zwei Erdnüsse in der Schale}
+			\label{fig:2d_erdnuss}}
+		\hfill  
+		\parbox{0.48\textwidth}{
+			\centering
+			\includegraphics[width=1.0 \linewidth]{./Resources/Teil_3/aloevera_2d.JPG}
+			\subcaption{Aloe vera im Querschnitt}
+			\label{fig:2d_aloevera}}
+		
+	}	
+	\caption{Zweidimensionale Aufnahmen von verschiedenen Objekten}
+	\label{fig:2d_main}
+	
+\end{figure}
 
 \newpage
 
