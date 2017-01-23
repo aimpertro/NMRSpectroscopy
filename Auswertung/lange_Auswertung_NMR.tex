@@ -42,6 +42,7 @@
 %###############################################################################
 
 
+\newcommand{\nl}{\, \newline}
 \newcommand{\err}[2]{( #1 \, \pm \, #2 )} % Formatierungen für den Mathemodus. Helfen, Messergebnisse und Einheiten zu formatieren. Außerhalb des Mathemodus bitte \SI verwenden!
 \newcommand{\um}{\: \mathrm{\mu m}}
 \newcommand{\mm}{\, \mathrm{mm}}
@@ -49,6 +50,8 @@
 \newcommand{\cm}{\, \mathrm{cm}}
 \newcommand{\nn}{\, \mathrm{nN}}
 \newcommand{\us}{\, \mathrm{\mu s}}
+\newcommand{\ms}{\, \mathrm{ms}}
+\newcommand{\be}{\, \mathrm{b.E.}}
 \newcommand{\npm}{\, \mathrm{N/m}}
 
 \begin{document}
@@ -90,7 +93,7 @@ Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richte
 	\parbox{70mm}{
 		\centering
 		\includegraphics[height=35mm]{./Resources/magnetization_components.png}
-		\caption{Zerlegung der Magnetisierung}
+		\caption{Zerlegung der Magnetisierung \autocite{skript}}
 		\label{fig:mag_components}
 	}
 	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
@@ -98,7 +101,7 @@ Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richte
 	\parbox{70mm}{
 		\centering
 		\includegraphics[height=35mm]{./Resources/larmor_precession.png}
-		\caption{Larmor-Präzession von $M_{\perp}$}
+		\caption{Larmor-Präzession von $M_{\perp}$ \autocite{skript}}
 		\label{fig:larmor}
 	}
 \end{figure}
@@ -113,7 +116,7 @@ Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=70mm]{./Resources/hf_pulse.png}
-	\caption{Hochfrequenzpuls zur Rotation der Magnetisierung}
+	\caption{Hochfrequenzpuls zur Rotation der Magnetisierung \autocite{skript}}
 \end{figure}
 Eine bestimmte Magnetisierung kann durch Anlegen eines HF-Pulses an die Magnetisierung im Grundzustand erzeugt werden. Das zusätzliche Magnetfeld $\vec{B_1}$ dreht die Grundzustandsmagnetisierung während eines Zeitintervalls $\Delta t$ um einen Winkel
 \begin{equation}
@@ -183,7 +186,7 @@ Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode 
 	\parbox{70mm}{
 		\centering
 		\includegraphics[height=50mm]{./Resources/spin_ech_schematic.png}
-		\caption{Prinzip der Spin-Echo Methode}
+		\caption{Prinzip der Spin-Echo Methode \autocite{skript}}
 		\label{fig:spinecho_bloch}
 	}
 	%\hspace*{-20mm}  % fuegt Platz ein, das rueckt die beiden Bilder an den Rand
