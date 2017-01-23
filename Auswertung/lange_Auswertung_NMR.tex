@@ -54,6 +54,9 @@
 \newcommand{\ms}{\, \mathrm{ms}}
 \newcommand{\be}{\, \mathrm{b.E.}}
 \newcommand{\npm}{\, \mathrm{N/m}}
+\newcommand{\khz}{\, \mathrm{kHz}}
+\newcommand{\mhz}{\, \mathrm{MHz}}
+\newcommand{\hz}{\, \mathrm{Hz}}
 
 \begin{document}
 \author{Alexander Impertro \and Timo Gierlich}
@@ -70,7 +73,7 @@
 \begin{abstract}
 
 
-	\textbf{Abstract:} The goal of this advanced lab course was to study the basic principles of nuclear magnetic resonance spectroscopy (NMR spectroscopy). This technique is used in chemistry and biochemistry to determine the properties of organic molecules. The lab course is divided into three parts: In the first part we made ourselves familiar with the experimental setup and measured the spin-lattice relaxation time $T_1$ and the spin-spin relaxation time $T_2$ by using the spin echo method as well as the Carr-Purcell method. In the second part we identified five different organic substances by determining the chemical  shift. In the last part we used a newer Bruker NMR analyzer for one dimensional and two dimensional imaging. We examined the dispersal of oil in sand and found out that it is an infiltration process rather than a diffusion process. Finally, we took 2d-pictures of different organic objects.
+	\textbf{Abstract:} The goal of this advanced lab course was to study the basic principles of nuclear magnetic resonance spectroscopy (NMR spectroscopy). This technique is used in chemistry and biochemistry to determine the properties of organic molecules. The lab course is divided into three parts: In the first part, we made ourselves familiar with the experimental setup and measured the spin-lattice relaxation time $T_1$ and the spin-spin relaxation time $T_2$ by using the spin echo method as well as the Carr-Purcell method. In the second part, we identified five different organic substances by determining the chemical  shift. In the last part, we used a newer Bruker NMR analyzer for one-dimensional and two-dimensional imaging. We examined the dispersal of oil in sand and found out that it is an infiltration process rather than a diffusion process. Finally, we took 2d-pictures of different organic objects.
 \end{abstract}
 
 \newpage
@@ -85,7 +88,7 @@
 
 Kerne mit einem Spin $J$ tragen ein magnetisches Dipolmoment $\mu$, welches in einem magnetischen Feld eine potentielle Energie hat.
 \begin{equation}
-	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma J
+	\Delta E = - \vec{\mu} \circ \vec{B_0} = - \hbar \gamma \lvert \vec{J} \rvert
 \end{equation}
 Die Grö"se $\gamma$ ist das gyromagnetische Verhältnis des Kerns. Damit richtet sich das Dipolmoment entweder parallel (bevorzugt), oder antiparallel zu den magnetischen Feldlinien aus. In einem makroskopischen Ensemble aus $N$ Protonen erhalten wir damit eine messbare Magnetisierung $\vec{M}$.
 \begin{figure}[H]
@@ -123,11 +126,11 @@ Eine bestimmte Magnetisierung kann durch Anlegen eines HF-Pulses an die Magnetis
 \begin{equation}
 \alpha = \gamma B_1 \Delta t
 \end{equation}
-Ist die Zeitdauer so gewählt, dass $\alpha = 90^\circ$, wird $\vec{M}$ in eine senkrechte Komponente $M_{\perp}$ überführt ($90^\circ$-Puls). Ebenfalls kann durch $\alpha = 180^\circ$ eine Magnetisierung antiparallel zu dem statischen Feld $\vec{B_0}$ erzeugt werden ($180^\circ$-Puls).
+Ist die Zeitdauer so gewählt, dass $\alpha = 90^\circ$ beträgt, wird $\vec{M}$ in eine senkrechte Komponente $M_{\perp}$ überführt ($90^\circ$-Puls). Ebenfalls kann durch $\alpha = 180^\circ$ eine Magnetisierung antiparallel zum statischen Feld $\vec{B_0}$ erzeugt werden ($180^\circ$-Puls).
 
 \subsection{Kalibration des Systems}
 
-An der Spule, auf die der HF-Puls gegeben wird, kann ebenfalls eine durch die präzedierende Magnetisierung hervorgerufene Induktionsspannung gemessen werden. Da dieses Signal mit der Larmorfrequenz $\omega_L$ moduliert ist, liefert eine Fouriertransformation Aufschluss über die Frequenzverteilung der Probe.
+An der Spule, auf die der HF-Puls gegeben wird, kann ebenfalls eine durch die präzedierende Magnetisierung hervorgerufene Induktionsspannung gemessen werden. Da dieses Signal mit der Larmorfrequenz $\omega_L$ moduliert ist, gibt eine Fouriertransformation Aufschluss über die Frequenzverteilung der Probe.
 \newline\newline
 Zunächst müssen die im Gerät als \texttt{PULS I} und \texttt{PULS II} ausgezeichneten Signalformen über die Pulsdauer als $90^\circ$- bzw $180^\circ$-Puls definiert werden. In Abbildung \ref{fig:pulse_signal} ist die Form eines solchen Pulses direkt nach dem Signalgenerator zu erkennen. Über die Potentiometer S6 und S7 ist die zeitliche Länge variierbar.
 
@@ -151,7 +154,7 @@ Um nun die Pulse zu kalibrieren, wird das in der Spule induzierte Signal auf dem
 	}
 \end{figure}
 
-Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\omega_{HF} = (19.9 \pm 0.2) MHz$ moduliert. Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1kHz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$). Über die FWHM des Pulses bestimmen wir die Pulsbreite zu:
+Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\omega_{HF} = (19.9 \pm 0.2) \mhz$ moduliert. Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1\khz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$). Über die FWHM des Pulses bestimmen wir die Pulsbreite zu:
 \begin{itemize}
 	\item[] \texttt{PULS I}: $t_1=\err{1,41}{0,10}\us$
 	\item[] \texttt{PULS II}: $t_2=\err{2,48}{0,20}\us$
@@ -172,15 +175,22 @@ Relaxiert eine angeregte Magnetisierung zurück in den Grundzustand, so kann der
 \frac{dM_{\parallel}(t)}{dt} = - \frac{M_{\parallel}(t) - M_0}{T1}
 \end{equation}
 
-Zu der Energie eines angeregten Zustands tragen ma"sgeblich zwei verschiedene Wechselwirkungen bei. Der erste Anteil ist gegeben durch die Wechselwirkung der magnetischen Dipole mit dem externen Feld (Spin-Gitter Wechselwirkung). Zweitens interagieren auch die einzelnen Dipolmomente untereinander, wobei eine antiparallele Orientierung energetisch günstiger ist (Spin-Spin Wechselwirkung).
+Zur Energie eines angeregten Zustands tragen ma"sgeblich zwei verschiedene Wechselwirkungen bei. Der erste Anteil ist gegeben durch die Wechselwirkung der magnetischen Dipole mit dem externen Feld (Spin-Gitter Wechselwirkung). Zweitens interagieren auch die einzelnen Dipolmomente untereinander, wobei eine antiparallele Orientierung energetisch günstiger ist (Spin-Spin Wechselwirkung).
 
 Die zeitliche Entwicklung einer transversalen Magnetisierung ergibt sich aus der Lösung von Gl. (4) zu:
 
 \begin{equation}
 M_{\perp}(t) = M_{\perp}^0 e^{-\frac{t}{T_2}}
+\label{eq:spinrelax}
 \end{equation}
 
-Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden (s. Abb. \ref{fig:spinecho_bloch}).
+Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden (s. Abb. \ref{fig:spinecho_bloch}). Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}). Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also einzelne Punkte des Zerfallsgesetztes (Gl. \ref{eq:spinrelax}) bestimmt werden.
+
+ 
+Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T_2$.
+
+Diese Limitation kann durch Verwendung einer sogenannten Carr-Purcell Sequenz minimiert werden. Hierbei wird wie gehabt mit einem $90^\circ$-Puls angeregt, und nach allen ungeraden Vielfachen einer kurzen Zeit $\tau$ wird ein $180^\circ$-Puls auf die Spulen gegeben. Zu allen geraden Vielfachen von $\tau$ ist das System phasenkohärent, und wir können die Relaxation der Magnetisierung mit einer höheren Genauigkeit messen.
+
 \begin{figure}[!htb]
 	\centering
 	% hier schon der komplixiert Fall, dass 2 Bilder nebeneinander gesetzt werden
@@ -200,22 +210,15 @@ Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode 
 	}
 \end{figure}
 
-Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung dann, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}).
-
-Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also Punkte des Zerfallsgesetztes in Gl. (6) aufgenommen werden. 
-Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T_2$.
-
-Diese Limitation kann durch Verwendung einer sogenannten Carr-Purcell Sequenz minimiert werden. Hierbei wird wie gehabt mit einem $90^\circ$-Puls gestartet, und nach allen ungeraden Vielfachen einer kurzen Zeit $\tau$ wird ein $180^\circ$-Puls angelegt. Zu allen geraden Vielfachen von $\tau$ ist das System phasenkohärent, und wir können die Relaxation der Magnetisierung mit einer höheren Genauigkeit messen.
-
 Die zeitliche Entwicklung einer antiparallelen Magnetisierung ergibt sich aus der Lösung von Gl. (5) zu:
 \begin{equation}
 M_{\parallel}(t) = M_{\parallel}^0(1-2e^{-\frac{t}{T_1}})
 \end{equation}
-Die Spin-Gitter Relaxationszeit $T_1$ kann bestimmt werden, in dem zunächst mit eine, $180^\circ$-Puls gestartet wird. Diese Magnetisierung produziert kein Signal, weshalb nach einer Zeit $t=\tau$ ein $90^\circ$-Puls zur Messung angelegt werden muss. Ähnlich der Spin-Echo Methode können nun unterschiedliche Punkte der Zerfallskurve durch Messung bei variablen Werten von $\tau$ bestimmt werden.
+Die Spin-Gitter Relaxationszeit $T_1$ kann bestimmt werden, in dem zunächst mit einem $180^\circ$-Puls angeregt wird. Diese Magnetisierung produziert kein Signal, weshalb nach einer Zeit $t=\tau$ ein $90^\circ$-Puls zur Messung auf die Spulen gegeben werden muss. Ähnlich der Spin-Echo Methode können nun einzelne Punkte der Zerfallskurve durch Messung bei variablen Werten von $\tau$ bestimmt werden.
 
 \subsubsection{Durchführung}
 
-Zunächst wird mithilfe der Spin-Echo Methode die Relaxationszeit $T_2$ bestimmt. Als Pulssequenz wählen wir die \texttt{I-II}-Folge mit $\tau = 10ms$ und einer Wiederholrate von $1/3Hz$. Mittels LabView-Programm wird in einer Messreihe mit zehn Punkten die Amplitude der Spin-Echo-Einhüllenden als Funktion von $\tau$ gemessen. Das Programm ermittelt die Amplitude durch Transformation des Signals in den Frequenzraum, wobei für ein lineares Signal-zu-Rausch Verhältnis (SNR) jeweils automatisch über zehn Messungen gemittelt wird. Weil die Trial-to-trial variability zum Teil deutlich größer als die angegebene Standardabweichung war, haben wir jeden Datenpunkt mehrmals gemessen.
+Zunächst wird mithilfe der Spin-Echo Methode die Relaxationszeit $T_2$ bestimmt. Als Pulssequenz wählen wir die \texttt{I-II}-Folge mit $\tau = 10\ms$ und einer Wiederholrate von $1/3\hz$. Über ein LabView-Programm wird in einer Messreihe mit zehn Punkten die Amplitude der Spin-Echo-Einhüllenden als Funktion von $\tau$ gemessen. Das Programm ermittelt die Amplitude durch Transformation des Signals in den Frequenzraum, wobei für ein lineares Signal-zu-Rausch Verhältnis (SNR) jeweils automatisch über zehn Messungen gemittelt wird. Weil die Trial-to-trial variability zum Teil deutlich größer als die angegebene Standardabweichung war, haben wir jeden Datenpunkt mehrmals gemessen.
 
 Für Probe 1 (Gd 1:500) ergibt sich durch exponentiellen Fit (s. Abb. \ref{fig:t2_p1}):
 \begin{enumerate}
@@ -246,7 +249,7 @@ Analog dazu ergibt sich für Probe 3 (Gd 1:600) (s. Abb. \ref{fig:t2_p3}):
 	}
 \end{figure}
 
-Zum Vergleich wird die Relaxationszeit $T_2$ mittels einer Carr-Purcell-Sequenz gemessen. Im LabView-Programm wird über 10 Messungen gemittelt, die Zeitdifferenz zwischen den Pulsen beträgt $\tau = 20ms$.
+Zum Vergleich wird die Relaxationszeit $T_2$ mittels einer Carr-Purcell-Sequenz gemessen. Im LabView-Programm wird über 10 Messungen gemittelt, die Zeitdifferenz zwischen den Pulsen beträgt $\tau = 20\ms$.
 
 Für Probe 1 (Gd 1:500) ergibt sich durch exponentiellen Fit (s. Abb. \ref{fig:t2_p1_cp}):
 \begin{enumerate}
@@ -336,7 +339,7 @@ Es fällt auf, dass ...
 
 \subsubsection{Theorie}
 
-Im folgenden Abschnitt betrachten wir Protonen, die in Molekülen gebunden sind. In diesem Fall wird das äußere Magnetfeld $B_0$ aufgrund der Elektronenorbitale in der Umgebung des Proton um den Betrag
+Im folgenden Abschnitt betrachten wir Protonen, die in Molekülen gebunden sind. In diesem Fall wird das äußere Magnetfeld $B_0$ aufgrund der Elektronenorbitale in der Umgebung des Protons um den Betrag
 
 \begin{equation}
 	\delta \vec{B} = - \sigma \vec{B_0}
@@ -350,7 +353,7 @@ verringert. Nach Gleichung \eqref{eq:larmor_freq} wird dadurch auch die Larmorfr
 	\label{eq:omega_i}
 \end{equation}
 
-Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Abschirmung und charakteristisch für die chemische Gruppe, in der sich das Proton befindet. Damit ist die Messung von $\omega_i$ für die chemische Strukturanayse von Substanzen geeignet.
+Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Abschirmung und ist charakteristisch für die chemische Gruppe, in der sich das Proton befindet. Damit ist die Messung von $\omega_i$ für die chemische Strukturanayse von Substanzen geeignet.
 
 \begin{wrapfigure}[10]{r}{0.2\textwidth}
 	\begin{center}
@@ -360,14 +363,14 @@ Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Absch
   \label{fig:TMS}
 \end{wrapfigure}
 
-Um chemische Substanzen zu identifizieren, wird in der Praxis eine Referenzsubstanz zur Probe hinzugemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfreguenz Omega aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)} \autocite{TMS} (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silicium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
+Um chemische Substanzen zu identifizieren, wird der Probe eine Referenzsubstanz beigemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfrequenz $\omega_{L}$ aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)} \autocite{TMS} (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silizium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
 
 \begin{equation}
 	\delta_i = \sigma_i -\sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}
 	\label{eq:delta_i}
 \end{equation}
 
-Das hat den Vorteil, dass die Werte für die chemischen Verschiebungen unabhängig vom angelegten Magnetfeld $B_0$ sind, was sicher stellt, dass Messergebnisse von unterschiedlichen Messapparaturen untereinander vergleichbar sind.
+Dies hat den Vorteil, dass die Werte für die chemischen Verschiebungen unabhängig vom angelegten Magnetfeld $B_0$ sind, und damit die Messergebnisse unterschiedlicher Messapparaturen miteinander vergleichbar sind.
 In Abbildung \ref{fig:chem_shift} sind die chemischen Verschiebungen für diverse organische Verbindungen dargestellt.
 
 \begin{figure}[htbp]
@@ -380,14 +383,14 @@ In Abbildung \ref{fig:chem_shift} sind die chemischen Verschiebungen für divers
 
 \subsubsection{Durchführung}
 
-Das Ziel dieses Versuchsteils war die Identifizierung von verschiedenen chemischen Substanzen an Hand ihrer chemischen Verschiebung. Als Referenz haben wir das oben erwähnte TMS verwendet. Allgemein standen uns jeweils fünf chemische Proben in zweifacher Ausführung zur Verfügung: einmal die reine Substanz und einmal ein Gemsich aus der Subtanz und TMS. Zusätzlich muss die Probe, die in einem dünnen Glasrohr eingeschlossen ist, mittels Durckluft in Rotation versetzt werden, um die Schärfe der Messpeaks bzw. die Auflösung zu optimieren. Inhomogenitäten in der Probe und im Magnetfeld $B_0$ sowie durch Difusionsprozesse verschlechtern die Auflösung. Das Spektroskop wird bei einer Working-Frequency von $\nu_{\omega} = $ \SI{500}{Hz} und mit $90^{\circ}$ - Pulsen bei einer Wiederholrate von \SI{1/3}{Hz}.
+Das Ziel dieses Versuchsteils war die Identifizierung von verschiedenen chemischen Substanzen anhand ihrer chemischen Verschiebung. Als Referenz haben wir das oben erwähnte TMS verwendet. Allgemein standen uns jeweils fünf chemische Proben in zweifacher Ausführung zur Verfügung: einmal die reine Substanz und einmal ein Gemsich aus der Substanz und TMS. Zusätzlich muss die Probe, die in einem dünnen Glasrohr eingeschlossen ist, mittels Druckluft in Rotation versetzt werden, um die Schärfe der Messpeaks bzw. die Auflösung zu optimieren. Inhomogenitäten in der Probe und im Magnetfeld $B_0$ sowie Diffusionsprozesse verschlechtern die Auflösung. Das Spektroskop wird bei einer Working-Frequency von $\nu_{\omega} = $ \SI{500}{Hz} und mit $90^{\circ}$ - Pulsen bei einer Wiederholrate von \SI{1/3}{Hz}.
 
 \paragraph{Einfluss der Rotation}
 
-Zunächst untersuchen wir, welchen Einfluss die Rotation der Proben auf das Messergebnis hat. Dazu wird Probe 3 verwendet. Ohne Rotation hat das Responsesignal eine Breite (FWHM) von ca. \SI{200}{Hz} bei einer maximalen Intensität von 0,25. Mit Rotatoin beträgt die Breite nur ca. \SI{20}{Hz} und das Maximum 1,9. Offensichtlich lässt sich also die Breite der Peaks und damit die Auflösung durch diese Methode deutlich verbessern, weil sich die oben genannten Inhomogenitäten und Diffusionseffekte heraus mitteln.
+Zunächst untersuchen wir, welchen Einfluss die Rotation der Proben auf das Messergebnis hat. Dazu wird Probe 3 verwendet. Ohne Rotation hat das Responsesignal eine Breite (FWHM) von ca. \SI{200}{Hz} bei einer maximalen Intensität von 0,25. Mit Rotation beträgt die Breite nur ca. \SI{20}{Hz} und das Maximum 1,9. Offensichtlich lässt sich also die Breite der Peaks und damit die Auflösung durch diese Methode deutlich verbessern, weil sich die oben genannten Inhomogenitäten und Diffusionseffekte herausmitteln.
 
 \paragraph{Zuordnung der Proben}
-Wir messen nacheinander die Präparate A bis E, jeweils mit TMS-Beimischung\footnote{Die Daten für die Proben A+ und D+ stammen aus der Datenbank, da uns keine Probe zur Verfügung stand} (gekennzeichnet durch ein +) und ohne. Der relative Abstand der Peaks, die zu den chemischen Gruppen gehören gibt Aufschluss über die chemische Zusammensetzung.Uns standen folgende Proben zur Verfügung:
+Wir messen nacheinander die Präparate A bis E, jeweils mit TMS-Beimischung\footnote{Die Daten für die Proben A+ und D+ stammen aus der Datenbank, da uns keine Probe zur Verfügung stand} (gekennzeichnet durch ein +) und ohne. Der relative Abstand der Peaks, die zu den chemischen Gruppen gehören, gibt Aufschluss über die chemische Zusammensetzung. Uns standen folgende Proben zur Verfügung:
 
 \begin{description}
 	\item[Toluol] \includegraphics[height = 0.6 cm]{./Resources/toluol.png}
@@ -502,13 +505,13 @@ Unsere Messergebnisse sind in den Talleben \ref{tab:Probe_A} bis \ref{tab:Probe_
 \subsubsection{Auswertung}
 \paragraph{Zuordnung}
 
-Bei der Zuordnung sind wir nach dem Ausschlussprinzip vorgegangen. Probe C lässt sich eindeutig der \emph{Essigsäure} zuweisen, da die COOH-Gruppe gemäß Abbildung \ref{fig:chem_shift} eine sehr charakteristische hohe chemische Verschiebung von \SI{9}{ppm} bis \SI{13}{ppm}. Wegen der hohen Elektronegativität des Sauerstoffatoms das Elektron des Wasserstoffs stark vom Protonkern weggezogen, was den hohen Wert dür $\delta_i$ erklärt.
-Die Stoffe \emph{Toluol} und {p-Xylol} sind in ihrem chemischen Aufbau sehr ähnlich mit dem Unterschied, dass Toluol eine Methylgruppe (\ce{CH3}) und p-Xylol zwei hat. Dementsprechend konnten wir beim p-Xylol einen Peak beobachten, der doppelt so groß ist wie des Benzols, wohingegen beim Toluol zwei Peaks der selben Höhe zu sehen waren. Interessant ist an dieser Stelle auch die Tatsache, dass die Benzol-Gruppe eine relativ große chemische Verschiebung von $\delta_i \approx 7,0$ hat. Das ist darauf zurückzuführen, dass die Bindungselektronen im Benzolring relativ stark delokalisiert sind und deshalb wenig zur Abschirmung beitragen.
-Die beiden verbleibenden Stoffe unterscheiden sich in vor allem in der Anzahl der NMR-aktiven Gruppen. Die \ce{FCH2}-Gruppe ist sowohl im \emph{Flouraceton} als auch im \emph{Flouroacetonitril} enthalten und sorgt für zwei Peaks im NMR-Spektrum. Das resultiert aus der Spin-Spin-Kopplung vom Fluor- und Wasserstoff-Atom. Beide Kerne haben einen Spin von I = \nicefrac{1}{2}, was zu einer Zeeman-Aufspaltung beim Wasserstoff führt. Da die \ce{CN}-Gruppe kein Signal liefert -- \ce{^{14}N} hat zwar einen Spin von I = 1, jedoch liegt $\omega_L$ wegen des gyrmomagnetischen Verhältnisses außerhalb unserer Messbereichs -- hat Fluoracetonitril zwei Peaks und Fluoraceton drei. Der dritte gehört zur Methylgruppe.
+Bei der Zuordnung sind wir nach dem Ausschlussprinzip vorgegangen. Probe C lässt sich eindeutig der \emph{Essigsäure} zuweisen, da die COOH-Gruppe gemäß Abbildung \ref{fig:chem_shift} eine sehr charakteristische hohe chemische Verschiebung von \SI{9}{ppm} bis \SI{13}{ppm} hat. Wegen der hohen Elektronegativität des Sauerstoffatoms wird das Elektron des Wasserstoffs stark vom Protonkern weggezogen, was den hohen Wert dür $\delta_i$ erklärt.
+Die Stoffe \emph{Toluol} und \emph{p-Xylol} sind in ihrem chemischen Aufbau sehr ähnlich, mit dem Unterschied, dass Toluol eine Methylgruppe (\ce{CH3}) und p-Xylol zwei hat. Dementsprechend konnten wir beim p-Xylol einen Peak beobachten, der doppelt so groß ist wie des Benzols, wohingegen beim Toluol zwei Peaks der selben Höhe zu sehen waren. Interessant ist an dieser Stelle auch die Tatsache, dass die Benzol-Gruppe eine relativ große chemische Verschiebung von $\delta_i \approx 7,0$ hat. Das ist darauf zurückzuführen, dass die Bindungselektronen im Benzolring relativ stark delokalisiert sind und deshalb wenig zur Abschirmung beitragen.
+Die beiden verbleibenden Stoffe unterscheiden sich vor allem in der Anzahl der NMR-aktiven Gruppen. Die \ce{FCH2}-Gruppe ist sowohl im \emph{Flouraceton} als auch im \emph{Flouroacetonitril} enthalten und sorgt für zwei Peaks im NMR-Spektrum. Das resultiert aus der Spin-Spin-Kopplung vom Fluor- und Wasserstoff-Atom. Beide Kerne haben einen Spin von I = \nicefrac{1}{2}, was zu einer Zeeman-Aufspaltung beim Wasserstoff führt. Da die \ce{CN}-Gruppe kein Signal liefert -- \ce{^{14}N} hat zwar einen Spin von I = 1, jedoch liegt $\omega_L$ wegen des gyromagnetischen Verhältnisses außerhalb unserer Messbereichs -- hat Fluoracetonitril zwei Peaks und Fluoraceton drei. Der dritte gehört zur Methylgruppe.
 
 \paragraph{Energieauflösung}
 
-Aus der Breite der Peaks lässt sich die Energieauflösung des Spektroskops bestimmen. Wir ermittelten die FWHM des schmalsten Peaks: $\Delta \nu = 20\, \mathrm{s^{-1}}$
+Aus der Breite der Peaks lässt sich die Energieauflösung des Spektrometers bestimmen. Wir ermittelten die FWHM des schmalsten Peaks: $\Delta \nu = 20\, \mathrm{s^{-1}}$
 \begin{equation}
 	\Delta E_{NMR} = h \cdot \Delta \nu = 8,28 \cdot 10^{-14} \, \mathrm{eV}
 \end{equation}
@@ -524,26 +527,24 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Theorie}
 
-Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werdem dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$ Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und die Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
+Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werdem dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$, Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und ihre Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
 
 \paragraph{Eindimensionale Bildgebung}
 
 Im eindimensionalen Fall wird ein Gradientenfeld verwendet, wodurch die Larmorfrequenz ortsabhängig wird. Im Folgenden soll das Verfahren anhand einer Aufnahme in z-Richtung vorgestellt werden.
 
 Die Larmorfrequenz folgt dann dem Zusammenhang:
-
 \begin{equation}
 	\omega_L = \gamma (B_0 + G^z \cdot z) = \omega_L^0 + \omega_z
 	\label{eq:larmor_mod}
 \end{equation}
+Um nun das NMR-Signal aufzunehmen, können zwei verschiedene Verfahren verwendet werden: \emph{Frequenzkodierung} und \emph{Phasenkodierung}.
 
-Um nun das NMR-Signal aufzunehmen, können zwei verschiedene Verfahren verwendet werden: \textit{Frequenzkodierung} und \textit{Phasenkodierung}.
-
-Bei der Frequenzkodierung wird das NMR-Signal als Funktion der Zeit aufgenommen. Die transversale Magnetisierung $M_{\perp}^{rot}(z)$ am Ort z präzediert mit der Larmor-Frequenz aus Gl. \eqref{eq:larmor_mod}. Wird das Signal innerhalb einer Zeit aufgenommen, die im Vergleich zur Relaxationszeit $T_2$ klein ist, bleibt die transversale Magnetisierung $M_{\perp}^{rot}(z)$ annähernd konstant und ist nur ortsabhängig. Das gemessene Signal $S(t)$ ist dann die eindimensionale Fouriertransformation von $M_{\perp}^{rot}(z)$. Damit kann über eine Rücktransformation des NMR-Signals auf die transversale Magnetisierung geschlossen werden.
+Bei der \emph{Frequenzkodierung} wird das NMR-Signal als Funktion der Zeit aufgenommen. Die transversale Magnetisierung $M_{\perp}^{rot}(z)$ am Ort z präzediert mit der Larmor-Frequenz aus Gl. \eqref{eq:larmor_mod}. Wird das Signal innerhalb einer Zeit aufgenommen, die im Vergleich zur Relaxationszeit $T_2$ klein ist, bleibt die transversale Magnetisierung $M_{\perp}^{rot}(z)$ annähernd konstant und ist nur vom Ort abhängig. Das gemessene Signal $S(t)$ ist dann die eindimensionale Fouriertransformation von $M_{\perp}^{rot}(z)$. Damit kann über eine Rücktransformation des NMR-Signals auf die transversale Magnetisierung geschlossen werden.
 
 In der Praxis wird das NMR-Signal in festgelegten Zeitschritten abgetastet, wodurch eine Menge von N Datenpunkten ${S_N(N \Delta t)}$ aufzeichnet wird. Eine diskrete Fouriertransformation liefert dann die Menge $M_N=M_{\perp}(N \Delta z)$.
 
-Im Gegensatz dazu wird bei der Phasenkodierung ein Gradientenfeld angelegt, dessen Stärke in linearen Schritten $\Delta G^z$ erhöht wird. Innerhalb eines Zeitintervalls $T_{Ph}$ vor Abtasten des Signals wird ein Gradientenfeld $B^z = G^z z$ angelegt, wodurch die Phase
+Im Gegensatz dazu wird bei der \emph{Phasenkodierung} ein Gradientenfeld angelegt, dessen Stärke in linearen Schritten $\Delta G^z$ erhöht wird. Innerhalb eines Zeitintervalls $T_{Ph}$ vor Abtasten des Signals wird ein Gradientenfeld $B^z = G^z z$ angelegt, wodurch die Phase
 \begin{equation}
 	\phi (z) = (\gamma G^z T_{Ph})z \coloneqq k_z z
 \end{equation}
@@ -555,7 +556,7 @@ Beide Methoden sind mathematisch äquivalent. Der einzige Unterschied besteht in
 
 Zur Aufnahme eines zweidimensionalen NMR-Bildes werden alle drei Gradientenfelder verwendet. Zunächst muss in z-Richtung eine dünne Scheibe des Samples selektiv angeregt werden. Liegen ihre Koordinaten im Bereich $z_1 \leq z \leq z_2$, so sind die Begrenzungen durch die Larmorfrequenzen $\omega_1$ und $\omega_2$ charakterisiert. Wird nun ein Hochfrequenzpuls auf die Probe gegeben, der nur Frequenzen $\omega$ innerhalb dieses Bereichs enthält, kann die gewünschte Scheibe selektiv angeregt werden. 
 
-Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinformation aus einer Kombination von Phasenkodierung in x-Richtung und Frequenzkodierung in y-Richtung abgeleitet werden. Die Messsequenz wird $N$-Mal für unterschiedliche Phasengradienten wiederholt, wobei jede Sequenz $M$ Datenpunkte liefert. Aus dieser Matrix von $N x M$ Datenpunkten kann nun über eine zweidimensionale Fouriertransformation das NMR-Bild errechnet werden. Die zeitliche Abfolge der Pulse und des Messignals ist in Abb. \ref{fig:2d_imaging} veranschaulicht.
+Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinformation aus einer Kombination von Phasenkodierung in x-Richtung und Frequenzkodierung in y-Richtung abgeleitet werden. Die Messsequenz wird $N$-Mal für unterschiedliche Phasengradienten wiederholt, wobei jede Sequenz $M$ Datenpunkte liefert. Aus dieser Matrix von $N \times M$ Datenpunkten kann nun über eine zweidimensionale Fouriertransformation das NMR-Bild errechnet werden. Die zeitliche Abfolge der Pulse und des Messsignals ist in Abb. \ref{fig:2d_imaging} veranschaulicht.
 
 \begin{figure}[H]
 	\centering
@@ -574,7 +575,7 @@ Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in 
 
 \begin{itemize}
 	\item Ein Glaszylinder wird \SI{15}{mm} hoch mit Öl gefüllt. Wie erwartet erhalten wir ein rechteckiges Signal.
-	\item Ein Glaszylinder wird \SI{50}{mm} hoch mit Wasser gefüllt. Es entsteht wieder ein rechteckförmiges Signal, diesmal breiter und von höherer Intensität, da die Dichte der Wasserstoffatome größer ist als in Öl. Es treten nichtlineare Effekte auf Grund der Inhomogenität des Magnetfeldes auf. Diesen Effekt äußert sich in einer Krümmung des Signal einem Bereich, der eigentlich ein konstantes Signal liefern sollte. Daher sollte die Probe dort positioniert werden, wo diese Inhomogenitäten nicht auftreten (um den Nullpunkt: $\pm$ \SI{5}{mm}).
+	\item Ein Glaszylinder wird \SI{50}{mm} hoch mit Wasser gefüllt. Es entsteht wieder ein rechteckförmiges Signal, diesmal breiter und von höherer Intensität, da die Dichte der Wasserstoffatome größer ist als in Öl. Aufgrund der Inhomogenität des Magnetfeldes treten nichtlineare Effekte auf. Dies äußert sich in einer Krümmung des Signals in einem Bereich, der eigentlich ein konstantes Signal liefern sollte. Daher sollte die Probe dort positioniert werden, wo diese Inhomogenitäten nicht auftreten (um den Nullpunkt: $\pm$ \SI{5}{mm}).
 	\item Es wird der Glaszylinder mit der scheibenförmigen Teflonstruktur eingesetzt. Da Teflon kein NMR-Signal erzeugt, sind im Signal fünf Vertiefungen zu erkennen, für jede Scheibe eine. An diesen Stellen wird das Wasser stärker verdrängt, weshalb das Signal schwächer ist.
 	\item Wir untersuchen den Versickerungsprozess von Öl in Sand hinsichtlich der Frage, ob es sich um einen \emph{Diffusionsprozess} handelt. Dazu befüllen wir den Glaszylinder mit einer \SI{15}{mm} hohen Sandschicht, auf der eine \SI{4}{mm} hohe Ölschicht platziert wird. Wir messen die zeitliche Entwicklung der vertikalen Verteilung des Öls im Sand (siehe Abbildung \ref{fig:oel_diff}).
 
@@ -610,7 +611,7 @@ Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in 
 Folgende Messungen werden mittels 2-D-Fouriermethode durchgeführt:
 
 \begin{itemize}
-	\item Es wird ein Glaszylinder mit \SI{15}{mm} Öl befüllt und ein horizontaler Ausschnitt gewählt (Abbildung \ref{fig:2d_oel_hori}). Wie erwartet sehen wir eine mehr oder minder homogene Kreisscheibe. Ein vertikaler Ausschnitt von links nach rechts ergibt ein Rechteck, an dem unten die Wölbung des Glaszylinders und oben der Meniskus auf Grund der Oberflächenspannung sichtbar ist (Abbildung \ref{fig:2d_oel_vert}).
+	\item Es wird ein Glaszylinder mit \SI{15}{mm} Öl befüllt und ein horizontaler Ausschnitt gewählt (Abbildung \ref{fig:2d_oel_hori}). Wie erwartet sehen wir eine mehr oder minder homogene Kreisscheibe. Ein vertikaler Ausschnitt von links nach rechts ergibt ein Rechteck, an dem unten die Wölbung des Glaszylinders und oben der Meniskus aufgrund der Oberflächenspannung sichtbar ist (Abbildung \ref{fig:2d_oel_vert}).
 	\item Das Bild der PFTE-Struktur sieht auch wie erwartet aus (Abbildung \ref{fig:2d_teflon}). Da Teflon unsichtbar für unser Gerät ist, wird es schwarz dargestellt.
 \end{itemize}
 
@@ -619,7 +620,7 @@ Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw.
 \begin{itemize}
 	\item Bei der Olive (Abbildung \ref{fig:2d_olive}) ist der Stein gut zu erkennen. Er besteht aus einer trockenen Schale und enthält im Inneren den Keimling, der viel Feuchtigkeit und Öle enthält. Um den Kern ist das ölhaltige Fruchtfleisch angesiedelt. 
 	\item Die Schale der Erdnuss (Abbildung \ref{fig:2d_erdnuss}) ist sehr trocken und taucht daher im NMR-Bild nicht auf. Die untere Erdnuss ist gerade so ausgerichtet, dass der Luftspalt zwischen den beiden Hälften sichtbar ist. Am unteren Ende befindet sich der Keimling, weshalb dort viel Öl vorhanden ist.
-	\item In Ermangelung einer Staudenselerie mussten wir auf eine Scheibe einer Aloe vera zurückgreifen (Abbildung \ref{fig:2d_aloevera}). Man kann gut die Querschnittsform der beiden Stücke erkennen. Der Stofftransport findet in der äußeren Schicht statt, was am hellen Rand erkennbar ist.
+	\item In Ermangelung einer Staudensellerie mussten wir auf eine Scheibe einer Aloe vera zurückgreifen (Abbildung \ref{fig:2d_aloevera}). Man kann gut die Querschnittsform der beiden Stücke erkennen. Der Stofftransport findet in der äußeren Schicht statt, was am hellen Rand erkennbar ist.
 \end{itemize}
 
 \begin{figure}[htbp]
