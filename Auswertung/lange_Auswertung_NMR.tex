@@ -125,6 +125,7 @@ Die Wechselwirkung zwischen dem Magnetfeld $\vec{B_0}$ und der Magnetisierung $\
 Eine bestimmte Magnetisierung kann durch Anlegen eines HF-Pulses an die Magnetisierung im Grundzustand erzeugt werden. Das zusätzliche Magnetfeld $\vec{B_1}$ dreht die Grundzustandsmagnetisierung während eines Zeitintervalls $\Delta t$ um einen Winkel
 \begin{equation}
 \alpha = \gamma B_1 \Delta t
+\label{eq:pulseangle}
 \end{equation}
 Ist die Zeitdauer so gewählt, dass $\alpha = 90^\circ$ beträgt, wird $\vec{M}$ in eine senkrechte Komponente $M_{\perp}$ überführt ($90^\circ$-Puls). Ebenfalls kann durch $\alpha = 180^\circ$ eine Magnetisierung antiparallel zum statischen Feld $\vec{B_0}$ erzeugt werden ($180^\circ$-Puls).
 
@@ -154,7 +155,7 @@ Um nun die Pulse zu kalibrieren, wird das in der Spule induzierte Signal auf dem
 	}
 \end{figure}
 
-Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\omega_{HF} = (19.9 \pm 0.2) \mhz$ moduliert. Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1\khz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$). Über die FWHM des Pulses bestimmen wir die Pulsbreite zu:
+Für die Kalibration wird Probe I (Gd 1:500 in Wasser) verwendet. Die HF-Pulse sind jeweils mit einer Frequenz von $\nu_{HF} = (19.9 \pm 0.2) \mhz$ moduliert. Die Arbeitsfrequenz wird nun durch Drehen der Schraube W1 auf $1\khz$ eingestellt. \texttt{PULS I} hat dann $90^\circ$-Verhalten, wenn $S6 \approx 2.0$ (Amplitude ca. $6V$), \texttt{PULS II} $180^\circ$-Verhalten, wenn $S7 \approx 2.1$ (Amplitude ca. $7V$). Über die FWHM des Pulses bestimmen wir die Pulsbreite zu:
 \begin{itemize}
 	\item[] \texttt{PULS I}: $t_1=\err{1,41}{0,10}\us$
 	\item[] \texttt{PULS II}: $t_2=\err{2,48}{0,20}\us$
@@ -322,7 +323,7 @@ In Tabelle \ref{tab:relaxtimes} sind unsere Messungen für die Relaxationszeiten
 	\label{tab:relaxtimes}
 	\begin{tabular}{cccc}
 		\toprule
-		Zeit & T1 [$\mathrm{ms}$] & T2 [$\mathrm{ms}$] & T2 [$\mathrm{ms}$]\\
+		Zeit & $T_1$ [$\mathrm{ms}$] & $T_2$ [$\mathrm{ms}$] & $T_2$ [$\mathrm{ms}$]\\
 		Methode & Spin-Echo & Spin-Echo & Carr-Purcell\\
 		\midrule
 		Probe 1 (Gd 1:500)& $\err{125,5}{0,6}$ & $\err{119,5}{0,5}$ & $\err{140,1}{0,4}$\\
@@ -331,9 +332,20 @@ In Tabelle \ref{tab:relaxtimes} sind unsere Messungen für die Relaxationszeiten
 	\end{tabular}
 \end{table}
 
-Es fällt auf, dass ...
+Zunächst fällt bei den Messungen für $T_2$ auf, dass die Messwerte über die Carr-Purcell Sequenz für beide Proben größer als über die Spin-Echo Methode sind. Da die Carr-Purcell Methode Inhomogenitäten des Magnetfeldes korrigiert, erwarten wir, dass diese Messungen näher an den wahren Werten liegen.
+Laut Theorie der Relaxationsvorgänge ist die Interaktion zwischen verschiedenen Spins aufgrund des größeren Winkels zueinander höher als die Interaktion zwischen Spin und Gitter. Somit sollte die Zerfallszeit $T_2$ kleiner als $T_1$ sein (stärkere Kopplung bedingt schnelleren Zerfall), was aber nur für die Messungen mit der Spin-Echo Methode gegeben ist. Die Zeitkonstanten für die stärker verdünnte Probe 3 sind allesamt größer, was auch direkt durch die höhere Konzentration von Wasserstoffkernen ersichtlich ist.
 
-\newpage
+Um die Genauigkeit der Messungen zu steigern, sollten einige systematische Fehlerquellen eliminiert werden: Zunächst ist die Arbeitsfrequenz durch Temperaturerhöhung während des Versuchs stark gedriftet. Daher mussten wir über die Einstellschraube am Gehäuse mehrfach nachkorrigieren, wodurch sicherlich Ungenauigkeiten entstanden sind. Abhilfe würde eine bessere thermische Isolierung und ein automatisierter Messprozess bieten, der die absolute Messdauer reduziert und somit Temperaturdrifts verringert. Ebenfalls war es nur unzureichend möglich, die Pulsdauern genau einzustellen. Vor allem bei dem $180^\circ$-Puls war die Differenz zwischen maximaler und minimaler Amplitude sehr klein, und das Signal ist auch nicht komplett auf Null abgefallen. Hierdurch ist die Projektion der Magnetisierung sowie das Umkehren der Phasenwinkel mit einem großen Fehler behaftet, was sicherlich zu einer signifikanten Ungenauigkeit führt. Als Probemlösung ist die Verwendung einer digitalen Einstellmöglichkeit, anstatt der nur grob einstellbaren, analogen Drehregler, vorzuschlagen. Eventuell könnte diese Einstellung sogar automatisiert über eine Regelschleife erfolgen, um die optimalen Pulsdauern zu finden.
+
+Zum Abschluss schätzen wir aus den gemessenen Arbeitsfrequenzen und Pulsdauern die Feldstärken der beiden Magnetfelder. Aus der Larmorfrequenz (Gl. \ref{eq:larmor_freq}) lässt sich unter der Näherung $\omega_{L} \approx \omega_{HF} = 2\pi \nu_{HF} = 2\pi \times \err{19.9}{0.2}\mhz$ die Feldstärke des statischen Feldes bestimmen:
+\begin{itemize}
+\item[] $B_0 = \err{0.467}{0.002}\mathrm{T}$
+\end{itemize}
+Aus den Drehwinkeln der beiden Pulse zusammen mit ihrer gemessenen Dauer (s. Kap. 1.2) ergibt sich dann über Gl. \ref{eq:pulseangle} die Feldstärke des Wechselfeldes zu:
+\begin{itemize}
+	\item[] $B_1 \approx 0.3\mathrm{mT}$ (aus beiden Pulsen)
+\end{itemize}
+Beide Feldstärken erscheinen physikalisch sinnvoll; Referenzwerte für diese Apparatur lagen leider nicht vor.
 
 \subsection{Teil II: Chemische Verschiebung}
 
@@ -521,8 +533,6 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 	\Delta E(H, F) = h \cdot | \nu_1 - \nu_2 | = 4,14 \cdot 10^{-15} \, \mathrm{eV\,s} \cdot 48 \, \mathrm{s^{-1}} = 2,0 \cdot 10^{-13} \, \mathrm{eV}
 \end{equation}
 
-\newpage
-
 \subsection{Teil III: Bildgebung mit NMR}
 
 \subsubsection{Theorie}
@@ -561,7 +571,7 @@ Innerhalb der ausgewählten Scheibe kann nun die zweidimensionale Positionsinfor
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=80mm]{./Resources/2d_imaging.png}
-	\caption{Pulsfolge zur Aufnahme eines zweidimensionalen Bildes.}
+	\caption{Pulsfolge zur Aufnahme eines zweidimensionalen Bildes. \autocite{skript}}
 	\label{fig:2d_imaging}
 \end{figure}
 
@@ -601,7 +611,7 @@ Wir beginnen unsere Messung mit verschiedenen Wasser- und Ölproben, die wir in 
 		\subcaption{Papageiensand, grobkörnig}
 		\label{fig:oeldiff_papa}
 	}	
-		\caption{Zeitliche Aufnahmen des Versickerung von Öl im Sand. Die größere Porosität vom Papageiensand führt zu einer rascheren Verickerung (oben).}
+		\caption{Zeitliche Aufnahmen des Versickerung von Öl im Sand. Die größere Porosität vom Papageiensand führt zu einer rascheren Versickerung (oben).}
 		\label{fig:oel_diff}
 	
 \end{figure}
@@ -623,7 +633,7 @@ Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw.
 	\item In Ermangelung einer Staudensellerie mussten wir auf eine Scheibe einer Aloe vera zurückgreifen (Abbildung \ref{fig:2d_aloevera}). Man kann gut die Querschnittsform der beiden Stücke erkennen. Der Stofftransport findet in der äußeren Schicht statt, was am hellen Rand erkennbar ist.
 \end{itemize}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering{
 	\parbox{0.48\textwidth}{
 		\centering
@@ -673,6 +683,14 @@ Bei den organischen Proben gibt die Helligkeit Aufschluss über den Wasser- bzw.
 
 
 \section{Zusammenfassung und Fazit}
+
+Im ersten Versuchsteil haben wir die Grundlagen der Kernresonanzspektroskopie anhand eines älteren, aber vielleicht gerade deswegen sehr einfach zugänglichen Spektrometers experimentell kennengelernt. Nach der Kalibration des Systems wurden an zwei unterschiedlich stark verdünnten Gd-Proben Messungen der Relaxationszeiten $T_1$ und $T_2$ durchgeführt. Durch die Unterschiede zwischen den beiden Zeiten an sich als auch zwischen den Proben konnten die theoretischen Erwartungen an die Spin-Gitter- und Spin-Spin-Wechselwirkung direkt überprüft werden. 
+
+Im zweiten Versuchsteil wurde dann bereits eine sehr eindrückliche Anwendung des NMR-Spektrometers demonstriert. Mithilfe der chemischen Verschiebung konnten chemische Verbindungen anhand ihrer jeweiligen funktioniellen Gruppen bestimmt werden. Dabei wurde eine erstaunliche Energieauflösung von $10^{-13}~\mathrm{eV}$ erzielt!
+
+Abschließend wurde mithilfe eines neueren Analyzers die Möglichkeit untersucht, Kernresonanzspektroskopie zur Bildgebung einzusetzen. In mehreren ein- und zweidimensionalen Messungen konnten zahlreiche organische und anorganische Objekte und deren innere Zusammensetzung betrachtet werden. Die korrekte Positionierung der Probe innerhalb der Analyseröhre war dabei kritisch, was in der Durchführung schnell zeitaufwendig wurde, da jede Messung erst automatisch kalibriert werden musste. Im Rahmen der Versuchsdauer mussten ebenso Abstriche bei der Auflösung gemacht werden, da insbesondere im zweidimensionalen Fall jede zusätzlich aufgenommene Zeile die Messzeit erheblich steigerte. Nichtsdestotrotz konnten wir auch bei den organischen Proben die inneren Strukturen ausreichend gut erkennen und so z.B. bei der Olive die Ausprägung von Kern und Fruchtfleisch vergleichen sowie bei der Aloe-Vera Pflanze die Transportkanäle erkennen.
+
+Zusammenfassend bot dieser Versuch einen spannenden Einblick in die Technik der Kernresonanzspektroskopie, die heute in perfektionierter Form aus dem klinischen Alltag und zahlreichen anderen Bereichen nicht mehr wegzudenken ist. Bereits mit unseren einfachen Versuchsaufbauten haben wir mitunter erstaunlich genaue Messergebnisse erzielt, und durch einfache Verbesserung ließe sich die Genauigkeit sicherlich auch noch steigern.
 
 \printbibliography
 
