@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  23 JAN 2017 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2015.12.21)  24 JAN 2017 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1731,10 +1731,10 @@ File: ./Resources/Tetramethylsilan.png Graphic file (type png)
 
 <use ./Resources/Tetramethylsilan.png>
 Package pdftex.def Info: ./Resources/Tetramethylsilan.png used on input line 37
-2.
+0.
 (pdftex.def)             Requested size: 75.28293pt x 53.0147pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
 []\T1/cmr/bx/n/10 Abbildung 14:
  []
 
@@ -1743,35 +1743,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 374--374
 File: ./Resources/chem_shifts.png Graphic file (type png)
 
 <use ./Resources/chem_shifts.png>
-Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 390.
+Package pdftex.def Info: ./Resources/chem_shifts.png used on input line 388.
 (pdftex.def)             Requested size: 376.42744pt x 295.77519pt.
  [10 <./Resources/chem_shifts.png>]
 <./Resources/toluol.png, id=122, 136.875pt x 66.795pt>
 File: ./Resources/toluol.png Graphic file (type png)
 
 <use ./Resources/toluol.png>
-Package pdftex.def Info: ./Resources/toluol.png used on input line 408.
+Package pdftex.def Info: ./Resources/toluol.png used on input line 406.
 (pdftex.def)             Requested size: 34.98306pt x 17.07182pt.
 
 <./Resources/p-xylol.png, id=123, 220.095pt x 58.5825pt>
 File: ./Resources/p-xylol.png Graphic file (type png)
 
 <use ./Resources/p-xylol.png>
-Package pdftex.def Info: ./Resources/p-xylol.png used on input line 409.
+Package pdftex.def Info: ./Resources/p-xylol.png used on input line 407.
 (pdftex.def)             Requested size: 64.13823pt x 17.07182pt.
 
 <./Resources/acetic_acid.png, id=124, 194.3625pt x 45.4425pt>
 File: ./Resources/acetic_acid.png Graphic file (type png)
 
 <use ./Resources/acetic_acid.png>
-Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 410.
+Package pdftex.def Info: ./Resources/acetic_acid.png used on input line 408.
 (pdftex.def)             Requested size: 73.01921pt x 17.07182pt.
 
 <./Resources/fluoroacetone.png, id=125, 254.04pt x 52.0125pt>
 File: ./Resources/fluoroacetone.png Graphic file (type png)
 
 <use ./Resources/fluoroacetone.png>
-Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 411.
+Package pdftex.def Info: ./Resources/fluoroacetone.png used on input line 409.
 (pdftex.def)             Requested size: 83.37991pt x 17.07182pt.
 
 <./Resources/fluoroacetonitril.png, id=126, 171.3675pt x 49.275pt>
@@ -1779,15 +1779,15 @@ File: ./Resources/fluoroacetonitril.png Graphic file (type png)
 
 <use ./Resources/fluoroacetonitril.png>
 Package pdftex.def Info: ./Resources/fluoroacetonitril.png used on input line 4
-12.
+10.
 (pdftex.def)             Requested size: 59.37286pt x 17.07182pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, Peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--513
+Underfull \hbox (badness 10000) in paragraph at lines 511--511
 []|\T1/cmr/m/n/10.95 Methyl-Gruppe, bei-de
  []
 
@@ -1797,40 +1797,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--513
 File: ./Resources/2d_imaging.png Graphic file (type png)
 
 <use ./Resources/2d_imaging.png>
-Package pdftex.def Info: ./Resources/2d_imaging.png used on input line 573.
+Package pdftex.def Info: ./Resources/2d_imaging.png used on input line 571.
 (pdftex.def)             Requested size: 227.62204pt x 208.56036pt.
  [14]
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 580.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 578.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 580.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 580.
+(Font)              using `OMS/cmsy/m/n' instead on input line 578.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 580.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
 
-LaTeX Warning: Command \textregistered invalid in math mode on input line 580.
+LaTeX Warning: Command \textregistered invalid in math mode on input line 578.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 580.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
 
-LaTeX Warning: Command \textcircled invalid in math mode on input line 580.
+LaTeX Warning: Command \textcircled invalid in math mode on input line 578.
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 587.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 585.
 [15 <./Resources/2d_imaging.png>]
 <./Resources/Teil_3/oeldiff_chinchilla.jpg, id=149, 1674.255pt x 836.12375pt>
 File: ./Resources/Teil_3/oeldiff_chinchilla.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_chinchilla.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_chinchilla.jpg used on inpu
-t line 604.
+t line 602.
 (pdftex.def)             Requested size: 334.60571pt x 167.0942pt.
 
 <./Resources/Teil_3/oeldiff_papa.jpg, id=150, 1686.3pt x 951.555pt>
@@ -1838,10 +1838,10 @@ File: ./Resources/Teil_3/oeldiff_papa.jpg Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oeldiff_papa.jpg>
 Package pdftex.def Info: ./Resources/Teil_3/oeldiff_papa.jpg used on input line
- 610.
+ 608.
 (pdftex.def)             Requested size: 334.60571pt x 188.8121pt.
 
-Overfull \hbox (4.50606pt too wide) in paragraph at lines 621--622
+Overfull \hbox (4.50606pt too wide) in paragraph at lines 619--620
 [] \T1/cmss/bx/n/10.95 Zwei-di-men-sio-na-le Bild-ge-bung[][] \T1/cmr/m/n/10.95
  Fol-gen-de Mes-sun-gen wer-den mit-tels 2-D-Fouriermethode
  []
@@ -1851,14 +1851,14 @@ File: ./Resources/Teil_3/oel_horizontal.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_horizontal.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/oel_horizontal.JPG used on input li
-ne 642.
+ne 640.
 (pdftex.def)             Requested size: 200.76086pt x 150.65346pt.
 
 <./Resources/Teil_3/oel_vert.JPG, id=152, 453.19313pt x 344.03531pt>
 File: ./Resources/Teil_3/oel_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/oel_vert.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 648
+Package pdftex.def Info: ./Resources/Teil_3/oel_vert.JPG used on input line 646
 .
 (pdftex.def)             Requested size: 200.76086pt x 152.4049pt.
 
@@ -1867,14 +1867,14 @@ File: ./Resources/Teil_3/ptfe_vert.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/ptfe_vert.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/ptfe_vert.JPG used on input line 65
-6.
+4.
 (pdftex.def)             Requested size: 200.76086pt x 150.73444pt.
 
 <./Resources/Teil_3/olive_2d.JPG, id=154, 504.88625pt x 391.4625pt>
 File: ./Resources/Teil_3/olive_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/olive_2d.JPG>
-Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 662
+Package pdftex.def Info: ./Resources/Teil_3/olive_2d.JPG used on input line 660
 .
 (pdftex.def)             Requested size: 200.76086pt x 155.66234pt.
 
@@ -1883,7 +1883,7 @@ File: ./Resources/Teil_3/peanut_shell.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/peanut_shell.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/peanut_shell.JPG used on input line
- 670.
+ 668.
 (pdftex.def)             Requested size: 200.76086pt x 151.15027pt.
 
 <./Resources/Teil_3/aloevera_2d.JPG, id=156, 453.94594pt x 346.29375pt>
@@ -1891,7 +1891,7 @@ File: ./Resources/Teil_3/aloevera_2d.JPG Graphic file (type jpg)
 
 <use ./Resources/Teil_3/aloevera_2d.JPG>
 Package pdftex.def Info: ./Resources/Teil_3/aloevera_2d.JPG used on input line 
-676.
+674.
 (pdftex.def)             Requested size: 200.76086pt x 153.15175pt.
  [16] [17 <./Resources/Teil_3/oeldiff_chinchilla.jpg> <./Resources/Teil_3/oeldi
 ff_papa.jpg>]
@@ -1944,7 +1944,7 @@ f-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2015/texmf-dist/fon
 ts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2015/texmf-dist/fonts/type1/p
 ublic/cm-super/sfti1095.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/cm-s
 uper/sftt1095.pfb>
-Output written on lange_Auswertung_NMR.pdf (19 pages, 2655784 bytes).
+Output written on lange_Auswertung_NMR.pdf (19 pages, 2655817 bytes).
 PDF statistics:
  263 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams
