@@ -185,7 +185,7 @@ M_{\perp}(t) = M_{\perp}^0 e^{-\frac{t}{T_2}}
 \label{eq:spinrelax}
 \end{equation}
 
-Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden (s. Abb. \ref{fig:spinecho_bloch}). Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung, wobei Protonen an unterschiedlichen aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei unterschiedliche Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}). Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also einzelne Punkte des Zerfallsgesetztes (Gl. \ref{eq:spinrelax}) bestimmt werden.
+Die Spin-Spin Relaxationszeit $T_2$ kann durch die sogenannte Spin-Echo Methode bestimmt werden (s. Abb. \ref{fig:spinecho_bloch}). Hierbei wird zunächst mit einem $90^\circ$-Puls eine transversale Magnetisierung erzeugt. Aufgrund des Magnetfelds $\vec{B_0}$ präzediert die Magnetisierung, wobei Protonen an verschiedenen Orten aufgrund von Inhomogenitäten des Magnetfelds unterschiedliche Larmorfrequenzen haben. Zwei verschiedene Protonen haben dann zum Zeitpunkt $t=\tau$ eine Phasendifferenz aufgebaut, die durch Gabe eines $180^\circ$-Pulses umgekehrt werden kann. Nach der Zeit $t=2\tau$ sind die Magnetisierungen wieder in Phase, und das so erzeugte 'Spin-Echo' kann auf dem Oszilloskop beobachtet werden (s. Abb. \ref{fig:spinecho_osci}). Durch Messung des Maximums der Einhüllenden zu verschiedenen Zeiten $\tau$ können also einzelne Punkte des Zerfallsgesetztes (Gl. \ref{eq:spinrelax}) bestimmt werden.
 
  
 Die Spin-Echo Methode wird für lange Zeiten zunehmend ungenau, da die Protonen vor Anlegen des $180^\circ$-Pulses an andere Positionen diffundieren können. Hierdurch kann nur teilweise Kohärenz erreicht werden; das Signal wird kleiner und wir messen zu niedrige Werte für $T_2$.
@@ -365,17 +365,15 @@ verringert. Nach Gleichung \eqref{eq:larmor_freq} wird dadurch auch die Larmorfr
 	\label{eq:omega_i}
 \end{equation}
 
-Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Abschirmung und ist charakteristisch für die chemische Gruppe, in der sich das Proton befindet. Damit ist die Messung von $\omega_i$ für die chemische Strukturanayse von Substanzen geeignet.
-
-\begin{wrapfigure}[10]{r}{0.2\textwidth}
+\begin{wrapfigure}[9]{r}{0.2\textwidth}
 	\begin{center}
 		\includegraphics[width = 0.18\textwidth]{./Resources/Tetramethylsilan.png}
 	\end{center}
-  \caption{Te\-tramethylsilan}
-  \label{fig:TMS}
+	\caption{Te\-tramethylsilan}
+	\label{fig:TMS}
 \end{wrapfigure}
 
-Um chemische Substanzen zu identifizieren, wird der Probe eine Referenzsubstanz beigemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfrequenz $\omega_{L}$ aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)} \autocite{TMS} (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silizium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
+Der Proportionalitätsfaktor $\sigma$ repräsentiert dabei die magnetische Abschirmung und ist charakteristisch für die chemische Gruppe, in der sich das Proton befindet. Damit ist die Messung von $\omega_i$ für die chemische Strukturanayse von Substanzen geeignet. Um chemische Substanzen zu identifizieren, wird der Probe eine Referenzsubstanz beigemischt. Alle \emph{chemischen Verschiebungen}, also Verschiebungen der Larmorfrequenz $\omega_{L}$ aufgrund der Elekronenorbitale, werden relativ zu dieser Referenz angegeben. Für diesen Zweck hat sich \emph{Tetramethylsilan (TMS)} \autocite{TMS} (siehe Abbildung \ref{fig:TMS}) etabliert, da es weitgehend chemisch inert ist, und einen einzigen starken Peak im Spektrum liefert. Außerdem hat es wegen der geringen chemischen Elektronegativität von Silizium eine kleinere Frequenz als die meisten funktionellen Gruppen der organischen Chemie, weshalb der Wert für $\delta_i$ in der Regel positiv (siehe Abbildung \ref{fig:chem_shift}) ist. Es ist üblich, die relative Verschiebung der Frequenz in der Einheit ppm (parts per million) anzugeben.
 
 \begin{equation}
 	\delta_i = \sigma_i -\sigma_{TMS} = \frac{\omega_{TMS} - \omega_i}{\omega_L}
@@ -537,7 +535,7 @@ Außerdem interessierte uns die Aufspaltung der beiden Peaks beim Fluoroacetonit
 
 \subsubsection{Theorie}
 
-Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werdem dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$, Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und ihre Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
+Um ein positionsaufgelöstes NMR-Signal aufzunehmen, müssen ortsabhängige Magnetfelder verwendet werden. Hierzu werden dem in z-Richtung zeigenden, statischen Feld $\vec{B_0}$, Gradientenfelder überlagert. Diese Magnetfelder $\vec{B^x}, \vec{B^y}, \vec{B^z}$ zeigen in z-Richtung und ihre Feldstärke steigt linear als Funktion der jeweiligen Koordinate an.
 
 \paragraph{Eindimensionale Bildgebung}
 
