@@ -1,15 +1,15 @@
-[0] Config.pm:327> INFO - This is Biber 2.2
-[0] Config.pm:330> INFO - Logfile is 'lange_Auswertung_NMR.blg'
-[57] biber-MSWIN:283> INFO - === 
-[57] Biber.pm:334> INFO - Reading 'lange_Auswertung_NMR.bcf'
-[167] Biber.pm:677> INFO - Found 2 citekeys in bib section 0
-[229] Biber.pm:3054> INFO - Processing section 0
-[293] Biber.pm:3193> INFO - Looking for bibtex format file 'lit_nmr.bib' for section 0
-[299] bibtex.pm:1072> INFO - Decoding LaTeX character macros into UTF-8
-[301] bibtex.pm:935> INFO - Found BibTeX data source 'lit_nmr.bib'
-[380] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[380] UCollate.pm:66> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[380] Biber.pm:2931> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'de-DE'
-[380] Biber.pm:2935> INFO - No sort tailoring available for locale 'de-DE'
-[383] bbl.pm:505> INFO - Writing 'lange_Auswertung_NMR.bbl' with encoding 'UTF-8'
-[384] bbl.pm:596> INFO - Output to lange_Auswertung_NMR.bbl
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'lange_Auswertung_NMR.blg'
+[61] biber-MSWIN32:303> INFO - === 
+[131] Biber.pm:359> INFO - Reading 'lange_Auswertung_NMR.bcf'
+[242] Biber.pm:835> INFO - Found 2 citekeys in bib section 0
+[262] Biber.pm:3670> INFO - Processing section 0
+[312] Biber.pm:3840> INFO - Looking for bibtex format file 'lit_nmr.bib' for section 0
+[318] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[330] bibtex.pm:1292> INFO - Found BibTeX data source 'lit_nmr.bib'
+[383] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[383] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[383] Biber.pm:3499> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'de-DE'
+[383] Biber.pm:3505> INFO - No sort tailoring available for locale 'de-DE'
+[387] bbl.pm:608> INFO - Writing 'lange_Auswertung_NMR.bbl' with encoding 'UTF-8'
+[387] bbl.pm:712> INFO - Output to lange_Auswertung_NMR.bbl

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.5 $
+% $ biblatex bbl format version 2.8 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,15 +18,23 @@
 
 
 \refsection{0}
-  \sortlist{nty}{nty}
+  \sortlist[entry]{nty/global/}
     \entry{TMS}{online}{}
       \name{author}{1}{}{%
-        {{hash=0eea7e5ba268b5e80078b1a93a35483c}{Enzyklopädie}{E\bibinitperiod}{Wikipedia\bibnamedelima -}{W\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim \bibinitperiod}{die\bibnamedelima freie}{d\bibinitperiod\bibinitdelim f\bibinitperiod}{}{}}%
+        {{hash=0eea7e5ba268b5e80078b1a93a35483c}{%
+           family={Enzyklopädie},
+           familyi={E\bibinitperiod},
+           given={Wikipedia\bibnamedelima -},
+           giveni={W\bibinitperiod\bibinitdelim \bibinithyphendelim \bibinithyphendelim \bibinitperiod},
+           prefix={die\bibnamedelima freie},
+           prefixi={d\bibinitperiod\bibinitdelim f\bibinitperiod}}}%
       }
       \strng{namehash}{0eea7e5ba268b5e80078b1a93a35483c}
       \strng{fullhash}{0eea7e5ba268b5e80078b1a93a35483c}
+      \strng{authornamehash}{0eea7e5ba268b5e80078b1a93a35483c}
+      \strng{authorfullhash}{0eea7e5ba268b5e80078b1a93a35483c}
       \field{sortinit}{E}
-      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{sortinithash}{07bbd5a529b5beaa311df5be05b874bc}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Tetramethylsilan}
@@ -37,12 +45,18 @@
     \endentry
     \entry{skript}{misc}{}
       \name{author}{1}{}{%
-        {{hash=c939c568cb028c9752fb4a146a1491a3}{Schicker}{S\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=c939c568cb028c9752fb4a146a1491a3}{%
+           family={Schicker},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
       }
       \strng{namehash}{c939c568cb028c9752fb4a146a1491a3}
       \strng{fullhash}{c939c568cb028c9752fb4a146a1491a3}
+      \strng{authornamehash}{c939c568cb028c9752fb4a146a1491a3}
+      \strng{authorfullhash}{c939c568cb028c9752fb4a146a1491a3}
       \field{sortinit}{S}
-      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Nuclear Magnetic Resonance F61/F62}
