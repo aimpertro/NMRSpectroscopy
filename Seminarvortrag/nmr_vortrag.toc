@@ -1,3 +1,12 @@
 \select@language {UKenglish}
 \beamer@sectionintoc {1}{Introduction and Theoretical Concepts}{3}{0}{1}
 \beamer@sectionintoc {2}{Part I: Relaxation Times}{10}{0}{2}
+\beamer@sectionintoc {3}{Part II. Chemical shift}{20}{0}{3}
+\beamer@subsectionintoc {3}{1}{Theory}{20}{0}{3}
+\beamer@subsectionintoc {3}{2}{Measurements}{24}{0}{3}
+\beamer@sectionintoc {4}{Imaging with NMR}{30}{0}{4}
+\beamer@subsectionintoc {4}{1}{Theory}{30}{0}{4}
+\beamer@subsubsectionintoc {4}{1}{1}{one dimensional imaging}{30}{0}{4}
+\beamer@subsectionintoc {4}{2}{Experiments}{32}{0}{4}
+\beamer@subsubsectionintoc {4}{2}{1}{one dimensional imaging}{32}{0}{4}
+\beamer@subsubsectionintoc {4}{2}{2}{two dimensional imaging}{33}{0}{4}
